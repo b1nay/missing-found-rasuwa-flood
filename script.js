@@ -4,6 +4,7 @@
 const T={
  ne:{title:"हराएको / भेटिएको",sub:"रसुवा–भोटेकोशी बाढी",ph:"नाम वा फोन नम्बर खोज्नुहोस्",
   missing:"हराएको",found:"भेटिएको",allLoc:"सबै स्थान",strip:"भेटिएकाको ठेगाना",
+  intlTourists:"अन्तर्राष्ट्रिय पर्यटक",dAgency:"एजेन्सी",
   nm:"नाम",ag:"उमेर",pl:"ठेगाना / स्थान",wh:"अन्तिम सम्पर्क",ph2:"फोन",dt:"विवरण",
   cnt:n=>`${n} विवरण`,upd:"अद्यावधिक",rl:"पुनः लोड",more:"थप देखाउनुहोस्",ld:"लोड हुँदै…",
   e1:"सूची लोड भएन",e2:"इन्टरनेट जाँचेर फेरि प्रयास गर्नुहोस्।",rt:"फेरि प्रयास",
@@ -23,6 +24,7 @@ const T={
   rShareNote:"यसले तपाईंको विवरण WhatsApp मार्फत पठाउँछ। केही फोनमा फोटो पनि सिधै पठाउन मिल्छ (खुल्ने सूचीमा WhatsApp छान्नुहोस्); नत्र WhatsApp विवरणसहित खुल्छ र फोटो आफैं थप्नुपर्छ।"},
  en:{title:"Missing & found",sub:"Rasuwa–Bhotekoshi flood",ph:"Search a name or phone number",
   missing:"Missing",found:"Found",allLoc:"All locations",strip:"Found · by address",
+  intlTourists:"International Tourists",dAgency:"Agency",
   nm:"Name",ag:"Age",pl:"Address / place",wh:"Last contact",ph2:"Phone",dt:"Details",
   cnt:n=>`${n} records`,upd:"Updated",rl:"Reload",more:"Show more",ld:"Loading…",
   e1:"The list didn't load",e2:"Check your connection and try again.",rt:"Try again",
@@ -42,6 +44,7 @@ const T={
   rShareNote:"This sends your report via WhatsApp. On some phones you can include the photo directly (choose WhatsApp from the share sheet); otherwise WhatsApp opens with the text only and you can attach the photo yourself."},
  hi:{title:"लापता / मिले",sub:"रसुवा–भोटेकोशी बाढ़",ph:"नाम या फ़ोन नंबर खोजें",
   missing:"लापता",found:"मिले",allLoc:"सभी स्थान",strip:"मिले · पते के अनुसार",
+  intlTourists:"अंतरराष्ट्रीय पर्यटक",dAgency:"एजेंसी",
   nm:"नाम",ag:"उम्र",pl:"पता / जगह",wh:"आख़िरी संपर्क",ph2:"फ़ोन",dt:"विवरण",
   cnt:n=>`${n} प्रविष्टियाँ`,upd:"अपडेट",rl:"फिर लोड करें",more:"और दिखाएँ",ld:"लोड हो रहा है…",
   e1:"सूची लोड नहीं हुई",e2:"इंटरनेट जाँचकर दोबारा कोशिश करें।",rt:"दोबारा कोशिश",
@@ -61,6 +64,7 @@ const T={
   rShareNote:"यह आपकी रिपोर्ट WhatsApp के ज़रिए भेजता है। कुछ फ़ोन पर आप फ़ोटो सीधे शामिल कर सकते हैं (खुलने वाली सूची में WhatsApp चुनें); नहीं तो WhatsApp केवल टेक्स्ट के साथ खुलेगा और आपको फ़ोटो खुद जोड़नी होगी।"},
  zh:{title:"失踪 / 已找到",sub:"拉苏瓦–波特科西洪灾",ph:"搜索姓名或电话号码",
   missing:"失踪",found:"已找到",allLoc:"所有地点",strip:"已找到 · 按住址",
+  intlTourists:"国际游客",dAgency:"旅行社",
   nm:"姓名",ag:"年龄",pl:"住址 / 地点",wh:"最后联系",ph2:"电话",dt:"详情",
   cnt:n=>`${n} 条记录`,upd:"更新于",rl:"重新加载",more:"显示更多",ld:"加载中…",
   e1:"名单加载失败",e2:"请检查网络后重试。",rt:"重试",
@@ -80,6 +84,7 @@ const T={
   rShareNote:"这将通过 WhatsApp 发送您的报告。部分手机可直接附上照片（在分享菜单中选择 WhatsApp）；否则 WhatsApp 将只带文字打开，您需要自行添加照片。"},
  es:{title:"Desaparecidos / hallados",sub:"Inundación Rasuwa–Bhotekoshi",ph:"Busca un nombre o teléfono",
   missing:"Desaparecidos",found:"Hallados",allLoc:"Todos los lugares",strip:"Hallados · por dirección",
+  intlTourists:"Turistas internacionales",dAgency:"Agencia",
   nm:"Nombre",ag:"Edad",pl:"Dirección / lugar",wh:"Último contacto",ph2:"Teléfono",dt:"Detalles",
   cnt:n=>`${n} registros`,upd:"Actualizado",rl:"Recargar",more:"Ver más",ld:"Cargando…",
   e1:"La lista no se cargó",e2:"Revisa tu conexión e inténtalo otra vez.",rt:"Reintentar",
@@ -99,6 +104,7 @@ const T={
   rShareNote:"Esto envía tu reporte por WhatsApp. En algunos teléfonos puedes incluir la foto directamente (elige WhatsApp en el menú para compartir); si no, WhatsApp se abrirá solo con el texto y deberás adjuntar la foto tú mismo."},
  fr:{title:"Disparus / retrouvés",sub:"Inondation Rasuwa–Bhotekoshi",ph:"Rechercher un nom ou un téléphone",
   missing:"Disparus",found:"Retrouvés",allLoc:"Tous les lieux",strip:"Retrouvés · par adresse",
+  intlTourists:"Touristes internationaux",dAgency:"Agence",
   nm:"Nom",ag:"Âge",pl:"Adresse / lieu",wh:"Dernier contact",ph2:"Téléphone",dt:"Détails",
   cnt:n=>`${n} fiches`,upd:"Mis à jour",rl:"Recharger",more:"Voir plus",ld:"Chargement…",
   e1:"La liste n'a pas pu être chargée",e2:"Vérifiez votre connexion et réessayez.",rt:"Réessayer",
@@ -118,6 +124,7 @@ const T={
   rShareNote:"Cela envoie votre signalement via WhatsApp. Sur certains téléphones, vous pouvez inclure la photo directement (choisissez WhatsApp dans le menu de partage) ; sinon WhatsApp s'ouvre avec le texte seul et vous devrez ajouter la photo vous-même."},
  ru:{title:"Пропавшие и найденные",sub:"Наводнение Расува–Бхотекоши",ph:"Поиск по имени или номеру телефона",
   missing:"Пропавшие",found:"Найденные",allLoc:"Все места",strip:"Найденные · по адресу",
+  intlTourists:"Иностранные туристы",dAgency:"Агентство",
   nm:"Имя",ag:"Возраст",pl:"Адрес / место",wh:"Последний контакт",ph2:"Телефон",dt:"Подробности",
   cnt:n=>`${n} записей`,upd:"Обновлено",rl:"Обновить",more:"Показать ещё",ld:"Загрузка…",
   e1:"Список не загрузился",e2:"Проверьте соединение и попробуйте снова.",rt:"Повторить",
@@ -150,9 +157,11 @@ let rows=[], updated='', modalType='safe';
 async function load(){
   $('out').innerHTML=`<div class="state">${esc(T[lang].ld)}</div>`;
   try{
-    const [d,extra]=await Promise.all([fetchFamilyData(),fetchExtraRecords('extra-records.json')]);
-    const built=buildRows(d,extra);
-    rows=built.rows; updated=built.updated;
+    const [d,extra,tourists]=await Promise.all([
+      fetchFamilyData(),fetchExtraRecords('extra-records.json'),fetchExtraRecords('tourists-records.json')
+    ]);
+    const built=buildRows(d,[...extra,...tourists]);
+    rows=dedupeRows(built.rows); updated=built.updated;
     chrome(); render();
   }catch(e){
     const t=T[lang];
@@ -181,7 +190,8 @@ function score(r,terms){
 function hit(){
   const raw=$('q').value.trim();
   let out=rows.filter(r=>r.status===tab);
-  if(loc){const p=PLACES.find(p=>p.id===loc); if(p)out=out.filter(r=>inPlace(r,p))}
+  if(loc==='INTL')out=out.filter(r=>isInternational(r.place));
+  else if(loc){const p=PLACES.find(p=>p.id===loc); if(p)out=out.filter(r=>inPlace(r,p))}
   if(addr)out=out.filter(r=>r._g===addr);
   if(!raw)return out;
   const terms=raw.split(/\s+/).map(w=>({n:norm(w),s:skel(w),d:digits(w)})).filter(t=>t.n||t.d);
@@ -245,6 +255,7 @@ function buildDetailFields(r){
   push(t.dPassport,e.passport);
   push(t.dSex,e.sex);
   push(t.dNationality,e.nationality);
+  push(t.dAgency,e.agency);
   push(t.dt,r.note);
   return out;
 }
@@ -350,9 +361,11 @@ function chrome(){
   const pool=rows.filter(r=>r.status===tab);
   const opts=PLACES.map(p=>[p,pool.filter(r=>inPlace(r,p)).length])
                    .filter(([,n])=>n>0).sort((a,b)=>b[1]-a[1]);
+  const intlN=pool.filter(r=>isInternational(r.place)).length;
   $('loc').innerHTML=`<option value="">${esc(t.allLoc)}</option>`+
+    (intlN>0?`<option value="INTL">${esc(t.intlTourists)} (${intlN})</option>`:'')+
     opts.map(([p,n])=>`<option value="${p.id}">${esc(p.label)} (${n})</option>`).join('');
-  if(!opts.some(([p])=>p.id===loc))loc='';
+  if(!(loc==='INTL'&&intlN>0)&&!opts.some(([p])=>p.id===loc))loc='';
   $('loc').value=loc;
 
   /* strip: where the found people are from */

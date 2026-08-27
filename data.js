@@ -54,7 +54,7 @@ const skel=s=>norm(s).replace(/[0-9]/g,'')
 const digits=s=>String(s||'').replace(/[०-९]/g,d=>DIG[d]).replace(/\D/g,'');
 
 /* ---------- Places — one canonical label, many spellings in the data ---------- */
-const PLACES=[
+const PLACES_RAW=[
  ['Timure · टिमुरे',            ['Timure','टिमुरे','तिमुरे','Timmure','Timura','Timur']],
  ['Rasuwagadhi · रसुवागढी',     ['Rasuwagadhi','रसुवागढी','Rasuvagadhi','Rasuwagadi','Rashwagadi','Rasuwagadhi border']],
  ['Kerung / Gyirong · केरुङ',   ['Kerung','केरुङ','Gyirong','Kyirong','Keyrung','Kerung border','Gyirong']],
@@ -74,10 +74,12 @@ const PLACES=[
  ['Dhading · धादिङ',            ['Dhading','धादिङ','Dhadhing']],
  ['Gorkha · गोरखा',             ['Gorkha','गोरखा']],
  ['Chitwan · चितवन',            ['Chitwan','चितवन']]
-].map(([label,al],i)=>({
+];
+const PLACES=PLACES_RAW.map(([label,al],i)=>({
   id:'p'+i, label,
   keys:al.map(a=>({n:norm(a),s:skel(a)}))
 }));
+const PLACE_ALIASES=PLACES_RAW.flatMap(([,al])=>al);
 
 const inPlace=(rec,p)=>p.keys.some(k=>
   (k.n && rec._pn.includes(k.n)) || (k.s.length>=4 && rec._ps.includes(k.s))
@@ -140,4 +142,60 @@ async function fetchExtraRecords(path){
     if(!r.ok)return[];
     return await r.json();
   }catch(e){return[]}
+}
+
+/* ---------- Dedupe across every source: same person if name AND phone
+   both match. Missing a phone means we can't confirm it's the same
+   person, so those rows are always kept as-is. ---------- */
+function mergeRowInto(a,b){
+  if(b.status==='found')a.status='found';
+  ['place','phone','when','reporter','note','age','photo','name_en'].forEach(f=>{
+    if(!a[f]&&b[f])a[f]=b[f];
+  });
+  if(b.extra)a.extra=Object.assign({},b.extra,a.extra||{});
+  const blob=[a.name,a.place,a.note,a.when,a.reporter,a.phone].filter(Boolean).join(' ');
+  a._n=norm(blob);a._s=skel(blob);a._d=digits(a.phone)+' '+digits(a.reporter);
+  a._pn=norm(a.place);a._ps=skel(a.place);a._g=addrGroup(a.place);
+}
+
+function dedupeRows(rows){
+  const seen=new Map();
+  const out=[];
+  for(const r of rows){
+    const phoneKey=digits(r.phone), nameKey=skel(r.name);
+    if(!phoneKey||!nameKey){out.push(r);continue}
+    const key=nameKey+'|'+phoneKey;
+    if(seen.has(key))mergeRowInto(seen.get(key),r);
+    else{seen.set(key,r);out.push(r)}
+  }
+  return out;
+}
+
+/* ---------- International-tourist filter: location text with nothing
+   domestic left in it once Nepal/नेपाल, Devanagari, known place names,
+   Nepal's 77 districts, and generic site-infrastructure words are
+   stripped out. Left-over text (a foreign city, country, etc.) means
+   the location isn't purely describing somewhere in Nepal. ---------- */
+const NEPAL_DISTRICTS=['Achham','Arghakhanchi','Baglung','Baitadi','Bajhang','Bajura','Banke','Bara',
+ 'Bardiya','Bhaktapur','Bhojpur','Chitwan','Dadeldhura','Dailekh','Dang','Darchula','Dhading','Dhankuta',
+ 'Dhanusha','Dolakha','Dolpa','Doti','Rukum','Gorkha','Gulmi','Humla','Ilam','Jajarkot','Jhapa','Jumla',
+ 'Kailali','Kalikot','Kanchanpur','Kapilvastu','Kaski','Kathmandu','Kavrepalanchok','Kavre','Khotang',
+ 'Lalitpur','Lamjung','Mahottari','Makwanpur','Manang','Morang','Mugu','Mustang','Myagdi','Nawalpur',
+ 'Nawalparasi','Nuwakot','Okhaldhunga','Palpa','Panchthar','Parbat','Parsa','Pyuthan','Ramechhap','Rasuwa',
+ 'Rautahat','Rolpa','Rupandehi','Salyan','Sankhuwasabha','Saptari','Sarlahi','Sindhuli','Sindhupalchok',
+ 'Sindhupalchowk','Siraha','Solukhumbu','Sunsari','Surkhet','Syangja','Tanahun','Taplejung','Terhathum',
+ 'Udayapur'];
+const PLACE_STOPWORDS=['hydropower','hydro','hospital','bank','border','immigration','office','checkpoint',
+ 'check post','project','camp','municipality','rural municipality','metropolitan city','sub-metropolitan city',
+ 'ward','school','college','hotel','army','police','company','staff','employee','customs','hydel'];
+const escapeRe=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+
+function isInternational(place){
+  if(!place)return false;
+  let s=String(place).replace(/[ऀ-ॿ]/g,'').replace(/nepal/gi,'');
+  PLACE_ALIASES.forEach(a=>{s=s.replace(new RegExp(escapeRe(a),'gi'),'')});
+  NEPAL_DISTRICTS.forEach(d=>{s=s.replace(new RegExp('\\b'+escapeRe(d)+'\\b','gi'),'')});
+  PLACE_STOPWORDS.forEach(w=>{s=s.replace(new RegExp('\\b'+escapeRe(w)+'\\b','gi'),'')});
+  s=s.replace(/[\s,.\-–—·()\/0-9]+/g,'');
+  return s.length>2;
 }
