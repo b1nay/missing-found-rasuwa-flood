@@ -82,137 +82,26 @@ const T={
 };
 
 /* ============================================================
-   2. Devanagari → Latin, so one query searches both scripts
+   2. Page state
+   (Devanagari matching, places, and data fetching live in data.js,
+   shared with the visualization page.)
    ============================================================ */
-const CONS={'क':'k','ख':'kh','ग':'g','घ':'gh','ङ':'ng','च':'ch','छ':'chh','ज':'j','झ':'jh','ञ':'ny',
- 'ट':'t','ठ':'th','ड':'d','ढ':'dh','ण':'n','त':'t','थ':'th','द':'d','ध':'dh','न':'n',
- 'प':'p','फ':'ph','ब':'b','भ':'bh','म':'m','य':'y','र':'r','ल':'l','ळ':'l','व':'v',
- 'श':'sh','ष':'sh','स':'s','ह':'h','ज़':'j','फ़':'f','ड़':'d','ढ़':'dh','क़':'k','ग़':'g','ख़':'kh'};
-const VOW={'अ':'a','आ':'aa','इ':'i','ई':'i','उ':'u','ऊ':'u','ऋ':'ri','ए':'e','ऐ':'ai','ओ':'o','औ':'au'};
-const MAT={'ा':'aa','ि':'i','ी':'i','ु':'u','ू':'u','ृ':'ri','े':'e','ै':'ai','ो':'o','ौ':'au','ं':'n','ँ':'n','ः':'h'};
-const DIG={'०':'0','१':'1','२':'2','३':'3','४':'4','५':'5','६':'6','७':'7','८':'8','९':'9'};
-const VIR='्';
-
-function deva2lat(s){
-  let o='';
-  for(let i=0;i<s.length;i++){
-    const c=s[i];
-    if(DIG[c]){o+=DIG[c];continue}
-    if(CONS[c]){
-      o+=CONS[c];
-      const n=s[i+1];
-      if(n===VIR)i++;
-      else if(MAT[n]!==undefined){o+=MAT[n];i++}
-      else o+='a';
-      continue;
-    }
-    if(VOW[c]){o+=VOW[c];continue}
-    if(MAT[c]!==undefined){o+=MAT[c];continue}
-    if(c===VIR)continue;
-    o+=c;
-  }
-  return o;
-}
-const norm=s=>deva2lat(String(s||'')).toLowerCase()
-  .normalize('NFD').replace(/[̀-ͯ]/g,'')
-  .replace(/[^a-z0-9]+/g,' ')
-  .replace(/aa/g,'a').replace(/ii/g,'i').replace(/uu/g,'u').replace(/ee/g,'i').replace(/oo/g,'u')
-  .trim();
-
-/* Nepali names get romanised many ways (Shrestha/Shreshtha, Bishnu/Vishnu).
-   Dropping vowels and folding aspirates makes those collapse to one key. */
-const skel=s=>norm(s).replace(/[0-9]/g,'')
-  .replace(/w/g,'v').replace(/z/g,'j')
-  .replace(/ph/g,'f').replace(/ch/g,'c').replace(/sh/g,'s')
-  .replace(/kh/g,'k').replace(/gh/g,'g').replace(/th/g,'t')
-  .replace(/dh/g,'d').replace(/bh/g,'b').replace(/jh/g,'j')
-  .replace(/[aeiou]/g,'').replace(/(.)\1+/g,'$1').replace(/\s+/g,'');
-const digits=s=>String(s||'').replace(/[०-९]/g,d=>DIG[d]).replace(/\D/g,'');
-
-/* ============================================================
-   3. Places — one canonical label, many spellings in the data
-   ============================================================ */
-const PLACES=[
- ['Timure · टिमुरे',            ['Timure','टिमुरे','तिमुरे','Timmure','Timura','Timur']],
- ['Rasuwagadhi · रसुवागढी',     ['Rasuwagadhi','रसुवागढी','Rasuvagadhi','Rasuwagadi','Rashwagadi','Rasuwagadhi border']],
- ['Kerung / Gyirong · केरुङ',   ['Kerung','केरुङ','Gyirong','Kyirong','Keyrung','Kerung border','Gyirong']],
- ['Syabrubesi · स्याफ्रुबेसी',   ['Syabrubesi','Syafrubesi','स्याफ्रुबेसी','स्याब्रुबेसी','Shyafru','Syaphru','Syabru','Syafru']],
- ['Dhunche · धुन्चे',           ['Dhunche','धुन्चे','Dunche']],
- ['Gosaikunda · गोसाइकुण्ड',     ['Gosaikunda','गोसाइकुण्ड','गोसाईकुण्ड','Gosainkunda','Gosaikunda','Gosaikund']],
- ['Langtang · लाङटाङ',          ['Langtang','लाङटाङ','लाङटाङ']],
- ['Mailung · मैलुङ',            ['Mailung','मैलुङ','Mailun','Maelung']],
- ['Ghattekhola · घट्टेखोला',     ['Ghattekhola','घट्टेखोला','Ghatte khola','Ghattekhol']],
- ['Haku · हाकु',                ['Haku','हाकु']],
- ['Betrawati · बेत्रावती',       ['Betrawati','बेत्रावती','Bitrawati','Bhetrawati','Vetrawati','Betrabati']],
- ['Trishuli / Bidur · त्रिशूली', ['Trishuli','त्रिशूली','Trisuli','Bidur','विदुर','वि.न.पा','ब्यासी','Byasi']],
- ['Upper Trishuli-1 · 216 MW',  ['Upper Trishuli','216','Doosan','अपर त्रिशुली']],
- ['Hotel Kailash',              ['Hotel Kailash','Kailash Hotel','कैलाश','Kailas']],
- ['Rasuwa (district) · रसुवा',  ['Rasuwa','रसुवा','Rasuva']],
- ['Nuwakot · नुवाकोट',          ['Nuwakot','नुवाकोट','Nuwakot']],
- ['Dhading · धादिङ',            ['Dhading','धादिङ','Dhadhing']],
- ['Gorkha · गोरखा',             ['Gorkha','गोरखा']],
- ['Chitwan · चितवन',            ['Chitwan','चितवन']]
-].map(([label,al],i)=>({
-  id:'p'+i, label,
-  keys:al.map(a=>({n:norm(a),s:skel(a)}))
-}));
-
-const inPlace=(rec,p)=>p.keys.some(k=>
-  (k.n && rec._pn.includes(k.n)) || (k.s.length>=4 && rec._ps.includes(k.s))
-);
-
-/* the found list carries home addresses; the last comma-part is the town/district */
-function addrGroup(place){
-  let p=String(place||'').split('·')[0].trim();
-  const parts=p.split(',').map(x=>x.trim()).filter(Boolean);
-  let last=parts.length?parts[parts.length-1]:p;
-  last=last.replace(/[–\-]\s*[०-९0-9]+$/,'').trim()
-           .replace(/\s*(उप)?(म\.)?न\.पा\.?$/,'').replace(/\s*गा\.पा\.?$/,'').trim()
-           .replace(/[–\-,]+$/,'').trim();
-  return last;
-}
-
-/* ============================================================
-   4. Data
-   ============================================================ */
-const BASE='https://nirajbhusal.github.io/rasuwa-flood-bulletin/';
-const SOURCES=[
-  'https://raw.githubusercontent.com/nirajbhusal/rasuwa-flood-bulletin/main/family.json',
-  BASE+'family.json'
-];
 const WA_NUMBER='9779746861925';
 
 let lang='ne', tab='missing', loc='', addr='', shown=60;
 let rows=[], updated='', modalType='safe';
 
-const $=id=>document.getElementById(id);
-const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-
-function ingest(d){
-  const build=(arr,status)=>(arr||[]).map(r=>{
-    const name=[r.name,r.name_en].filter(Boolean).join(' / ');
-    const blob=[name,r.place,r.note,r.when,r.reporter,r.phone].filter(Boolean).join(' ');
-    return {...r,name,status,
-      _n:norm(blob),_s:skel(blob),_d:digits(r.phone)+' '+digits(r.reporter),
-      _pn:norm(r.place),_ps:skel(r.place),_g:addrGroup(r.place)};
-  });
-  rows=[...build(d.missing,'missing'),...build(d.found,'found'),...build(d.matched,'found')];
-  updated=d.updated_at||'';
-}
-
 async function load(){
   $('out').innerHTML=`<div class="state">${esc(T[lang].ld)}</div>`;
-  for(const url of SOURCES){
-    try{
-      const r=await fetch(url,{cache:'no-cache'});
-      if(!r.ok)continue;
-      ingest(await r.json());
-      chrome(); render(); return;
-    }catch(e){}
+  try{
+    const built=buildRows(await fetchFamilyData());
+    rows=built.rows; updated=built.updated;
+    chrome(); render();
+  }catch(e){
+    const t=T[lang];
+    $('out').innerHTML=`<div class="state"><strong>${esc(t.e1)}</strong>${esc(t.e2)}<br><button id="rt" type="button">${esc(t.rt)}</button></div>`;
+    $('rt').onclick=load;
   }
-  const t=T[lang];
-  $('out').innerHTML=`<div class="state"><strong>${esc(t.e1)}</strong>${esc(t.e2)}<br><button id="rt" type="button">${esc(t.rt)}</button></div>`;
-  $('rt').onclick=load;
 }
 
 /* ============================================================

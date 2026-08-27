@@ -6,6 +6,8 @@
   --line:#D3DCE7;
   --blue:#1447A0;
   --blue-soft:rgba(20,71,160,.12);
+  --green:#1B7F4B;
+  --red:#C22A2A;
   /* Inter has no Devanagari glyphs, so Noto Sans Devanagari picks up
      those characters per-glyph and keeps the page one clean sans voice.
      (Neither font fakes italics well for Devanagari, so the page avoids
@@ -22,6 +24,14 @@ a{color:var(--blue)}
 .wrap{max-width:1120px;margin:0 auto;padding:0 20px}
 .lbl{font-size:11.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
 
+/* ---------- site nav ---------- */
+.sitenav{background:var(--blue)}
+.sitenav-in{max-width:1120px;margin:0 auto;padding:10px 20px;display:flex;gap:22px;overflow-x:auto}
+.sitenav a{color:rgba(255,255,255,.72);font-size:13.5px;font-weight:600;letter-spacing:.02em;
+  text-decoration:none;white-space:nowrap;padding-bottom:2px;border-bottom:2px solid transparent}
+.sitenav a:hover{color:#fff}
+.sitenav a.active{color:#fff;border-bottom-color:#fff}
+
 /* ---------- header ---------- */
 header{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
 .hd{max-width:1120px;margin:0 auto;padding:18px 20px 0}
@@ -37,8 +47,8 @@ h1 span{display:block;font-size:14.5px;font-weight:500;color:var(--muted);margin
 .safe-cta-btns{display:flex;gap:8px}
 .btn-safe,.btn-rescue{font-family:inherit;font-size:14px;font-weight:700;color:#fff;
   border:0;border-radius:999px;padding:9px 16px;cursor:pointer;white-space:nowrap;transition:opacity .15s}
-.btn-safe{background:#1B7F4B}
-.btn-rescue{background:#C22A2A}
+.btn-safe{background:var(--green)}
+.btn-rescue{background:var(--red)}
 .btn-safe:hover,.btn-rescue:hover{opacity:.87}
 select{
   font-family:inherit;font-size:16px;font-weight:500;color:var(--ink);background:var(--bg);
@@ -142,9 +152,9 @@ footer{margin:34px 0 56px;padding-top:18px;border-top:1px solid var(--line);
 @media (max-width:720px){
   .hd{padding-top:16px}
   h1{font-size:20px}
-  .safe-cta{width:100%}
+  .safe-cta{flex:1 1 100%;width:100%}
   .safe-cta-btns{width:100%}
-  .btn-safe,.btn-rescue{flex:1}
+  .btn-safe,.btn-rescue{flex:1 1 0;min-width:0;white-space:normal;text-align:center;padding:9px 8px}
   .modal{max-width:none;margin:0 4px}
   thead{position:absolute;left:-9999px}
   tbody tr{display:block;border:1px solid var(--line);border-radius:6px;
@@ -180,3 +190,54 @@ footer{margin:34px 0 56px;padding-top:18px;border-top:1px solid var(--line);
 .modal-submit{width:100%;font-family:inherit;font-size:16px;font-weight:700;color:#fff;
   background:var(--blue);border:0;border-radius:6px;padding:14px;margin-top:6px;cursor:pointer}
 .modal-submit:hover{opacity:.9}
+
+/* ---------- simple page header (visualization / information) ---------- */
+.page-hd{max-width:1120px;margin:0 auto;padding:22px 20px}
+.page-hd h1{font-size:23px;font-weight:700;letter-spacing:.01em;text-transform:uppercase;margin:0}
+.page-hd p{font-size:14.5px;font-weight:500;color:var(--muted);margin:4px 0 0}
+
+/* ---------- information page ---------- */
+.info-message{background:var(--tint);border-left:4px solid var(--blue);border-radius:0 10px 10px 0;
+  padding:30px 28px;margin:24px 0 48px}
+.info-lede{font-size:22px;font-weight:700;color:var(--ink);margin:0 0 18px}
+.info-message p{margin:0 0 15px;color:var(--ink);font-size:16.5px;line-height:1.75}
+.info-message p:last-child{margin-bottom:0}
+.info-message hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+
+/* ---------- KPI stat tiles ---------- */
+.kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin:8px 0 34px}
+.kpi-tile{background:var(--tint);border:1px solid var(--line);border-radius:8px;padding:18px 16px}
+.kpi-label{font-size:11.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.kpi-value{font-size:30px;font-weight:700;color:var(--ink);line-height:1}
+
+/* ---------- chart cards ---------- */
+.chart-card{margin-bottom:36px}
+.chart-card h2{font-size:17px;font-weight:700;margin:0 0 2px}
+.chart-card .chart-sub{font-size:14px;color:var(--muted);margin:0 0 18px}
+.chart-empty{font-size:14.5px;color:var(--muted)}
+
+/* horizontal ranked bar list (bar length = magnitude, single hue = one series) */
+.barlist{display:flex;flex-direction:column;gap:10px}
+.barlist-row{display:grid;grid-template-columns:minmax(110px,220px) 1fr auto;align-items:center;gap:12px}
+.barlist-label{font-size:14px;color:var(--ink);overflow-wrap:anywhere}
+.barlist-track{background:var(--tint);border-radius:4px;height:22px;overflow:hidden}
+.barlist-fill{height:100%;border-radius:0 4px 4px 0;min-width:4px}
+.barlist-fill.c-blue{background:var(--blue)}
+.barlist-fill.c-green{background:var(--green)}
+.barlist-value{font-size:14px;font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums;min-width:2ch;text-align:right}
+
+/* vertical column histogram (age distribution) */
+.colchart{display:flex;gap:8px;align-items:flex-end}
+.colchart-col{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;min-width:0}
+.colchart-track{width:100%;max-width:44px;height:170px;padding-top:24px;display:flex;align-items:flex-end}
+.colchart-bar{position:relative;width:100%;background:var(--blue);border-radius:4px 4px 0 0;min-height:3px}
+.colchart-value{position:absolute;left:50%;top:-22px;transform:translateX(-50%);
+  font-size:12.5px;font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums;white-space:nowrap}
+.colchart-label{font-size:11.5px;color:var(--muted);text-align:center}
+
+@media (max-width:720px){
+  .barlist-row{grid-template-columns:1fr auto;grid-template-areas:"label label" "track value"}
+  .barlist-label{grid-area:label}
+  .barlist-track{grid-area:track}
+  .barlist-value{grid-area:value}
+}
