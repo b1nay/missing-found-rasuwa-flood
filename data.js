@@ -171,10 +171,12 @@ function dedupeRows(rows){
 }
 
 /* ---------- International-tourist filter: exclude anyone whose address
-   mentions Rasuwa, Timure, Sindhupalchowk, Ramechhap, or has any
+   mentions Rasuwa, Timure, Sindhupalchowk, Ramechhap, Trishuli,
+   Kathmandu, Kerung, Mailung, Betrawati, Nuwakot, or has any
    Devanagari (Nepali) letters in it — everyone else counts as
    international. ---------- */
-const DOMESTIC_TERMS=['rasuwa','timure','sindhupalchowk','sindhupalchok','ramechhap'];
+const DOMESTIC_TERMS=['rasuwa','timure','sindhupalchowk','sindhupalchok','ramechhap',
+ 'trishuli','kathmandu','kerung','mailung','betrawati','nuwakot'];
 function isInternational(place){
   if(!place)return false;
   if(/[ऀ-ॿ]/.test(place))return false;
