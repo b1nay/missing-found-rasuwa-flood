@@ -50,6 +50,18 @@ h1 span{display:block;font-size:14.5px;font-weight:500;color:var(--muted);margin
 .btn-safe{background:var(--green)}
 .btn-rescue{background:var(--red)}
 .btn-safe:hover,.btn-rescue:hover{opacity:.87}
+
+/* ---------- report-a-person CTA banner ---------- */
+.report-cta{background:var(--tint);border-bottom:1px solid var(--line)}
+.report-cta-in{max-width:1120px;margin:0 auto;padding:14px 20px;
+  display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.report-cta-lbl{font-size:14px;font-weight:600;color:var(--ink)}
+.report-cta-btns{display:flex;gap:8px;margin-left:auto}
+.btn-report-missing,.btn-add-found{font-family:inherit;font-size:14px;font-weight:700;color:#fff;
+  border:0;border-radius:999px;padding:9px 16px;cursor:pointer;white-space:nowrap;transition:opacity .15s}
+.btn-report-missing{background:var(--blue)}
+.btn-add-found{background:var(--green)}
+.btn-report-missing:hover,.btn-add-found:hover{opacity:.87}
 select{
   font-family:inherit;font-size:16px;font-weight:500;color:var(--ink);background:var(--bg);
   border:1px solid var(--line);border-radius:6px;padding:9px 10px;min-height:42px;
@@ -153,6 +165,9 @@ footer{margin:34px 0 56px;padding-top:18px;border-top:1px solid var(--line);
   .safe-cta{flex:1 1 100%;width:100%}
   .safe-cta-btns{width:100%}
   .btn-safe,.btn-rescue{flex:1 1 0;min-width:0;white-space:normal;text-align:center;padding:9px 8px}
+  .report-cta-in{flex-direction:column;align-items:stretch}
+  .report-cta-btns{margin-left:0;width:100%}
+  .btn-report-missing,.btn-add-found{flex:1 1 0;min-width:0;white-space:normal;text-align:center;padding:9px 8px}
   .modal{max-width:none;margin:0 4px}
   thead{position:absolute;left:-9999px}
   tbody tr{display:block;border:1px solid var(--line);border-radius:6px;
@@ -184,6 +199,10 @@ footer{margin:34px 0 56px;padding-top:18px;border-top:1px solid var(--line);
 .field input{width:100%;font-family:inherit;font-size:16px;color:var(--ink);background:var(--bg);
   border:1px solid var(--line);border-radius:6px;padding:11px 12px;min-height:44px}
 .field input:focus{border-color:var(--blue);box-shadow:inset 0 0 0 1px var(--blue)}
+.field input[type="file"]{border:1px dashed var(--line);padding:9px 10px;font-size:14px;min-height:auto;cursor:pointer}
+.status-choices{display:flex;flex-direction:column;gap:10px}
+.status-choice{display:flex;align-items:center;gap:9px;font-size:15px;color:var(--ink);cursor:pointer}
+.status-choice input{width:18px;height:18px;accent-color:var(--blue);flex:none}
 .modal-submit{width:100%;font-family:inherit;font-size:16px;font-weight:700;color:#fff;
   background:var(--blue);border:0;border-radius:6px;padding:14px;margin-top:6px;cursor:pointer}
 .modal-submit:hover{opacity:.9}

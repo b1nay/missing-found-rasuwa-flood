@@ -59,6 +59,16 @@
   </div>
 </header>
 
+<div class="report-cta">
+  <div class="report-cta-in">
+    <span class="report-cta-lbl" id="reportCtaLbl"></span>
+    <div class="report-cta-btns">
+      <button type="button" class="btn-report-missing" id="btnReportMissing"></button>
+      <button type="button" class="btn-add-found" id="btnAddFound"></button>
+    </div>
+  </div>
+</div>
+
 <div class="strip" id="strip" hidden>
   <div class="strip-in">
     <div class="strip-lb lbl" id="strip-lb"></div>
@@ -81,6 +91,47 @@
       <label class="field"><span id="lblNumber"></span><input type="tel" id="fNumber" required autocomplete="tel"></label>
       <label class="field"><span id="lblLocation"></span><input type="text" id="fLocation" required autocomplete="off"></label>
       <button type="submit" class="modal-submit" id="modalSubmit"></button>
+    </form>
+  </div>
+</div>
+
+<div class="modal-overlay" id="reportMissingOverlay">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="rmTitle">
+    <button type="button" class="modal-close" id="rmClose" aria-label="Close">&times;</button>
+    <h2 id="rmTitle"></h2>
+    <p class="modal-note" id="rmNote"></p>
+    <form id="rmForm">
+      <label class="field"><span id="rmLblName"></span><input type="text" id="rmName" required autocomplete="name"></label>
+      <label class="field"><span id="rmLblPhone"></span><input type="tel" id="rmPhone" required autocomplete="tel"></label>
+      <label class="field"><span id="rmLblHomeAddr"></span><input type="text" id="rmHomeAddr" autocomplete="off"></label>
+      <label class="field"><span id="rmLblLastLoc"></span><input type="text" id="rmLastLoc" autocomplete="off"></label>
+      <label class="field"><span id="rmLblPhoto"></span><input type="file" id="rmPhoto" accept="image/*"></label>
+      <button type="submit" class="modal-submit" id="rmSubmit"></button>
+    </form>
+  </div>
+</div>
+
+<div class="modal-overlay" id="addFoundOverlay">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="afTitle">
+    <button type="button" class="modal-close" id="afClose" aria-label="Close">&times;</button>
+    <h2 id="afTitle"></h2>
+    <p class="modal-note" id="afNote"></p>
+    <form id="afForm">
+      <label class="field"><span id="afLblName"></span><input type="text" id="afName" required autocomplete="name"></label>
+      <label class="field"><span id="afLblPhone"></span><input type="tel" id="afPhone" autocomplete="tel"></label>
+      <label class="field"><span id="afLblHomeAddr"></span><input type="text" id="afHomeAddr" autocomplete="off"></label>
+      <label class="field"><span id="afLblRelContact"></span><input type="text" id="afRelContact" autocomplete="off"></label>
+      <label class="field"><span id="afLblFoundFrom"></span><input type="text" id="afFoundFrom" autocomplete="off"></label>
+      <label class="field"><span id="afLblPhoto"></span><input type="file" id="afPhoto" accept="image/*"></label>
+      <div class="field">
+        <span id="afLblStatus"></span>
+        <div class="status-choices">
+          <label class="status-choice"><input type="radio" name="afStatus" value="rescue" required><span id="afStRescue"></span></label>
+          <label class="status-choice"><input type="radio" name="afStatus" value="fine"><span id="afStFine"></span></label>
+          <label class="status-choice"><input type="radio" name="afStatus" value="deceased"><span id="afStDeceased"></span></label>
+        </div>
+      </div>
+      <button type="submit" class="modal-submit" id="afSubmit"></button>
     </form>
   </div>
 </div>
