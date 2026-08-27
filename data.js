@@ -79,7 +79,6 @@ const PLACES=PLACES_RAW.map(([label,al],i)=>({
   id:'p'+i, label,
   keys:al.map(a=>({n:norm(a),s:skel(a)}))
 }));
-const PLACE_ALIASES=PLACES_RAW.flatMap(([,al])=>al);
 
 const inPlace=(rec,p)=>p.keys.some(k=>
   (k.n && rec._pn.includes(k.n)) || (k.s.length>=4 && rec._ps.includes(k.s))
@@ -171,31 +170,14 @@ function dedupeRows(rows){
   return out;
 }
 
-/* ---------- International-tourist filter: location text with nothing
-   domestic left in it once Nepal/नेपाल, Devanagari, known place names,
-   Nepal's 77 districts, and generic site-infrastructure words are
-   stripped out. Left-over text (a foreign city, country, etc.) means
-   the location isn't purely describing somewhere in Nepal. ---------- */
-const NEPAL_DISTRICTS=['Achham','Arghakhanchi','Baglung','Baitadi','Bajhang','Bajura','Banke','Bara',
- 'Bardiya','Bhaktapur','Bhojpur','Chitwan','Dadeldhura','Dailekh','Dang','Darchula','Dhading','Dhankuta',
- 'Dhanusha','Dolakha','Dolpa','Doti','Rukum','Gorkha','Gulmi','Humla','Ilam','Jajarkot','Jhapa','Jumla',
- 'Kailali','Kalikot','Kanchanpur','Kapilvastu','Kaski','Kathmandu','Kavrepalanchok','Kavre','Khotang',
- 'Lalitpur','Lamjung','Mahottari','Makwanpur','Manang','Morang','Mugu','Mustang','Myagdi','Nawalpur',
- 'Nawalparasi','Nuwakot','Okhaldhunga','Palpa','Panchthar','Parbat','Parsa','Pyuthan','Ramechhap','Rasuwa',
- 'Rautahat','Rolpa','Rupandehi','Salyan','Sankhuwasabha','Saptari','Sarlahi','Sindhuli','Sindhupalchok',
- 'Sindhupalchowk','Siraha','Solukhumbu','Sunsari','Surkhet','Syangja','Tanahun','Taplejung','Terhathum',
- 'Udayapur'];
-const PLACE_STOPWORDS=['hydropower','hydro','hospital','bank','border','immigration','office','checkpoint',
- 'check post','project','camp','municipality','rural municipality','metropolitan city','sub-metropolitan city',
- 'ward','school','college','hotel','army','police','company','staff','employee','customs','hydel'];
-const escapeRe=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
-
+/* ---------- International-tourist filter: exclude anyone whose address
+   mentions Rasuwa, Timure, Sindhupalchowk, Ramechhap, or has any
+   Devanagari (Nepali) letters in it — everyone else counts as
+   international. ---------- */
+const DOMESTIC_TERMS=['rasuwa','timure','sindhupalchowk','sindhupalchok','ramechhap'];
 function isInternational(place){
   if(!place)return false;
-  let s=String(place).replace(/[ऀ-ॿ]/g,'').replace(/nepal/gi,'');
-  PLACE_ALIASES.forEach(a=>{s=s.replace(new RegExp(escapeRe(a),'gi'),'')});
-  NEPAL_DISTRICTS.forEach(d=>{s=s.replace(new RegExp('\\b'+escapeRe(d)+'\\b','gi'),'')});
-  PLACE_STOPWORDS.forEach(w=>{s=s.replace(new RegExp('\\b'+escapeRe(w)+'\\b','gi'),'')});
-  s=s.replace(/[\s,.\-–—·()\/0-9]+/g,'');
-  return s.length>2;
+  if(/[ऀ-ॿ]/.test(place))return false;
+  const lower=String(place).toLowerCase();
+  return !DOMESTIC_TERMS.some(t=>lower.includes(t));
 }
