@@ -1,0 +1,20 @@
+{
+  "name": "missing-found-rasuwa-flood",
+  "version": "1.0.0",
+  "description": "Rasuwa–Bhotekoshi flood: Search missing and found persons",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": [
+    "rasuwa",
+    "flood",
+    "missing",
+    "found"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
