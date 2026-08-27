@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1447A0">
+<title>हराएको / भेटिएको · खोज</title>
+<meta name="description" content="रसुवा–भोटेकोशी बाढी: हराएका र भेटिएका व्यक्तिको सूची खोज्नुहोस्। Search the missing and found lists from the Rasuwa–Bhotekoshi flood.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="hd">
+    <div class="row1">
+      <h1 id="ttl">हराएको / भेटिएको<span id="sub">रसुवा–भोटेकोशी बाढी</span></h1>
+      <div class="safe-cta" id="safeCta">
+        <span class="safe-cta-lbl" id="safeCtaLbl"></span>
+        <div class="safe-cta-btns">
+          <button type="button" class="btn-safe" id="btnSafe"></button>
+          <button type="button" class="btn-rescue" id="btnRescue"></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroller langs" id="langs" role="tablist" aria-label="Language / भाषा">
+      <button class="pin" role="tab" type="button" data-lg="ne" aria-pressed="true">नेपाली</button>
+      <button class="pin" role="tab" type="button" data-lg="en" aria-pressed="false">English</button>
+      <button class="pin" role="tab" type="button" data-lg="hi" aria-pressed="false">हिन्दी</button>
+      <button class="pin" role="tab" type="button" data-lg="zh" aria-pressed="false">中文</button>
+      <button class="pin" role="tab" type="button" data-lg="ru" aria-pressed="false">Русский</button>
+      <button class="pin" role="tab" type="button" data-lg="es" aria-pressed="false">Español</button>
+      <button class="pin" role="tab" type="button" data-lg="fr" aria-pressed="false">Français</button>
+    </div>
+
+    <div class="controls">
+      <div class="sb">
+        <input id="q" type="search" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search">
+        <button class="clear" id="clear" type="button" aria-label="clear">&times;</button>
+      </div>
+      <select id="loc" aria-label="location"></select>
+    </div>
+
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" data-t="missing" aria-selected="true"></button>
+      <button class="tab" role="tab" data-t="found" aria-selected="false"></button>
+    </div>
+  </div>
+</header>
+
+<div class="strip" id="strip" hidden>
+  <div class="strip-in">
+    <div class="strip-lb lbl" id="strip-lb"></div>
+    <div class="scroller" id="pins"></div>
+  </div>
+</div>
+
+<main class="wrap">
+  <div class="meta"><span id="count" aria-live="polite"></span><span id="updated"></span><button id="refresh" type="button"></button></div>
+  <div id="out"></div>
+  <footer><p id="src"></p></footer>
+</main>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button type="button" class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+    <h2 id="modalTitle"></h2>
+    <p class="modal-note" id="modalNote"></p>
+    <form id="safeForm">
+      <label class="field"><span id="lblName"></span><input type="text" id="fName" required autocomplete="name"></label>
+      <label class="field"><span id="lblNumber"></span><input type="tel" id="fNumber" required autocomplete="tel"></label>
+      <label class="field"><span id="lblLocation"></span><input type="text" id="fLocation" required autocomplete="off"></label>
+      <button type="submit" class="modal-submit" id="modalSubmit"></button>
+    </form>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
