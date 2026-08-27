@@ -65,8 +65,6 @@ function render(rows,updated){
   const ageData=buckets.map(([lo,hi,label])=>[label,knownAges.filter(a=>a>=lo&&a<=hi).length]);
   $('ageNote').textContent=`Age known for ${knownAges.length} of ${missing.length} missing records — entries with an uncertain age (e.g. "around 50") are left out.`;
   $('chartAge').innerHTML=colChart(ageData);
-
-  $('vizSrc').innerHTML=`Source: <a href="${BASE}#family" target="_blank" rel="noopener">${esc(BASE.replace(/^https:\/\//,''))}</a>`;
 }
 
 async function loadViz(){

@@ -8,7 +8,7 @@ const T={
   cnt:n=>`${n} विवरण`,upd:"अद्यावधिक",rl:"पुनः लोड",more:"थप देखाउनुहोस्",ld:"लोड हुँदै…",
   e1:"सूची लोड भएन",e2:"इन्टरनेट जाँचेर फेरि प्रयास गर्नुहोस्।",rt:"फेरि प्रयास",
   z1:"केही भेटिएन",z2:"नामको केही अक्षर वा फोनका केही अंक मात्र लेख्नुहोस्। रोमन र देवनागरी दुवै चल्छ।",
-  src:"स्रोत",dtMore:"थप हेर्नुहोस्",dtLess:"कम देखाउनुहोस्",
+  dtMore:"थप हेर्नुहोस्",dtLess:"कम देखाउनुहोस्",
   mSafeQ:"के तपाईं प्रभावित क्षेत्रमा हुनुहुन्छ?",mMarkSafe:"सुरक्षित छु भनी जनाउनुहोस्",mAskRescue:"उद्धार माग्नुहोस्",
   mSafeTitle:"आफू सुरक्षित छु भनी जनाउनुहोस्",mRescueTitle:"उद्धारको लागि अनुरोध",
   mName:"नाम",mNumber:"नम्बर",mLocation:"स्थान",mSend:"WhatsApp मार्फत पठाउनुहोस्",
@@ -19,7 +19,7 @@ const T={
   cnt:n=>`${n} records`,upd:"Updated",rl:"Reload",more:"Show more",ld:"Loading…",
   e1:"The list didn't load",e2:"Check your connection and try again.",rt:"Try again",
   z1:"Nothing matched",z2:"Try part of a name or a few digits of a phone number. Roman and Devanagari both work.",
-  src:"Source",dtMore:"View more",dtLess:"View less",
+  dtMore:"View more",dtLess:"View less",
   mSafeQ:"Are you in the affected area?",mMarkSafe:"Mark Safe",mAskRescue:"Ask for Rescue",
   mSafeTitle:"Report yourself safe",mRescueTitle:"Ask for rescue",
   mName:"Name",mNumber:"Number",mLocation:"Location",mSend:"Send via WhatsApp",
@@ -30,7 +30,7 @@ const T={
   cnt:n=>`${n} प्रविष्टियाँ`,upd:"अपडेट",rl:"फिर लोड करें",more:"और दिखाएँ",ld:"लोड हो रहा है…",
   e1:"सूची लोड नहीं हुई",e2:"इंटरनेट जाँचकर दोबारा कोशिश करें।",rt:"दोबारा कोशिश",
   z1:"कुछ नहीं मिला",z2:"नाम का कुछ हिस्सा या फ़ोन के कुछ अंक लिखें। रोमन और देवनागरी दोनों चलते हैं।",
-  src:"स्रोत",dtMore:"और देखें",dtLess:"कम देखें",
+  dtMore:"और देखें",dtLess:"कम देखें",
   mSafeQ:"क्या आप प्रभावित क्षेत्र में हैं?",mMarkSafe:"सुरक्षित होने की सूचना दें",mAskRescue:"बचाव के लिए अनुरोध करें",
   mSafeTitle:"स्वयं को सुरक्षित बताएं",mRescueTitle:"बचाव का अनुरोध",
   mName:"नाम",mNumber:"नंबर",mLocation:"स्थान",mSend:"WhatsApp से भेजें",
@@ -41,7 +41,7 @@ const T={
   cnt:n=>`${n} 条记录`,upd:"更新于",rl:"重新加载",more:"显示更多",ld:"加载中…",
   e1:"名单加载失败",e2:"请检查网络后重试。",rt:"重试",
   z1:"没有匹配结果",z2:"请输入姓名的一部分或电话号码的几位数字。罗马字母与天城文均可。",
-  src:"来源",dtMore:"查看更多",dtLess:"收起",
+  dtMore:"查看更多",dtLess:"收起",
   mSafeQ:"您是否在受灾地区？",mMarkSafe:"报平安",mAskRescue:"请求救援",
   mSafeTitle:"报平安",mRescueTitle:"请求救援",
   mName:"姓名",mNumber:"号码",mLocation:"位置",mSend:"通过 WhatsApp 发送",
@@ -52,7 +52,7 @@ const T={
   cnt:n=>`${n} registros`,upd:"Actualizado",rl:"Recargar",more:"Ver más",ld:"Cargando…",
   e1:"La lista no se cargó",e2:"Revisa tu conexión e inténtalo otra vez.",rt:"Reintentar",
   z1:"Sin resultados",z2:"Prueba con parte del nombre o unos dígitos del teléfono. Funciona en latino y devanagari.",
-  src:"Fuente",dtMore:"Ver más",dtLess:"Ver menos",
+  dtMore:"Ver más",dtLess:"Ver menos",
   mSafeQ:"¿Estás en la zona afectada?",mMarkSafe:"Marcar como a salvo",mAskRescue:"Pedir rescate",
   mSafeTitle:"Repórtate a salvo",mRescueTitle:"Solicitar rescate",
   mName:"Nombre",mNumber:"Número",mLocation:"Ubicación",mSend:"Enviar por WhatsApp",
@@ -63,7 +63,7 @@ const T={
   cnt:n=>`${n} fiches`,upd:"Mis à jour",rl:"Recharger",more:"Voir plus",ld:"Chargement…",
   e1:"La liste n'a pas pu être chargée",e2:"Vérifiez votre connexion et réessayez.",rt:"Réessayer",
   z1:"Aucun résultat",z2:"Essayez une partie du nom ou quelques chiffres du numéro. Latin et devanagari fonctionnent.",
-  src:"Source",dtMore:"Voir plus",dtLess:"Voir moins",
+  dtMore:"Voir plus",dtLess:"Voir moins",
   mSafeQ:"Êtes-vous dans la zone touchée ?",mMarkSafe:"Se déclarer en sécurité",mAskRescue:"Demander un secours",
   mSafeTitle:"Déclarez-vous en sécurité",mRescueTitle:"Demande de secours",
   mName:"Nom",mNumber:"Numéro",mLocation:"Lieu",mSend:"Envoyer via WhatsApp",
@@ -74,7 +74,7 @@ const T={
   cnt:n=>`${n} записей`,upd:"Обновлено",rl:"Обновить",more:"Показать ещё",ld:"Загрузка…",
   e1:"Список не загрузился",e2:"Проверьте соединение и попробуйте снова.",rt:"Повторить",
   z1:"Ничего не найдено",z2:"Введите часть имени или несколько цифр номера телефона. Работают латиница и деванагари.",
-  src:"Источник",dtMore:"Показать полностью",dtLess:"Свернуть",
+  dtMore:"Показать полностью",dtLess:"Свернуть",
   mSafeQ:"Вы находитесь в пострадавшем районе?",mMarkSafe:"Сообщить, что в безопасности",mAskRescue:"Запросить спасение",
   mSafeTitle:"Сообщить, что вы в безопасности",mRescueTitle:"Запрос на спасение",
   mName:"Имя",mNumber:"Номер",mLocation:"Местоположение",mSend:"Отправить через WhatsApp",
@@ -202,8 +202,6 @@ function chrome(){
   $('refresh').textContent=t.rl;
   $('updated').textContent=updated
     ? t.upd+' '+new Date(updated).toLocaleString(lang==='ne'?'ne-NP':lang,{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}) : '';
-  $('src').innerHTML=esc(t.src)+`: <a href="${BASE}#family" target="_blank" rel="noopener">${esc(BASE.replace(/^https:\/\//,''))}</a>`;
-
   $('safeCtaLbl').textContent=t.mSafeQ;
   $('btnSafe').textContent=t.mMarkSafe;
   $('btnRescue').textContent=t.mAskRescue;
