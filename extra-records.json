@@ -1,0 +1,2034 @@
+[
+ {
+  "id": "x0-lalit-bahadur-saru-magar",
+  "name": "Lalit Bahadur Saru Magar",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "01.09.1968",
+   "passport": "11398330",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x1-kaji-sherpa",
+  "name": "Kaji Sherpa",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "29.05.1971",
+   "passport": "PA4438225",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x2-gobinda-thapa-magar",
+  "name": "Gobinda Thapa Magar",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "03.05.1990",
+   "passport": "PA2732608",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x3-sujit-tamang",
+  "name": "Sujit Tamang",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "08.03.1989",
+   "passport": "PA1385245",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x4-raju-rana-magar",
+  "name": "Raju Rana Magar",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "25.08.1978",
+   "passport": "PA4531275",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x5-suresh-rana-magar",
+  "name": "Suresh Rana Magar",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "29.10.1979",
+   "passport": "PA3189483",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x6-pragyan-rai",
+  "name": "Pragyan Rai",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "05.12.1996",
+   "passport": "PA5367559",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x7-yuba-raj-rai",
+  "name": "Yuba Raj Rai",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "21.11.1978",
+   "passport": "PA4957564",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x8-dambar-rai",
+  "name": "Dambar Rai",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "07.05.1982",
+   "passport": "PA5362429",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x9-pandeu-rai",
+  "name": "Pandeu Rai",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "25.11.1976",
+   "passport": "PA4288077",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x10-yash-bahadur-rai",
+  "name": "Yash Bahadur Rai",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "13.04.1988",
+   "passport": "PA5217574",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x11-irina-blonskaya",
+  "name": "Irina Blonskaya",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "09.08.1951",
+   "passport": "N17509611",
+   "sex": "F",
+   "nationality": "KAZAKHSTAN"
+  }
+ },
+ {
+  "id": "x12-natalia-kiseleva",
+  "name": "Natalia Kiseleva",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "25.05.1980",
+   "passport": "774736241",
+   "sex": "F",
+   "nationality": "RUSSIAN"
+  }
+ },
+ {
+  "id": "x13-kirill-tretiakov",
+  "name": "Kirill Tretiakov",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "01.10.1989",
+   "passport": "771761703",
+   "sex": "M",
+   "nationality": "RUSSIAN"
+  }
+ },
+ {
+  "id": "x14-juri-kupper",
+  "name": "Juri Kupper",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "04.01.1985",
+   "passport": "C5HKP4Y2W",
+   "sex": "M",
+   "nationality": "DEUTSCH"
+  }
+ },
+ {
+  "id": "x15-kateryna-duzenko",
+  "name": "Kateryna Duzenko",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "10.08.1988",
+   "passport": "18DF73376",
+   "sex": "F",
+   "nationality": "FRANCE"
+  }
+ },
+ {
+  "id": "x16-inna-bida",
+  "name": "Inna Bida",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "31.12.1981",
+   "passport": "CF975638",
+   "sex": "F",
+   "nationality": "PORTUGAL"
+  }
+ },
+ {
+  "id": "x17-ruslan-langolf",
+  "name": "Ruslan Langolf",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "27.11.1991",
+   "passport": "C7L49YH1G",
+   "sex": "M",
+   "nationality": "DEUTSCH"
+  }
+ },
+ {
+  "id": "x18-elena-kozlova",
+  "name": "Elena Kozlova",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "12.05.1981",
+   "passport": "AA6097529",
+   "sex": "F",
+   "nationality": "SWEDISH"
+  }
+ },
+ {
+  "id": "x19-ekaterina-alekseevna-zhidkova",
+  "name": "Ekaterina Alekseevna Zhidkova",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "26.04.1985",
+   "passport": "GB9019572",
+   "sex": "F",
+   "nationality": "BELGIUM"
+  }
+ },
+ {
+  "id": "x20-iuliia-mikhailova",
+  "name": "Iuliia Mikhailova",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "20.12.1984",
+   "passport": "GB9625065",
+   "sex": "F",
+   "nationality": "BELGIUM"
+  }
+ },
+ {
+  "id": "x21-yurii-ruzhyn",
+  "name": "Yurii Ruzhyn",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "16.01.1988",
+   "passport": "C7MHGPVK4",
+   "sex": "M",
+   "nationality": "DEUTSCH"
+  }
+ },
+ {
+  "id": "x22-dimitri-kishkurno",
+  "name": "Dimitri Kishkurno",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "16.04.1984",
+   "passport": "C5HMR11W8",
+   "sex": "M",
+   "nationality": "DEUTSCH"
+  }
+ },
+ {
+  "id": "x23-ganna-monakhova",
+  "name": "Ganna Monakhova",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "09.04.1991",
+   "passport": "FV313538",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x24-oleksandr-sologub",
+  "name": "Oleksandr Sologub",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "17.07.1989",
+   "passport": "FT958807",
+   "sex": "M",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x25-oleksandra-rodina",
+  "name": "Oleksandra Rodina",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "21.03.1996",
+   "passport": "GL165206",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x26-olha-patis",
+  "name": "Olha Patis",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "26.10.1981",
+   "passport": "FF694374",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x27-iryna-lysiuk",
+  "name": "Iryna Lysiuk",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "04.12.1989",
+   "passport": "GN387758",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x28-oksana-dryha",
+  "name": "Oksana Dryha",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "16.06.1983",
+   "passport": "FM831962",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x29-olga-golikova",
+  "name": "Olga Golikova",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "26.08.1985",
+   "passport": "GD822521",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x30-inna-oshmarina",
+  "name": "Inna Oshmarina",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "03.12.1975",
+   "passport": "GM070012",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x31-olena-bychkovska",
+  "name": "Olena Bychkovska",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "06.11.1976",
+   "passport": "GO029646",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x32-olena-kalynychenko",
+  "name": "Olena Kalynychenko",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "17.11.1989",
+   "passport": "FH464041",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x33-iryna-malukhova",
+  "name": "Iryna Malukhova",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "16.05.1974",
+   "passport": "FT791396",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x34-nataliia-doroshuk",
+  "name": "Nataliia Doroshuk",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "19.05.1991",
+   "passport": "FH173075",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x35-tetiana-liukova",
+  "name": "Tetiana Liukova",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "19.03.1981",
+   "passport": "FH679105",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x36-larysa-molodets",
+  "name": "Larysa Molodets",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "20.08.1992",
+   "passport": "FK222385",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x37-ievgeniia-malaia",
+  "name": "Ievgeniia Malaia",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "04.04.1988",
+   "passport": "FT958385",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x38-yuliia-koval",
+  "name": "Yuliia Koval",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "04.02.1988",
+   "passport": "FH534481",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x39-hanna-istoshyna",
+  "name": "Hanna Istoshyna",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "23.04.1974",
+   "passport": "FN246477",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x40-sofiia-oloviatenko",
+  "name": "Sofiia Oloviatenko",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "15.05.2007",
+   "passport": "GG995556",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x41-olena-kurakina",
+  "name": "Olena Kurakina",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "23.06.1993",
+   "passport": "GE504757",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x42-volodymyr-ruzhyn",
+  "name": "Volodymyr Ruzhyn",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "10.08.1991",
+   "passport": "FJ815331",
+   "sex": "M",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x43-yevheniia-mamchur",
+  "name": "Yevheniia Mamchur",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "12.06.1989",
+   "passport": "GO038279",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x44-anna-yevtushenko",
+  "name": "Anna Yevtushenko",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "29.04.1977",
+   "passport": "GA398087",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x45-nikita-oloviatenko",
+  "name": "Nikita Oloviatenko",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "17.01.2005",
+   "passport": "GB500418",
+   "sex": "M",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x46-oksana-batyshcheva",
+  "name": "Oksana Batyshcheva",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "11.05.1979",
+   "passport": "GM078263",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x47-olena-tomashevska",
+  "name": "Olena Tomashevska",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "29.09.1986",
+   "passport": "UA102638",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x48-iryna-ladygina",
+  "name": "Iryna Ladygina",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "18.05.2004",
+   "passport": "GB722458",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x49-oksana-yakushchenko",
+  "name": "Oksana Yakushchenko",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "13.07.1986",
+   "passport": "GC594043",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x50-dariia-suvilova",
+  "name": "Dariia Suvilova",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "15.09.1992",
+   "passport": "FJ851363",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x51-oleksandr-bida",
+  "name": "Oleksandr Bida",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "23.05.1989",
+   "passport": "FH649614",
+   "sex": "M",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x52-alina-dosenko",
+  "name": "Alina Dosenko",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "27.09.1985",
+   "passport": "GF198913",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x53-liudmyla-kylivnyk",
+  "name": "Liudmyla Kylivnyk",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "11.04.1980",
+   "passport": "GL471031",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x54-olga-vasylenko",
+  "name": "Olga Vasylenko",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "23.07.1974",
+   "passport": "FH618537",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x55-lesia-lutsenko-myskiv",
+  "name": "Lesia Lutsenko Myskiv",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "12.07.1984",
+   "passport": "GH401596",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x56-nataliia-field",
+  "name": "Nataliia Field",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "21.12.1983",
+   "passport": "FH535428",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x57-elena-horlova",
+  "name": "Elena Horlova",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "24.04.1984",
+   "passport": "FK794285",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x58-daria-bielova",
+  "name": "Daria Bielova",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "03.08.1983",
+   "passport": "GH859092",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x59-galyna-kovalevska",
+  "name": "Galyna Kovalevska",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "05.07.1983",
+   "passport": "FT636230",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x60-iryna-chebanu",
+  "name": "Iryna Chebanu",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "17.12.1989",
+   "passport": "FK708801",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x61-stanislav-arsonov",
+  "name": "Stanislav Arsonov",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "28.01.1986",
+   "passport": "PU846865",
+   "sex": "M",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x62-olena-nikiforova",
+  "name": "Olena Nikiforova",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "dob": "17.05.1991",
+   "passport": "GD355683",
+   "sex": "F",
+   "nationality": "UKRAINE"
+  }
+ },
+ {
+  "id": "x63-durga-bhattarai",
+  "name": "Durga Bhattarai",
+  "place": "TIMURE CHECKPOINT",
+  "phone": null,
+  "when": "8:30 AM, 26 August",
+  "reporter": "9842662286",
+  "note": "A group of 17 is contactless, 15 foreigners (Kathmandu Holiday)",
+  "status": "missing",
+  "extra": {
+   "location": "TIMURE CHECKPOINT",
+   "reportedTime": "8:30 AM, 26 August",
+   "statusRaw": "Searching",
+   "purpose": "Travel",
+   "profession": "Tourist Guide",
+   "reportedBy": "9842662286",
+   "remarks": "A group of 17 is contactless, 15 foreigners (Kathmandu Holiday)",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x64-kul-bahadur-magar",
+  "name": "Kul Bahadur Magar",
+  "place": "TIMURE CHECKPOINT",
+  "phone": null,
+  "when": "8:30 AM, 26 August",
+  "reporter": "9842662286",
+  "note": "A group of 17 is contactless, 15 foreigners (Kathmandu Holiday)",
+  "status": "missing",
+  "extra": {
+   "location": "TIMURE CHECKPOINT",
+   "reportedTime": "8:30 AM, 26 August",
+   "purpose": "Travel",
+   "profession": "Tourist Guide",
+   "reportedBy": "9842662286",
+   "remarks": "A group of 17 is contactless, 15 foreigners (Kathmandu Holiday)",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x65-sumedha-amatya",
+  "name": "Sumedha Amatya",
+  "place": "Trishuli Bazar area / Dhodeni, Rasuwa",
+  "phone": null,
+  "when": "2026-08-27 00:00",
+  "reporter": "9765344522  , 9841548135, 9841574712",
+  "note": "Age 13. Swept off in Trishuli river flood this morning. Someone reported seeing her running toward Dhodeni area; not reached/contacted since.",
+  "status": "missing",
+  "extra": {
+   "location": "Trishuli Bazar area / Dhodeni, Rasuwa",
+   "reportedTime": "2026-08-27 00:00",
+   "statusRaw": "Searching",
+   "purpose": "Home",
+   "profession": "Student",
+   "reportedBy": "9765344522  , 9841548135, 9841574712",
+   "remarks": "Age 13. Swept off in Trishuli river flood this morning. Someone reported seeing her running toward Dhodeni area; not reached/contacted since.",
+   "sex": "F",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x66-narayan-patel",
+  "name": "Narayan Patel",
+  "place": "Birgunj Metropolitan City-14, Bahuari, Parsa",
+  "phone": "9814227697",
+  "when": null,
+  "reporter": "Subash Kushwaha, whatsapp",
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Birgunj Metropolitan City-14, Bahuari, Parsa",
+   "phone": "9814227697",
+   "statusRaw": "Searching",
+   "reportedBy": "Subash Kushwaha, whatsapp",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x67-subodh-patel",
+  "name": "Subodh Patel",
+  "place": "Kalaiya Sub-Metropolitan City-22, Parsa",
+  "phone": "9805569268",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Kalaiya Sub-Metropolitan City-22, Parsa",
+   "phone": "9805569268",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x68-arun-hazra",
+  "name": "Arun Hazra",
+  "place": "Kalaiya Sub-Metropolitan City-22, Parsa",
+  "phone": "9805569268",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Kalaiya Sub-Metropolitan City-22, Parsa",
+   "phone": "9805569268",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x69-shyambabu-thakur",
+  "name": "Shyambabu Thakur",
+  "place": "Birgunj Metropolitan City-15, Laxmanwa, Parsa",
+  "phone": "9861510386",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Birgunj Metropolitan City-15, Laxmanwa, Parsa",
+   "phone": "9861510386",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x70-ukesh-dangol",
+  "name": "Ukesh Dangol",
+  "place": "(currently in Parsa)Hetauda Sub-Metropolitan City-8, Kamane, Makwanpur",
+  "phone": "9845338508",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "(currently in Parsa)Hetauda Sub-Metropolitan City-8, Kamane, Makwanpur",
+   "phone": "9845338508",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x71-sanjay-tamang",
+  "name": "Sanjay Tamang",
+  "place": "Sindhuli (currently Parsa)",
+  "phone": "9864031339",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Sindhuli (currently Parsa)",
+   "phone": "9864031339",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x72-akash-tamang",
+  "name": "Akash Tamang",
+  "place": "Palung(currently Parsa)",
+  "phone": "9851121320",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Palung(currently Parsa)",
+   "phone": "9851121320",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x73-kamarul-hoda-ansari",
+  "name": "Kamarul Hoda Ansari",
+  "place": "Birgunj Metropolitan City-13, Parsa",
+  "phone": "9840211926",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Birgunj Metropolitan City-13, Parsa",
+   "phone": "9840211926",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x74-subash-patel",
+  "name": "Subash Patel",
+  "place": "Bariyarpur-8, Bara (currently in Parsa)",
+  "phone": "9761502508",
+  "when": null,
+  "reporter": null,
+  "note": "Rescued and back in contact (per police office list).",
+  "status": "found",
+  "extra": {
+   "location": "Bariyarpur-8, Bara (currently in Parsa)",
+   "phone": "9761502508",
+   "statusRaw": "Found",
+   "remarks": "Rescued and back in contact (per police office list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x75-gyan-bahadur-thing",
+  "name": "Gyan Bahadur Thing",
+  "place": null,
+  "phone": "9763765210",
+  "when": null,
+  "reporter": null,
+  "note": "Lalbandi, Sarlahi",
+  "status": "found",
+  "extra": {
+   "phone": "9763765210",
+   "statusRaw": "Rescued",
+   "remarks": "Lalbandi, Sarlahi"
+  }
+ },
+ {
+  "id": "x76-shyamlal-moktan",
+  "name": "Shyamlal Moktan",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": "Contact: 9761502508 (rescued and contacted)",
+  "status": "found",
+  "extra": {
+   "statusRaw": "Rescued",
+   "remarks": "Contact: 9761502508 (rescued and contacted)"
+  }
+ },
+ {
+  "id": "x77-samim-dewan",
+  "name": "Samim Dewan",
+  "place": "Parwanipur-4, Chainpur, Bara (currently in Parsa)",
+  "phone": "9707945327",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Parwanipur-4, Chainpur, Bara (currently in Parsa)",
+   "phone": "9707945327",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x78-anutam-bahadur-shrestha",
+  "name": "Anutam Bahadur Shrestha",
+  "place": "Birgunj Metropolitan City-4, Birta, Parsa",
+  "phone": "9814268168",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Birgunj Metropolitan City-4, Birta, Parsa",
+   "phone": "9814268168",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x79-abhishek-bastola",
+  "name": "Abhishek Bastola",
+  "place": "Hetauda-11, Bastipur, Makwanpur (currently in Parsa)",
+  "phone": "9842094715",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Hetauda-11, Bastipur, Makwanpur (currently in Parsa)",
+   "phone": "9842094715",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x80-ghanshyam-bastola",
+  "name": "Ghanshyam Bastola",
+  "place": "Hetauda-11, Bastipur, Makwanpur (currently in Parsa)",
+  "phone": "9840012651",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Hetauda-11, Bastipur, Makwanpur (currently in Parsa)",
+   "phone": "9840012651",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x81-dinesh-pariyar",
+  "name": "Dinesh Pariyar",
+  "place": "Nijgadh, Bara (currently in Parsa)",
+  "phone": "9844404283",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Nijgadh, Bara (currently in Parsa)",
+   "phone": "9844404283",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x82-prithvi-chaudhary",
+  "name": "Prithvi Chaudhary",
+  "place": "Birgunj Metropolitan City-15, Laxmanwa, Parsa",
+  "phone": "9829457719",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Birgunj Metropolitan City-15, Laxmanwa, Parsa",
+   "phone": "9829457719",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x83-narayan-singh",
+  "name": "Narayan Singh",
+  "place": "Parwanipur Rural Municipality-5, Bahuari Tole, Bara",
+  "phone": "9845033370",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Parwanipur Rural Municipality-5, Bahuari Tole, Bara",
+   "phone": "9845033370",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x84-satyaprakash-ram",
+  "name": "Satyaprakash Ram",
+  "place": "Kalaiya Sub-Metropolitan City-22, Dhodh Tole, Bara",
+  "phone": "9816205619",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Kalaiya Sub-Metropolitan City-22, Dhodh Tole, Bara",
+   "phone": "9816205619",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x85-ankit-patel",
+  "name": "Ankit Patel",
+  "place": "Adarsh Kotwal Rural Municipality-1, Chiutaha, Bara",
+  "phone": "9809265788",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Adarsh Kotwal Rural Municipality-1, Chiutaha, Bara",
+   "phone": "9809265788",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x86-sheikh-majid",
+  "name": "Sheikh Majid",
+  "place": "Ishnath Municipality-4, Rautahat",
+  "phone": "9823643707",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Ishnath Municipality-4, Rautahat",
+   "phone": "9823643707",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x87-krishna-prasad-dhamala",
+  "name": "Krishna Prasad Dhamala",
+  "place": "Lalbandi Municipality-9, Sarlahi",
+  "phone": "Not available",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Lalbandi Municipality-9, Sarlahi",
+   "phone": "Not available",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x88-dwarika-dangal",
+  "name": "Dwarika Dangal",
+  "place": "Lalbandi Municipality-9, Sarlahi",
+  "phone": "Not available",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Lalbandi Municipality-9, Sarlahi",
+   "phone": "Not available",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x89-chiranjibi-khatiwada",
+  "name": "Chiranjibi Khatiwada",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": null,
+  "note": "Lalbandi Municipality-5",
+  "status": "missing",
+  "extra": {
+   "remarks": "Lalbandi Municipality-5"
+  }
+ },
+ {
+  "id": "x90-sunil-kushwaha",
+  "name": "Sunil Kushwaha",
+  "place": "Hariwan Municipality-5, Ghurkauli, Sarlahi",
+  "phone": "Not available",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Hariwan Municipality-5, Ghurkauli, Sarlahi",
+   "phone": "Not available",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x91-ajay-kumar-yadav",
+  "name": "Ajay Kumar Yadav",
+  "place": "Bishnupur Rural Municipality-1, Saptari",
+  "phone": "9843104543",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Bishnupur Rural Municipality-1, Saptari",
+   "phone": "9843104543",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x92-sajan-chaudhary",
+  "name": "Sajan Chaudhary",
+  "place": "Shambhunath Municipality-8, Saptari",
+  "phone": "9842197558 / 9845824244",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Shambhunath Municipality-8, Saptari",
+   "phone": "9842197558 / 9845824244",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x93-shiva-prasad-lamsal",
+  "name": "Shiva Prasad Lamsal",
+  "place": "Syaprubesi, Rasuwa",
+  "phone": "9857622994",
+  "when": "2026-08-27 00:00",
+  "reporter": null,
+  "note": "Reported missing after flood; last known location Syaprubesi.",
+  "status": "missing",
+  "extra": {
+   "location": "Syaprubesi, Rasuwa",
+   "phone": "9857622994",
+   "phoneTrackedAt": "2026-08-26 08:55",
+   "phoneTrackedLoc": "CDR463_GOLJUNG_Q1",
+   "reportedTime": "2026-08-27 00:00",
+   "statusRaw": "Searching",
+   "purpose": "Job/Work",
+   "profession": "Bank employee (Investment/Finance company)",
+   "remarks": "Reported missing after flood; last known location Syaprubesi.",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x94-samir-khadka",
+  "name": "Samir Khadka",
+  "place": "Betrawati, Rasuwa",
+  "phone": null,
+  "when": "2026-08-27 00:00",
+  "reporter": "9745303332",
+  "note": "Last location reported as Betrawati at 8:30 AM; help requested to identify current location.",
+  "status": "missing",
+  "extra": {
+   "location": "Betrawati, Rasuwa",
+   "phoneTrackedAt": "2026-08-27 08:30",
+   "reportedTime": "2026-08-27 00:00",
+   "statusRaw": "Searching",
+   "reportedBy": "9745303332",
+   "remarks": "Last location reported as Betrawati at 8:30 AM; help requested to identify current location.",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x95-amit-katwal",
+  "name": "Amit Katwal",
+  "place": null,
+  "phone": "9860167288",
+  "when": "2026-08-27 00:00",
+  "reporter": "same num 9860167288",
+  "note": "Phone has been out of reach since yesterday; help requested to trace last active location.",
+  "status": "missing",
+  "extra": {
+   "phone": "9860167288",
+   "phoneTrackedAt": "out of reach since 26aug",
+   "reportedTime": "2026-08-27 00:00",
+   "statusRaw": "Unreachable/No Signal",
+   "reportedBy": "same num 9860167288",
+   "remarks": "Phone has been out of reach since yesterday; help requested to trace last active location.",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x96-santosh-ghimire",
+  "name": "Santosh Ghimire",
+  "place": "Upper Trishuli-1 Hydropower Project, Rasuwa",
+  "phone": "9841684475",
+  "when": null,
+  "reporter": null,
+  "note": "Engineer at Upper Trishuli-1 Hydro (NWEDC); reported missing after flood.",
+  "status": "missing",
+  "extra": {
+   "location": "Upper Trishuli-1 Hydropower Project, Rasuwa",
+   "phone": "9841684475",
+   "statusRaw": "Searching",
+   "purpose": "Job/Work",
+   "profession": "Engineer",
+   "remarks": "Engineer at Upper Trishuli-1 Hydro (NWEDC); reported missing after flood.",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x97-bijeta-awale-and-daughter",
+  "name": "BIJETA AWALE (and daughter)",
+  "place": "Rasuwa (site area)",
+  "phone": "9802306535",
+  "when": "2026-08-27 08:34",
+  "reporter": null,
+  "note": "Bijeta Awale and his daughter lost contact at 8:34 AM; phone kept ringing until 8 PM evening without answer.",
+  "status": "missing",
+  "extra": {
+   "location": "Rasuwa (site area)",
+   "phone": "9802306535",
+   "phoneTrackedAt": "Ringing (unanswered) until 8:00 PM same evening",
+   "reportedTime": "2026-08-27 08:34",
+   "statusRaw": "Unreachable/No Signal",
+   "peopleAround": "2 (father and daughter)",
+   "remarks": "Bijeta Awale and his daughter lost contact at 8:34 AM; phone kept ringing until 8 PM evening without answer.",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x98-shashikala",
+  "name": "Shashikala",
+  "place": null,
+  "phone": null,
+  "when": null,
+  "reporter": "9860517873",
+  "note": "Help requested to locate; details limited.",
+  "status": "missing",
+  "extra": {
+   "statusRaw": "Searching",
+   "reportedBy": "9860517873",
+   "remarks": "Help requested to locate; details limited.",
+   "sex": "F",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x99-deepak-mahara",
+  "name": "Deepak Mahara",
+  "place": "Upper Trishuli 1, Doosan Camp",
+  "phone": "9848477694",
+  "when": "9:15 AM (8/26/2025) phone traced",
+  "reporter": "relative, 9851430643",
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "location": "Upper Trishuli 1, Doosan Camp",
+   "phone": "9848477694",
+   "phoneTrackedAt": "9:15 AM (8/26/2025) phone traced",
+   "statusRaw": "Unreachable/No Signal",
+   "peopleAround": "Korean team",
+   "purpose": "Job/Work",
+   "profession": "Other",
+   "reportedBy": "relative, 9851430643",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x100-babin-thapa-magar",
+  "name": "Babin Thapa Magar",
+  "place": null,
+  "phone": "9843728656",
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "phone": "9843728656",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x101-phurba-moktan",
+  "name": "Phurba Moktan",
+  "place": "GBIME bank Staff, Timure",
+  "phone": "9860250122",
+  "when": null,
+  "reporter": "Global IME bank",
+  "note": "Huband and wife (Samjhana Tamang) missing",
+  "status": "missing",
+  "extra": {
+   "location": "GBIME bank Staff, Timure",
+   "phone": "9860250122",
+   "statusRaw": "Unreachable/No Signal",
+   "reportedBy": "Global IME bank",
+   "remarks": "Huband and wife (Samjhana Tamang) missing",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x102-samjhana-tamang",
+  "name": "Samjhana Tamang",
+  "place": "GBIME bank Staff Phurba's Wife, Timure",
+  "phone": "9861168600",
+  "when": null,
+  "reporter": "Global IME bank",
+  "note": "Huband (Phurba Moktan) and wife missing",
+  "status": "missing",
+  "extra": {
+   "location": "GBIME bank Staff Phurba's Wife, Timure",
+   "phone": "9861168600",
+   "statusRaw": "Unreachable/No Signal",
+   "reportedBy": "Global IME bank",
+   "remarks": "Huband (Phurba Moktan) and wife missing",
+   "sex": "F",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x103-chiranjivi-khatiwada",
+  "name": "Chiranjivi Khatiwada",
+  "place": "Lalbandi Municipality-9, Sarlahi",
+  "phone": "Not available",
+  "when": null,
+  "reporter": null,
+  "note": "Reported by Madhesh Province Police Office (contact lost list).",
+  "status": "missing",
+  "extra": {
+   "location": "Lalbandi Municipality-9, Sarlahi",
+   "phone": "Not available",
+   "statusRaw": "Searching",
+   "remarks": "Reported by Madhesh Province Police Office (contact lost list).",
+   "sex": "M",
+   "nationality": "NEPALI"
+  }
+ },
+ {
+  "id": "x104-chandra-bahadur-gyani",
+  "name": "Chandra Bahadur Gyani",
+  "place": "Timure",
+  "phone": "9863493165",
+  "when": "2026-08-26 09:03",
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "location": "Timure",
+   "phone": "9863493165",
+   "phoneTrackedAt": "2026-08-26 09:03",
+   "phoneTrackedLoc": "CDR466_RASUWA BORDER-A",
+   "profession": "Driver",
+   "dob": "2049/02/30",
+   "sex": "M",
+   "nationality": "Nepali"
+  }
+ },
+ {
+  "id": "x105-rajkumar-ghimire",
+  "name": "Rajkumar Ghimire",
+  "place": "Naya Pul Betrawati Rasuwa",
+  "phone": "9779860404309",
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "location": "Naya Pul Betrawati Rasuwa",
+   "phone": "9779860404309"
+  }
+ },
+ {
+  "id": "x106-atul-pathak",
+  "name": "Atul pathak",
+  "place": "Goljung",
+  "phone": "9847688078",
+  "when": null,
+  "reporter": null,
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "location": "Goljung",
+   "phone": "9847688078"
+  }
+ },
+ {
+  "id": "x107-atul-das",
+  "name": "Atul Das",
+  "place": "at immigration or crossed at time of disaster (tentative from their itinenary)",
+  "phone": null,
+  "when": null,
+  "reporter": "Shashi Bhattarai, +977 9851055544",
+  "note": "From mumbai, husband of payal das",
+  "status": "missing",
+  "extra": {
+   "location": "at immigration or crossed at time of disaster (tentative from their itinenary)",
+   "purpose": "Travel",
+   "reportedBy": "Shashi Bhattarai, +977 9851055544",
+   "remarks": "From mumbai, husband of payal das",
+   "sex": "F",
+   "nationality": "Indian"
+  }
+ },
+ {
+  "id": "x108-keshav-rao-tadipatei",
+  "name": "Keshav Rao Tadipatei",
+  "place": "Near Trishuli, Rasuwa (en route to Kailash Mansarovar)",
+  "phone": "91 94823 84845",
+  "when": "2026-08-26 07:34",
+  "reporter": null,
+  "note": "Group was planning to cover 12 km toward Kailash Mansarovar (8 km by jeep, 4 km by trek) when contact was lost.",
+  "status": "missing",
+  "extra": {
+   "location": "Near Trishuli, Rasuwa (en route to Kailash Mansarovar)",
+   "phone": "91 94823 84845",
+   "phoneTrackedAt": "2026-08-26 07:34",
+   "peopleAround": "Yes",
+   "purpose": "Travel",
+   "profession": "Retired",
+   "remarks": "Group was planning to cover 12 km toward Kailash Mansarovar (8 km by jeep, 4 km by trek) when contact was lost.",
+   "sex": "M",
+   "nationality": "Indian"
+  }
+ },
+ {
+  "id": "x109-krishna-kala-adhikari-devkota",
+  "name": "Krishna Kala Adhikari Devkota",
+  "place": "Traveling by bus from Gorkha Palungtar (route through Rasuwa)",
+  "phone": "9846535397",
+  "when": null,
+  "reporter": null,
+  "note": "Was traveling with a group of 28 people on a bus from Gorkha Palungtar; group's whereabouts unclear.",
+  "status": "missing",
+  "extra": {
+   "location": "Traveling by bus from Gorkha Palungtar (route through Rasuwa)",
+   "phone": "9846535397",
+   "peopleAround": "28 (was on a bus with 28 other passengers)",
+   "purpose": "Travel",
+   "remarks": "Was traveling with a group of 28 people on a bus from Gorkha Palungtar; group's whereabouts unclear.",
+   "sex": "F",
+   "nationality": "Nepali"
+  }
+ },
+ {
+  "id": "x110-bishal-lama",
+  "name": "Bishal Lama",
+  "place": "Temal Rural municipality",
+  "phone": null,
+  "when": null,
+  "reporter": "9860180506",
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "location": "Temal Rural municipality",
+   "statusRaw": "Searching",
+   "reportedBy": "9860180506",
+   "sex": "M",
+   "nationality": "Nepali"
+  }
+ },
+ {
+  "id": "x111-basna-tamang",
+  "name": "Basna Tamang",
+  "place": "Temal Rural municipality",
+  "phone": null,
+  "when": null,
+  "reporter": "9860180506",
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "location": "Temal Rural municipality",
+   "reportedBy": "9860180506",
+   "sex": "F",
+   "nationality": "Nepali"
+  }
+ },
+ {
+  "id": "x112-nabin-gautam",
+  "name": "Nabin Gautam",
+  "place": "Timure (NMB bank employee)",
+  "phone": "9843606433",
+  "when": null,
+  "reporter": "9860233239, 9849863356",
+  "note": null,
+  "status": "missing",
+  "extra": {
+   "location": "Timure (NMB bank employee)",
+   "phone": "9843606433",
+   "purpose": "Job/Work",
+   "profession": "Banker",
+   "reportedBy": "9860233239, 9849863356",
+   "dob": "2051 (age 32)",
+   "sex": "M",
+   "nationality": "Nepali"
+  }
+ },
+ {
+  "id": "x113-tularam-chaudhary",
+  "name": "Tularam Chaudhary",
+  "place": "Tikapur-1 Samitipur",
+  "phone": null,
+  "when": null,
+  "reporter": "Mohan B.K. Tikapur ward president",
+  "note": null,
+  "status": "found",
+  "extra": {
+   "location": "Tikapur-1 Samitipur",
+   "statusRaw": "On contact",
+   "reportedBy": "Mohan B.K. Tikapur ward president",
+   "sex": "M",
+   "nationality": "Nepali"
+  }
+ },
+ {
+  "id": "x114-dilbahadur-chaudhary",
+  "name": "Dilbahadur Chaudhary",
+  "place": "Tikapur-1 Samitipur",
+  "phone": null,
+  "when": null,
+  "reporter": "Mohan B.K. Tikapur ward president",
+  "note": null,
+  "status": "found",
+  "extra": {
+   "location": "Tikapur-1 Samitipur",
+   "statusRaw": "On contact",
+   "reportedBy": "Mohan B.K. Tikapur ward president",
+   "sex": "M",
+   "nationality": "Nepali"
+  }
+ },
+ {
+  "id": "x115-ramesh-kumar-chaudhary",
+  "name": "Ramesh Kumar Chaudhary",
+  "place": "Tikapur-1 Samitipur",
+  "phone": null,
+  "when": null,
+  "reporter": "Mohan B.K. Tikapur ward president",
+  "note": null,
+  "status": "found",
+  "extra": {
+   "location": "Tikapur-1 Samitipur",
+   "statusRaw": "On contact",
+   "reportedBy": "Mohan B.K. Tikapur ward president",
+   "sex": "M",
+   "nationality": "Nepali"
+  }
+ }
+]

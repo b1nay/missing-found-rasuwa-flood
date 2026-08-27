@@ -1,6 +1,3 @@
-import { inject } from "@vercel/analytics"
-
-inject()
 /* ============================================================
    1. Interface strings
    ============================================================ */
@@ -11,7 +8,9 @@ const T={
   cnt:n=>`${n} विवरण`,upd:"अद्यावधिक",rl:"पुनः लोड",more:"थप देखाउनुहोस्",ld:"लोड हुँदै…",
   e1:"सूची लोड भएन",e2:"इन्टरनेट जाँचेर फेरि प्रयास गर्नुहोस्।",rt:"फेरि प्रयास",
   z1:"केही भेटिएन",z2:"नामको केही अक्षर वा फोनका केही अंक मात्र लेख्नुहोस्। रोमन र देवनागरी दुवै चल्छ।",
-  dtMore:"थप हेर्नुहोस्",dtLess:"कम देखाउनुहोस्",
+  dtMore:"थप हेर्नुहोस्",
+  dStatus:"स्थिति",dTracked:"फोन पछिल्लोपटक ट्रयाक भएको",dPeople:"वरपर भएका मानिस",dPurpose:"उद्देश्य",
+  dProfession:"पेशा",dReportedBy:"रिपोर्ट गर्ने",dDob:"जन्म मिति",dPassport:"राहदानी नं.",dSex:"लिङ्ग",dNationality:"राष्ट्रियता",
   mSafeQ:"के तपाईं प्रभावित क्षेत्रमा हुनुहुन्छ?",mMarkSafe:"सुरक्षित छु भनी जनाउनुहोस्",mAskRescue:"उद्धार माग्नुहोस्",
   mSafeTitle:"आफू सुरक्षित छु भनी जनाउनुहोस्",mRescueTitle:"उद्धारको लागि अनुरोध",
   mName:"नाम",mNumber:"नम्बर",mLocation:"स्थान",mSend:"WhatsApp मार्फत पठाउनुहोस्",
@@ -22,7 +21,9 @@ const T={
   cnt:n=>`${n} records`,upd:"Updated",rl:"Reload",more:"Show more",ld:"Loading…",
   e1:"The list didn't load",e2:"Check your connection and try again.",rt:"Try again",
   z1:"Nothing matched",z2:"Try part of a name or a few digits of a phone number. Roman and Devanagari both work.",
-  dtMore:"View more",dtLess:"View less",
+  dtMore:"View more",
+  dStatus:"Status",dTracked:"Phone last tracked",dPeople:"People around",dPurpose:"Purpose",
+  dProfession:"Profession",dReportedBy:"Reported by",dDob:"Date of birth",dPassport:"Passport no.",dSex:"Sex",dNationality:"Nationality",
   mSafeQ:"Are you in the affected area?",mMarkSafe:"Mark Safe",mAskRescue:"Ask for Rescue",
   mSafeTitle:"Report yourself safe",mRescueTitle:"Ask for rescue",
   mName:"Name",mNumber:"Number",mLocation:"Location",mSend:"Send via WhatsApp",
@@ -33,7 +34,9 @@ const T={
   cnt:n=>`${n} प्रविष्टियाँ`,upd:"अपडेट",rl:"फिर लोड करें",more:"और दिखाएँ",ld:"लोड हो रहा है…",
   e1:"सूची लोड नहीं हुई",e2:"इंटरनेट जाँचकर दोबारा कोशिश करें।",rt:"दोबारा कोशिश",
   z1:"कुछ नहीं मिला",z2:"नाम का कुछ हिस्सा या फ़ोन के कुछ अंक लिखें। रोमन और देवनागरी दोनों चलते हैं।",
-  dtMore:"और देखें",dtLess:"कम देखें",
+  dtMore:"और देखें",
+  dStatus:"स्थिति",dTracked:"फ़ोन आख़िरी बार ट्रैक",dPeople:"आसपास मौजूद लोग",dPurpose:"उद्देश्य",
+  dProfession:"पेशा",dReportedBy:"रिपोर्ट करने वाला",dDob:"जन्म तिथि",dPassport:"पासपोर्ट नं.",dSex:"लिंग",dNationality:"राष्ट्रीयता",
   mSafeQ:"क्या आप प्रभावित क्षेत्र में हैं?",mMarkSafe:"सुरक्षित होने की सूचना दें",mAskRescue:"बचाव के लिए अनुरोध करें",
   mSafeTitle:"स्वयं को सुरक्षित बताएं",mRescueTitle:"बचाव का अनुरोध",
   mName:"नाम",mNumber:"नंबर",mLocation:"स्थान",mSend:"WhatsApp से भेजें",
@@ -44,7 +47,9 @@ const T={
   cnt:n=>`${n} 条记录`,upd:"更新于",rl:"重新加载",more:"显示更多",ld:"加载中…",
   e1:"名单加载失败",e2:"请检查网络后重试。",rt:"重试",
   z1:"没有匹配结果",z2:"请输入姓名的一部分或电话号码的几位数字。罗马字母与天城文均可。",
-  dtMore:"查看更多",dtLess:"收起",
+  dtMore:"查看更多",
+  dStatus:"状态",dTracked:"电话最后追踪",dPeople:"周围的人",dPurpose:"目的",
+  dProfession:"职业",dReportedBy:"报告人",dDob:"出生日期",dPassport:"护照号",dSex:"性别",dNationality:"国籍",
   mSafeQ:"您是否在受灾地区？",mMarkSafe:"报平安",mAskRescue:"请求救援",
   mSafeTitle:"报平安",mRescueTitle:"请求救援",
   mName:"姓名",mNumber:"号码",mLocation:"位置",mSend:"通过 WhatsApp 发送",
@@ -55,7 +60,9 @@ const T={
   cnt:n=>`${n} registros`,upd:"Actualizado",rl:"Recargar",more:"Ver más",ld:"Cargando…",
   e1:"La lista no se cargó",e2:"Revisa tu conexión e inténtalo otra vez.",rt:"Reintentar",
   z1:"Sin resultados",z2:"Prueba con parte del nombre o unos dígitos del teléfono. Funciona en latino y devanagari.",
-  dtMore:"Ver más",dtLess:"Ver menos",
+  dtMore:"Ver más",
+  dStatus:"Estado",dTracked:"Último rastreo del teléfono",dPeople:"Personas alrededor",dPurpose:"Propósito",
+  dProfession:"Profesión",dReportedBy:"Reportado por",dDob:"Fecha de nacimiento",dPassport:"N.º de pasaporte",dSex:"Sexo",dNationality:"Nacionalidad",
   mSafeQ:"¿Estás en la zona afectada?",mMarkSafe:"Marcar como a salvo",mAskRescue:"Pedir rescate",
   mSafeTitle:"Repórtate a salvo",mRescueTitle:"Solicitar rescate",
   mName:"Nombre",mNumber:"Número",mLocation:"Ubicación",mSend:"Enviar por WhatsApp",
@@ -66,7 +73,9 @@ const T={
   cnt:n=>`${n} fiches`,upd:"Mis à jour",rl:"Recharger",more:"Voir plus",ld:"Chargement…",
   e1:"La liste n'a pas pu être chargée",e2:"Vérifiez votre connexion et réessayez.",rt:"Réessayer",
   z1:"Aucun résultat",z2:"Essayez une partie du nom ou quelques chiffres du numéro. Latin et devanagari fonctionnent.",
-  dtMore:"Voir plus",dtLess:"Voir moins",
+  dtMore:"Voir plus",
+  dStatus:"Statut",dTracked:"Dernier suivi du téléphone",dPeople:"Personnes autour",dPurpose:"Motif",
+  dProfession:"Profession",dReportedBy:"Signalé par",dDob:"Date de naissance",dPassport:"N° de passeport",dSex:"Sexe",dNationality:"Nationalité",
   mSafeQ:"Êtes-vous dans la zone touchée ?",mMarkSafe:"Se déclarer en sécurité",mAskRescue:"Demander un secours",
   mSafeTitle:"Déclarez-vous en sécurité",mRescueTitle:"Demande de secours",
   mName:"Nom",mNumber:"Numéro",mLocation:"Lieu",mSend:"Envoyer via WhatsApp",
@@ -77,7 +86,9 @@ const T={
   cnt:n=>`${n} записей`,upd:"Обновлено",rl:"Обновить",more:"Показать ещё",ld:"Загрузка…",
   e1:"Список не загрузился",e2:"Проверьте соединение и попробуйте снова.",rt:"Повторить",
   z1:"Ничего не найдено",z2:"Введите часть имени или несколько цифр номера телефона. Работают латиница и деванагари.",
-  dtMore:"Показать полностью",dtLess:"Свернуть",
+  dtMore:"Показать полностью",
+  dStatus:"Статус",dTracked:"Последнее отслеживание телефона",dPeople:"Люди рядом",dPurpose:"Цель",
+  dProfession:"Профессия",dReportedBy:"Кем сообщено",dDob:"Дата рождения",dPassport:"Номер паспорта",dSex:"Пол",dNationality:"Национальность",
   mSafeQ:"Вы находитесь в пострадавшем районе?",mMarkSafe:"Сообщить, что в безопасности",mAskRescue:"Запросить спасение",
   mSafeTitle:"Сообщить, что вы в безопасности",mRescueTitle:"Запрос на спасение",
   mName:"Имя",mNumber:"Номер",mLocation:"Местоположение",mSend:"Отправить через WhatsApp",
@@ -97,7 +108,8 @@ let rows=[], updated='', modalType='safe';
 async function load(){
   $('out').innerHTML=`<div class="state">${esc(T[lang].ld)}</div>`;
   try{
-    const built=buildRows(await fetchFamilyData());
+    const [d,extra]=await Promise.all([fetchFamilyData(),fetchExtraRecords('extra-records.json')]);
+    const built=buildRows(d,extra);
     rows=built.rows; updated=built.updated;
     chrome(); render();
   }catch(e){
@@ -151,19 +163,9 @@ function tel(p){
   return d.length>10?'+'+d:'+977'+d;
 }
 
-function detailsHtml(details,raw){
-  const t=T[lang];
-  const words=details.split(/\s+/).filter(Boolean);
-  if(words.length<=5)return mark(details,raw);
-  const short=words.slice(0,5).join(' ')+'…';
-  return `<span class="dt-wrap"><span class="dt-short">${mark(short,raw)}</span><span class="dt-full">${mark(details,raw)}</span>`
-    +`<button type="button" class="dt-toggle">${esc(t.dtMore)}</button></span>`;
-}
-
 function tr(r,i,raw){
   const t=T[lang];
   const phones=String(r.phone||'').split(/[\/,、]|\s+or\s+/).map(p=>p.trim()).filter(p=>digits(p).length>=6);
-  const details=[r.note,r.reporter&&`— ${r.reporter}`].filter(Boolean).join(' ');
   const img=r.photo?`<img class="thumb" loading="lazy" alt="" src="${esc(r.photo.startsWith('http')?r.photo:BASE+r.photo)}">`:'';
   return `<tr>
    <td class="n">${i}</td>
@@ -172,8 +174,58 @@ function tr(r,i,raw){
    <td data-l="${esc(t.pl)}">${mark(r.place,raw)}</td>
    <td data-l="${esc(t.wh)}">${esc(r.when||'')}</td>
    <td class="ph" data-l="${esc(t.ph2)}">${phones.map(p=>`<a href="tel:${esc(tel(p))}">${esc(p)}</a>`).join('')}</td>
-   <td class="dt" data-l="${esc(t.dt)}">${detailsHtml(details,raw)}</td>
+   <td class="dt" data-l="${esc(t.dt)}"><button type="button" class="dt-view" data-id="${esc(r.id||'')}">${esc(t.dtMore)}</button></td>
   </tr>`;
+}
+
+/* ============================================================
+   6b. Detail modal — every row's full record, whatever fields
+   the source actually has (basic list feed vs. the richer
+   locally-curated extra-records.json)
+   ============================================================ */
+function buildDetailFields(r){
+  const t=T[lang];
+  const out=[];
+  const push=(label,val)=>{if(val)out.push([label,val])};
+  push(t.dStatus,r.status==='found'?t.found:t.missing);
+  push(t.ag,r.age);
+  push(t.pl,r.place);
+  push(t.wh,r.when);
+  push(t.ph2,r.phone);
+  push(t.dReportedBy,r.reporter);
+  const e=r.extra||{};
+  const tracked=[e.phoneTrackedAt,e.phoneTrackedLoc].filter(Boolean).join(' · ');
+  push(t.dTracked,tracked);
+  push(t.dPeople,e.peopleAround);
+  push(t.dPurpose,e.purpose);
+  push(t.dProfession,e.profession);
+  push(t.dDob,e.dob);
+  push(t.dPassport,e.passport);
+  push(t.dSex,e.sex);
+  push(t.dNationality,e.nationality);
+  push(t.dt,r.note);
+  return out;
+}
+
+function detailRowHtml(label,val){
+  if(label===T[lang].ph2){
+    const phones=String(val||'').split(/[\/,、]|\s+or\s+/).map(p=>p.trim()).filter(p=>digits(p).length>=6);
+    if(phones.length)val=phones.map(p=>`<a href="tel:${esc(tel(p))}">${esc(p)}</a>`).join(', ');
+  }else{
+    val=esc(val);
+  }
+  return `<div class="detail-row"><span class="detail-label">${esc(label)}</span><span class="detail-value">${val}</span></div>`;
+}
+
+function openDetailModal(id){
+  const r=rows.find(x=>x.id===id);
+  if(!r)return;
+  $('detailName').textContent=r.name;
+  $('detailBody').innerHTML=buildDetailFields(r).map(([l,v])=>detailRowHtml(l,v)).join('');
+  $('detailModalOverlay').classList.add('open');
+}
+function closeDetailModal(){
+  $('detailModalOverlay').classList.remove('open');
 }
 
 function render(){
@@ -268,10 +320,11 @@ $('pins').addEventListener('click',e=>{
   tab='found'; loc=''; shown=60; chrome(); render();
 });
 $('out').addEventListener('click',e=>{
-  const b=e.target.closest('.dt-toggle'); if(!b)return;
-  const td=b.closest('.dt'), open=td.classList.toggle('expanded');
-  b.textContent=T[lang][open?'dtLess':'dtMore'];
+  const b=e.target.closest('.dt-view'); if(!b)return;
+  openDetailModal(b.dataset.id);
 });
+$('detailModalClose').onclick=closeDetailModal;
+$('detailModalOverlay').addEventListener('click',e=>{if(e.target===$('detailModalOverlay'))closeDetailModal()});
 
 function openModal(type){
   modalType=type;
@@ -287,7 +340,11 @@ $('btnSafe').onclick=()=>openModal('safe');
 $('btnRescue').onclick=()=>openModal('rescue');
 $('modalClose').onclick=closeModal;
 $('modalOverlay').addEventListener('click',e=>{if(e.target===$('modalOverlay'))closeModal()});
-document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('modalOverlay').classList.contains('open'))closeModal()});
+document.addEventListener('keydown',e=>{
+  if(e.key!=='Escape')return;
+  if($('modalOverlay').classList.contains('open'))closeModal();
+  if($('detailModalOverlay').classList.contains('open'))closeDetailModal();
+});
 $('safeForm').addEventListener('submit',e=>{
   e.preventDefault();
   const t=T[lang];

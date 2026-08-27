@@ -101,7 +101,7 @@ const SOURCES=[
   BASE+'family.json'
 ];
 
-function buildRows(d){
+function buildRows(d,extra){
   const build=(arr,status)=>(arr||[]).map(r=>{
     const name=[r.name,r.name_en].filter(Boolean).join(' / ');
     const blob=[name,r.place,r.note,r.when,r.reporter,r.phone].filter(Boolean).join(' ');
@@ -109,8 +109,16 @@ function buildRows(d){
       _n:norm(blob),_s:skel(blob),_d:digits(r.phone)+' '+digits(r.reporter),
       _pn:norm(r.place),_ps:skel(r.place),_g:addrGroup(r.place)};
   });
+  /* locally-curated records (see extra-records.json) already carry their
+     own status and an optional `extra` object of rich detail fields */
+  const buildExtra=(arr)=>(arr||[]).map(r=>{
+    const blob=[r.name,r.place,r.note,r.when,r.reporter,r.phone].filter(Boolean).join(' ');
+    return {...r,
+      _n:norm(blob),_s:skel(blob),_d:digits(r.phone)+' '+digits(r.reporter),
+      _pn:norm(r.place),_ps:skel(r.place),_g:addrGroup(r.place)};
+  });
   return {
-    rows:[...build(d.missing,'missing'),...build(d.found,'found'),...build(d.matched,'found')],
+    rows:[...build(d.missing,'missing'),...build(d.found,'found'),...build(d.matched,'found'),...buildExtra(extra)],
     updated:d.updated_at||''
   };
 }
@@ -124,4 +132,12 @@ async function fetchFamilyData(){
     }catch(e){}
   }
   throw new Error('all sources failed');
+}
+
+async function fetchExtraRecords(path){
+  try{
+    const r=await fetch(path,{cache:'no-cache'});
+    if(!r.ok)return[];
+    return await r.json();
+  }catch(e){return[]}
 }
