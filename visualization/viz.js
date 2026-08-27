@@ -70,10 +70,11 @@ function render(rows,updated){
 async function loadViz(){
   $('vizState').innerHTML='<div class="state">Loading…</div>';
   try{
-    const [d,extra,tourists]=await Promise.all([
-      fetchFamilyData(),fetchExtraRecords('../extra-records.json'),fetchExtraRecords('../tourists-records.json')
+    const [d,extra,tourists,found3]=await Promise.all([
+      fetchFamilyData(),fetchExtraRecords('../extra-records.json'),fetchExtraRecords('../tourists-records.json'),
+      fetchExtraRecords('../found-tracker-3-records.json')
     ]);
-    const built=buildRows(d,[...extra,...tourists]);
+    const built=buildRows(d,[...extra,...tourists,...found3]);
     render(dedupeRows(built.rows),built.updated);
   }catch(e){
     $('vizState').innerHTML=`<div class="state"><strong>The data didn't load</strong>Check your connection and try again.<br><button id="rt" type="button">Try again</button></div>`;

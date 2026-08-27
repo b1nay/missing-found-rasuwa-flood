@@ -1,0 +1,2705 @@
+{
+  "metadata": {
+    "source_file": "flood_found_persons_tracker-3.xlsx - Sheet1.csv",
+    "section_count": 7,
+    "total_records": 356,
+    "conversion_notes": [
+      "Nepali numerals in serial-number and age fields were converted to JSON numbers.",
+      "Blank cells were converted to null.",
+      "Names, locations, sex labels, remarks, and section titles retain the source wording."
+    ]
+  },
+  "sections": [
+    {
+      "title": "श्री नं. १ सैन्य तालिम केन्द्र, त्रिशुलीमा हवाई उद्धार गरिएका नेपाली नागरिकहरुको विवरण (२०८३/०५/११ गते)",
+      "records": [
+        {
+          "sn": 1,
+          "name": "सविता रिजाल",
+          "age": 27,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 2,
+          "name": "बिनोध घिमिरे",
+          "age": 54,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 3,
+          "name": "गीता आचार्य",
+          "age": 54,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 4,
+          "name": "बद्री प्रसाद आचार्य",
+          "age": 40,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 5,
+          "name": "हरिस धिताल",
+          "age": 39,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 6,
+          "name": "छेसाङ तामाङ",
+          "age": 29,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 7,
+          "name": "तेन्जेन लामा",
+          "age": 66,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 8,
+          "name": "तेन्जेन सिनाङ दोर्जे",
+          "age": 65,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 9,
+          "name": "रोशन तामाङ",
+          "age": 31,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 10,
+          "name": "चीन लाल तामाङ",
+          "age": 38,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 11,
+          "name": "कर्म नगरकोटी",
+          "age": 36,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 12,
+          "name": "कासी टिन्डुक तामाङ्ग",
+          "age": 73,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 13,
+          "name": "सोमे तामाङ",
+          "age": 29,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 14,
+          "name": "कर्पु सोनाम तामाङ",
+          "age": 41,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 15,
+          "name": "टिकानाथ पौडेल",
+          "age": 41,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 16,
+          "name": "काले तामाङ",
+          "age": 68,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 17,
+          "name": "सोनाम वाइंदे",
+          "age": 57,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 18,
+          "name": "निमा तामाङ",
+          "age": 57,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 19,
+          "name": "तेन्जेन तामाङ",
+          "age": 20,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 20,
+          "name": "मोती बहादुर गौडेल",
+          "age": 48,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 21,
+          "name": "रामहरी दाहाल",
+          "age": 43,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 22,
+          "name": "दिनेश तामाङ",
+          "age": 29,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 23,
+          "name": "दावा सोनाम तामाङ",
+          "age": 25,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 24,
+          "name": "पदम बहादुर मगर",
+          "age": 58,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 25,
+          "name": "भरत थापा",
+          "age": 28,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 26,
+          "name": "डील बहादुर बिक",
+          "age": 23,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 27,
+          "name": "आदित्य रावल",
+          "age": 16,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 28,
+          "name": "बाल कुमार ठाकुर",
+          "age": 37,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 29,
+          "name": "बुद्ध श्रेष्ठ",
+          "age": 30,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 30,
+          "name": "दावा शेर्पा",
+          "age": 37,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 31,
+          "name": "मिरा तामाङ",
+          "age": 27,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 32,
+          "name": "दीक्षा मल्ल",
+          "age": 12,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 33,
+          "name": "अनमोल शाही",
+          "age": 4,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 34,
+          "name": "सुनचौरा शाही",
+          "age": 23,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 35,
+          "name": "डोलमा लामा",
+          "age": 60,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 36,
+          "name": "तेन्जिङ जाङमु",
+          "age": 70,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 37,
+          "name": "टिका श्रेष्ठ",
+          "age": 22,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 38,
+          "name": "कृति श्रेष्ठ",
+          "age": 27,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 39,
+          "name": "तिल कुमारी तामाङ",
+          "age": 35,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 40,
+          "name": "दिनिशा मल्ल",
+          "age": 15,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 41,
+          "name": "सोनिया तामाङ",
+          "age": 18,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 42,
+          "name": "नानी चौलागाईं",
+          "age": 43,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 43,
+          "name": "प्रभा मानन्धर",
+          "age": 35,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 44,
+          "name": "नितु डंगोल",
+          "age": 21,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 45,
+          "name": "मेन डोलमा तामाङ",
+          "age": 32,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 46,
+          "name": "सुकुरानी तामाङ",
+          "age": 36,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 47,
+          "name": "निमा डोल्कर",
+          "age": 32,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 48,
+          "name": "छिरिङ घले",
+          "age": 21,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 49,
+          "name": "किपा नगरकोटी",
+          "age": 47,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 50,
+          "name": "कासाङ पाल्मु",
+          "age": 50,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 51,
+          "name": "कविता नेपाली",
+          "age": 30,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 52,
+          "name": "कल्पना बि.क.",
+          "age": 39,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 53,
+          "name": "बीबी रानी घले",
+          "age": 38,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 54,
+          "name": "सुवा मल्ल",
+          "age": 31,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 55,
+          "name": "सुवास मल्ल",
+          "age": 8,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 56,
+          "name": "सम्झना पौडेल",
+          "age": 34,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 57,
+          "name": "क बिना परियार",
+          "age": 20,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 58,
+          "name": "तिति माया तामाङ",
+          "age": 37,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 59,
+          "name": "यम कुमारी थापा",
+          "age": 29,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 60,
+          "name": "चन्द्र बहादुर थापा",
+          "age": 29,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 61,
+          "name": "जोयल घले",
+          "age": 8,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 62,
+          "name": "सञ्जय मिजार",
+          "age": 28,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 63,
+          "name": "ईश्वर नेपाली",
+          "age": 39,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 64,
+          "name": "निरज लामा",
+          "age": 21,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 65,
+          "name": "सबिना तामाङ्ग",
+          "age": 47,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 66,
+          "name": "तेन्जेन कर्मी",
+          "age": 30,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 67,
+          "name": "छोवाङ्ग तामाङ्ग",
+          "age": 5,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 68,
+          "name": "सेनाङ्ग पाल मगर",
+          "age": 61,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 69,
+          "name": "कामी याल्बो तामाङ्ग",
+          "age": 65,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 70,
+          "name": "खण्डी शेर्पा",
+          "age": 23,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 71,
+          "name": "सबिना लामा",
+          "age": 26,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 72,
+          "name": "राजु बुढा",
+          "age": 24,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 73,
+          "name": "सौरभ लामिछाने",
+          "age": 29,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 74,
+          "name": "नेत्र बहादुर घर्ति",
+          "age": 44,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 75,
+          "name": "राम प्रसाद जैसी",
+          "age": 49,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 76,
+          "name": "सरस्वती न्यौपाने",
+          "age": 31,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 77,
+          "name": "कपिल पाख्रिन",
+          "age": 38,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 78,
+          "name": "नमरत अधिकारी",
+          "age": 22,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 79,
+          "name": "अनन्त तामाङ्ग",
+          "age": 25,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 80,
+          "name": "रवी श्रेष्ठ",
+          "age": 31,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 81,
+          "name": "विशाल नेपाल",
+          "age": 30,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 82,
+          "name": "दोर्जे भोक्रा",
+          "age": 33,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 83,
+          "name": "राज कुमार भोक्रा",
+          "age": 23,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 84,
+          "name": "दिपेन्द्र के.सी.",
+          "age": 43,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 85,
+          "name": "गेल्सन घले",
+          "age": 53,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 86,
+          "name": "पासाङ तामाङ्ग",
+          "age": 54,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 87,
+          "name": "विशाल खड्का",
+          "age": 45,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 88,
+          "name": "मुकुन्द खनाल",
+          "age": 37,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 89,
+          "name": "मोहन बहादुर थापा",
+          "age": 45,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 90,
+          "name": "विजय बाबु",
+          "age": 54,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 91,
+          "name": "पन्गा सावइ",
+          "age": 68,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 92,
+          "name": "सफलता परियार",
+          "age": 25,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 93,
+          "name": "शेर बहादुर बस्नेत",
+          "age": 50,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 94,
+          "name": "फोर्पु नाम्जे तामाङ्ग",
+          "age": 54,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 95,
+          "name": "पेम्बा ठिङ्रे",
+          "age": 35,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 96,
+          "name": "तारा कुमार बुढा मगर",
+          "age": 28,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 97,
+          "name": "बाङदोर्जे तामाङ्ग",
+          "age": 35,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 98,
+          "name": "उद्धव तिमल्सिना",
+          "age": 28,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 99,
+          "name": "प्रमोद शाक्य",
+          "age": 39,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 100,
+          "name": "भरत चौलागाईं",
+          "age": 28,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 101,
+          "name": "नवराज खड्का",
+          "age": 30,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 102,
+          "name": "रोमि वि.क.",
+          "age": 15,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 103,
+          "name": "कामि सिदर",
+          "age": 62,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 104,
+          "name": "जिमि तामाङ्ग",
+          "age": 5,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 105,
+          "name": "जोसेफ वि.क.",
+          "age": 7,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 106,
+          "name": "कल्पना आचार्य",
+          "age": 25,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 107,
+          "name": "सुशिल श्रेष्ठ",
+          "age": 28,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 108,
+          "name": "ज्ञान कुमार डंगोल",
+          "age": 39,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 109,
+          "name": "मिङमार छोवाङ्ग",
+          "age": 49,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 110,
+          "name": "निश्चल त्रिपाठी",
+          "age": 35,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 111,
+          "name": "धिरज तामाङ्ग",
+          "age": 35,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 112,
+          "name": "रमित गुभाजु",
+          "age": 33,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 113,
+          "name": "फुनैल्जी शेर्पा",
+          "age": 50,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 114,
+          "name": "मिङमार छोपु तामाङ्ग",
+          "age": 22,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 115,
+          "name": "नाङकाङ तामाङ्ग",
+          "age": 56,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 116,
+          "name": "खान्डो तामाङ्ग",
+          "age": 61,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 117,
+          "name": "हरिकुमार श्रेष्ठ",
+          "age": 36,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 118,
+          "name": "छविलाल पौडेल",
+          "age": 28,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 119,
+          "name": "लोक बहादुर उचाइ",
+          "age": 34,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 120,
+          "name": "चन्द्र बहादुर बुढा",
+          "age": 31,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 121,
+          "name": "हृदेश न्यौपाने",
+          "age": 35,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 122,
+          "name": "जोतिन्द्र पौडेल",
+          "age": 47,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 123,
+          "name": "गणेश चौधरी",
+          "age": 36,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 124,
+          "name": "दिनेश श्रेष्ठ",
+          "age": 36,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 125,
+          "name": "चिरञ्जिवि कोइराला",
+          "age": 51,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 126,
+          "name": "गजेन्द्र थापा",
+          "age": 38,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 127,
+          "name": "राजेन्द्र प्रसाद दङ्गाल",
+          "age": 45,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 128,
+          "name": "दिपक तामाङ्ग",
+          "age": 23,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 129,
+          "name": "छिरिङ्ग तामाङ्ग",
+          "age": 24,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 130,
+          "name": "कान्छा तामाङ्ग",
+          "age": 23,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 131,
+          "name": "नाङगाङ्ग तामाङ्ग",
+          "age": 56,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 132,
+          "name": "खाटो तामाङ्ग",
+          "age": 60,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 133,
+          "name": "कुमार वि.क.",
+          "age": 31,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 134,
+          "name": "दिल बहादुर स्याङ्बो",
+          "age": 46,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 135,
+          "name": "सागर श्रेष्ठ",
+          "age": 39,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 136,
+          "name": "राज कुमार खड्का",
+          "age": 30,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 137,
+          "name": "काशी तामाङ्ग",
+          "age": 51,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 138,
+          "name": "विशाल तामाङ्ग",
+          "age": 30,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 139,
+          "name": "निमा तामाङ्ग",
+          "age": 61,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 140,
+          "name": "निम पासाङ तामाङ्ग",
+          "age": 33,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 141,
+          "name": "महेन्द्र रुम्बा",
+          "age": 44,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 142,
+          "name": "देउती परियार",
+          "age": 57,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 143,
+          "name": "साजन परियार",
+          "age": 30,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 144,
+          "name": "मिङमार घले",
+          "age": 50,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 145,
+          "name": "दावा घले",
+          "age": 54,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 146,
+          "name": "पूर्ण बहादुर घले",
+          "age": 55,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 147,
+          "name": "मनिका कुमारी चौधरी",
+          "age": 25,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 148,
+          "name": "राम किशोर धोबी",
+          "age": 32,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 149,
+          "name": "जित बहादुर गुरुङ्ग",
+          "age": 26,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 150,
+          "name": "प्र.स.ह. गिर प्रसाद श्रेष्ठ",
+          "age": 34,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 151,
+          "name": "बीरेन्द्र सिंह तामाङ्ग",
+          "age": 37,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 152,
+          "name": "प्रदिप श्रेष्ठ",
+          "age": 22,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 153,
+          "name": "सञ्जिप तामाङ्ग",
+          "age": 35,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 154,
+          "name": "लाक्पा छिरिङ्ग",
+          "age": 35,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 155,
+          "name": "सुरज खड्का",
+          "age": 30,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 156,
+          "name": "आकिस गजुरेल",
+          "age": 22,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 157,
+          "name": "यज्ञ बहादुर पौडेल",
+          "age": 31,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 158,
+          "name": "सबिन श्रेष्ठ",
+          "age": 31,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 159,
+          "name": "नवराज मेरचेन",
+          "age": 31,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 160,
+          "name": "छिरिङ्ग दावा तामाङ्ग",
+          "age": 13,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 161,
+          "name": "उगन तामाङ्ग",
+          "age": 38,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 162,
+          "name": "समीका तामाङ्ग",
+          "age": 11,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 163,
+          "name": "श्याम बहादुर तामाङ्ग",
+          "age": 39,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 164,
+          "name": "समिरा तामाङ्ग",
+          "age": 5,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 165,
+          "name": "ग्यामचेत तामाङ्ग",
+          "age": 34,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 166,
+          "name": "उमेश श्रेष्ठ",
+          "age": 32,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 167,
+          "name": "ग्याल्चेत तामाङ्ग",
+          "age": 27,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 168,
+          "name": "शिवु गिरी",
+          "age": 44,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 169,
+          "name": "चिर्की तामाङ्ग",
+          "age": 53,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 170,
+          "name": "छो पेम्बा तामाङ्ग",
+          "age": 49,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 171,
+          "name": "दिनेश तामाङ्ग",
+          "age": 27,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 172,
+          "name": "मिसाना तामाङ्ग",
+          "age": 9,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 173,
+          "name": "प्रतिमा लामा",
+          "age": 40,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 174,
+          "name": "दुर्गा बहादुर श्रेष्ठ",
+          "age": 40,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 175,
+          "name": "सचिन राई",
+          "age": 27,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 176,
+          "name": "याङमी घले",
+          "age": 28,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 177,
+          "name": "तेन्जेन लेक्तेन",
+          "age": 22,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 178,
+          "name": "टेकराज पैतोला",
+          "age": 25,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 179,
+          "name": "ओमकार जोशी",
+          "age": 34,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 180,
+          "name": "लोकेश जोशी",
+          "age": 37,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 181,
+          "name": "पासाङ तामाङ्ग",
+          "age": 34,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 182,
+          "name": "डेमी तामाङ्ग",
+          "age": 20,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 183,
+          "name": "स्याङबा तामाङ्ग",
+          "age": 21,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 184,
+          "name": "कामी तामाङ्ग",
+          "age": 53,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 185,
+          "name": "निमा जाङ्बु",
+          "age": 23,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 186,
+          "name": "ताबा चोक्पा तामाङ्ग",
+          "age": 39,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 187,
+          "name": "कमारेन्जेन तामाङ्ग",
+          "age": 58,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 188,
+          "name": "पेम्बा तामाङ्ग",
+          "age": 49,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 189,
+          "name": "कमिनी तामाङ्ग",
+          "age": 49,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 190,
+          "name": "किमा तामाङ्ग",
+          "age": 20,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 191,
+          "name": "कसर तामाङ्ग",
+          "age": 22,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 192,
+          "name": "साम्पा तामाङ्ग",
+          "age": 20,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 193,
+          "name": "किडताङ घले",
+          "age": 35,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 194,
+          "name": "मान बहादुर पौडेल",
+          "age": 37,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 195,
+          "name": "दिपक ऐरी",
+          "age": 25,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 196,
+          "name": "राम कुमार चौधरी",
+          "age": 21,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 197,
+          "name": "तिलक चौधरी",
+          "age": 25,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 198,
+          "name": "लोप्साङ्ग तामाङ्ग",
+          "age": 53,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 199,
+          "name": "पूर्णिमा तामाङ्ग",
+          "age": 8,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 200,
+          "name": "दिया रेग्मी",
+          "age": 13,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 201,
+          "name": "कपो तामाङ्ग",
+          "age": 53,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 202,
+          "name": "छिरिङ्ग तामाङ्ग",
+          "age": 62,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 203,
+          "name": "छोयाङ्ग दोर्जे शेर्पा",
+          "age": 62,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 204,
+          "name": "हिमा माङगो घले",
+          "age": 20,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 205,
+          "name": "उमेश श्रेष्ठ",
+          "age": 32,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 206,
+          "name": "बिनोध तामाङ्ग",
+          "age": 25,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 207,
+          "name": "वसन्त यादव",
+          "age": 20,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 208,
+          "name": "रोकल तामाङ्ग",
+          "age": 41,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 209,
+          "name": "मान सिंह तामाङ्ग",
+          "age": 30,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 210,
+          "name": "धर्म वीर यादव",
+          "age": 36,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 211,
+          "name": "मङ्गली घले",
+          "age": 38,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 212,
+          "name": "निता माया तामाङ्ग",
+          "age": 30,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 213,
+          "name": "तेन्जि घले",
+          "age": 40,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 214,
+          "name": "राज कुमार रावल",
+          "age": 32,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 215,
+          "name": "राजेश मण्डल",
+          "age": 23,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 216,
+          "name": "निमा कर्मी",
+          "age": 59,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 217,
+          "name": "पेम्बा साङबो घले",
+          "age": 47,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 218,
+          "name": "दोर्जे तामाङ्ग",
+          "age": 45,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 219,
+          "name": "गोम्बो घले",
+          "age": 64,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 220,
+          "name": "शर्मिला श्रेष्ठ",
+          "age": 36,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 221,
+          "name": "आनदोस बल",
+          "age": 32,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 222,
+          "name": "तारा माया तामाङ्ग",
+          "age": 30,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 223,
+          "name": "सिता पुन घर्ति",
+          "age": 30,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 224,
+          "name": "सुशान्त घर्तिमगर",
+          "age": 4,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 225,
+          "name": "तुल्सी ढकाल",
+          "age": 35,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 226,
+          "name": "अनिल पौडेले",
+          "age": 29,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 227,
+          "name": "सोनाम शेर्पा",
+          "age": 53,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 228,
+          "name": "गौतम लो",
+          "age": 30,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 229,
+          "name": "राज कुमार गुभाजु",
+          "age": 36,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 230,
+          "name": "सन्त बहादुर स्याङ्तान",
+          "age": 22,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 231,
+          "name": "हिरा बहादुर तामाङ्ग",
+          "age": 43,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 232,
+          "name": "सिमन तामाङ्ग",
+          "age": 40,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 233,
+          "name": "जिवन थामी",
+          "age": 34,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 234,
+          "name": "पास लाक्पा शेर्पा",
+          "age": 40,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 235,
+          "name": "प्रदिप घरकरवा",
+          "age": 31,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 236,
+          "name": "खम्पा तामाङ्ग",
+          "age": 63,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 237,
+          "name": "सुवास खड्का",
+          "age": 33,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 238,
+          "name": "लोसाङ्ग तामाङ्ग",
+          "age": 3,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 239,
+          "name": "छिरिङ तामाङ्ग",
+          "age": 30,
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 240,
+          "name": "विक्रम श्रेष्ठ",
+          "age": 33,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 241,
+          "name": "पेम्बा तामाङ्ग",
+          "age": 50,
+          "sex": "महिला",
+          "remarks": null
+        }
+      ],
+      "source_columns": [
+        "सि.नं.",
+        "उद्धार गरिएको व्यक्तिको नाम",
+        "उमेर",
+        "लिङ्ग",
+        "कैफियत"
+      ],
+      "section_number": 1,
+      "record_count": 241
+    },
+    {
+      "title": "उद्धार गरिएको व्यक्तिहरुको विवरण (२०८३/०५/११ गते)",
+      "records": [
+        {
+          "sn": 1,
+          "name": "सविता रिजाल",
+          "age": 27,
+          "rescue_location": "विदुर-१, ढुङ्गे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 2,
+          "name": "बिनोद घिमिरे",
+          "age": 54,
+          "rescue_location": "रसुवा",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 3,
+          "name": "दीपा आचार्य",
+          "age": 54,
+          "rescue_location": "रसुवा",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 4,
+          "name": "हरिस धिताल",
+          "age": 39,
+          "rescue_location": "रसुवा",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 5,
+          "name": "बद्री प्रसाद आचार्य",
+          "age": 40,
+          "rescue_location": "उत्तरगया गाउँपालिका रसुवा",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 6,
+          "name": "छेसाङ तामाङ",
+          "age": 29,
+          "rescue_location": "सिन्धुपाल्चोक, टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 7,
+          "name": "तेन्जिङ लामा",
+          "age": 66,
+          "rescue_location": "सिन्धुपाल्चोक, टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 8,
+          "name": "तेन्जिङ सिनाङ दोर्जे",
+          "age": 65,
+          "rescue_location": "सिन्धुपाल्चोक, टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 9,
+          "name": "रोशन तामाङ",
+          "age": 31,
+          "rescue_location": "सिन्धुपाल्चोक, टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 10,
+          "name": "चीनलाल तामाङ",
+          "age": 38,
+          "rescue_location": "सिन्धुपाल्चोक, टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 11,
+          "name": "कारमान नगरकोटी",
+          "age": 36,
+          "rescue_location": "सिन्धुपाल्चोक, टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 12,
+          "name": "सोमे तामाङ",
+          "age": 29,
+          "rescue_location": "सिन्धुपाल्चोक, टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 13,
+          "name": "कार्पु सोनाम तामाङ",
+          "age": 41,
+          "rescue_location": "ढुन्चे नुवाकोट टिमुरे नाका",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 14,
+          "name": "टिका पौडेल",
+          "age": 41,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 15,
+          "name": "काले तामाङ",
+          "age": 68,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 16,
+          "name": "सोनम वाइङ्दा तामाङ",
+          "age": 57,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 17,
+          "name": "निमा तामाङ",
+          "age": 57,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 18,
+          "name": "तेन्जिङ तामाङ",
+          "age": 20,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 19,
+          "name": "तासी टिङ् रुक तामाङ",
+          "age": 73,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 20,
+          "name": "रामहरी दाहाल",
+          "age": 43,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 21,
+          "name": "दिनेश तामाङ",
+          "age": 29,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 22,
+          "name": "दावा सोनाम तामाङ",
+          "age": 25,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 23,
+          "name": "पदम बहादुर मगर",
+          "age": 58,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 24,
+          "name": "भरत थापा",
+          "age": 28,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 25,
+          "name": "डीलबहादुर बिक",
+          "age": 23,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 26,
+          "name": "आदित्य रावल",
+          "age": 16,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 27,
+          "name": "बालकुमार ठाकुर",
+          "age": 37,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 28,
+          "name": "बुद्ध श्रेष्ठ",
+          "age": 30,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 29,
+          "name": "दावा शेर्पा",
+          "age": 37,
+          "rescue_location": "स्याफ्रुबेसी",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 30,
+          "name": "मोतीबहादुर पौडेल",
+          "age": 48,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 31,
+          "name": "मिरा तामाङ",
+          "age": 27,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 32,
+          "name": "दीक्षा मल्ल",
+          "age": 12,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 33,
+          "name": "अनमोल शाही",
+          "age": 4,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 34,
+          "name": "सुनचौरा शाही",
+          "age": 23,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 35,
+          "name": "डोलमा लामा",
+          "age": 60,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 36,
+          "name": "तेन्जिङ जाङमु",
+          "age": 70,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 37,
+          "name": "टिका श्रेष्ठ",
+          "age": 22,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 38,
+          "name": "कृति श्रेष्ठ",
+          "age": 27,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 39,
+          "name": "तिलकुमारी तामाङ",
+          "age": 35,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 40,
+          "name": "दिनिशा मल्ल",
+          "age": 15,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 41,
+          "name": "सोनिया तामाङ",
+          "age": 18,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 42,
+          "name": "नानी चौलागाईं",
+          "age": 43,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 43,
+          "name": "प्रभा मानन्धर",
+          "age": 35,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 44,
+          "name": "नितु डंगोल",
+          "age": 21,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 45,
+          "name": "मेन डोलमा तामाङ",
+          "age": 32,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 46,
+          "name": "सुकुरानी तामाङ",
+          "age": 36,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 47,
+          "name": "निमा डोल्कर",
+          "age": 32,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 48,
+          "name": "छिरिङ घले",
+          "age": 21,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 49,
+          "name": "किपा नगरकोटी",
+          "age": 47,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 50,
+          "name": "कासाङ पाल्मु",
+          "age": 50,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 51,
+          "name": "कविता नेपाली",
+          "age": 30,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 52,
+          "name": "कल्पना बि.क.",
+          "age": 39,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 53,
+          "name": "बीबी रानी घले",
+          "age": 38,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 54,
+          "name": "सुवा मल्ल",
+          "age": 31,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 55,
+          "name": "सुवास मल्ल",
+          "age": 8,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 56,
+          "name": "सम्झना पौडेल",
+          "age": 34,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 57,
+          "name": "कबिना परियार",
+          "age": 20,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 58,
+          "name": "त्युति माया तामाङ",
+          "age": 37,
+          "rescue_location": "रसुवा टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 59,
+          "name": "सविता घिमिरे",
+          "age": 35,
+          "rescue_location": "ढुङ्गे विदुर",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 60,
+          "name": "बिनोद घिमिरे",
+          "age": 54,
+          "rescue_location": "उत्तरगया",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 61,
+          "name": "गीता आचार्य",
+          "age": 54,
+          "rescue_location": "उत्तरगया",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 62,
+          "name": "बद्रीप्रसाद आचार्य",
+          "age": 40,
+          "rescue_location": "उत्तरगया",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 63,
+          "name": "हरिज धिताल",
+          "age": 39,
+          "rescue_location": null,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 64,
+          "name": "पेशाङ तामाङ",
+          "age": 29,
+          "rescue_location": null,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 65,
+          "name": "तेन्जिङ लामा",
+          "age": 63,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 66,
+          "name": "तेन्जिन समेन दोर्जे",
+          "age": 36,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 67,
+          "name": "सेषन तामाङ",
+          "age": 31,
+          "rescue_location": null,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 68,
+          "name": "चिन्नलाल तामाङ",
+          "age": 38,
+          "rescue_location": null,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 69,
+          "name": "कर्म नगरकोटी",
+          "age": 36,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 70,
+          "name": "काशी टिहुक तामाङ",
+          "age": 73,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 71,
+          "name": "सोमे तामाङ",
+          "age": 29,
+          "rescue_location": null,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 72,
+          "name": "फर्पुसोनाम तामाङ",
+          "age": 41,
+          "rescue_location": "ढुन्चे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 73,
+          "name": "टिकानाथ पौडेल",
+          "age": 41,
+          "rescue_location": "रसुवा",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 74,
+          "name": "काले तामाङ वर्ष",
+          "age": 68,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 75,
+          "name": "सोनाम वाइबा",
+          "age": 57,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 76,
+          "name": "निमा तामाङ",
+          "age": 57,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 77,
+          "name": "तेन्जिङ तामाङ",
+          "age": 20,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 78,
+          "name": "मोती बहादुर गौडेल",
+          "age": 41,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 79,
+          "name": "रामहरी दाहाल",
+          "age": 43,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 80,
+          "name": "दिनेश तामाङ",
+          "age": 29,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 81,
+          "name": "दावा सोनाम",
+          "age": 25,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 82,
+          "name": "पदम बहादुर मगर",
+          "age": 57,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 83,
+          "name": "भरत थापा",
+          "age": 28,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 84,
+          "name": "दिलबहादुर वि.क.",
+          "age": 23,
+          "rescue_location": null,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 85,
+          "name": "आदित्य रावत",
+          "age": 16,
+          "rescue_location": null,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 86,
+          "name": "बालकुमार ठाकुर",
+          "age": 37,
+          "rescue_location": "रसुवा",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 87,
+          "name": "बुद्ध श्रेष्ठ",
+          "age": 30,
+          "rescue_location": "ढुन्चे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 88,
+          "name": "दावा शेर्पा वर्ष",
+          "age": 37,
+          "rescue_location": "स्याफ्रुबेसी",
+          "sex": "पुरुष",
+          "remarks": null
+        }
+      ],
+      "source_columns": [
+        "सि.नं.",
+        "उद्धार गरिएको व्यक्तिको नाम",
+        "उमेर",
+        "उद्धार गरिएको स्थान",
+        "लिङ्ग",
+        "कैफियत"
+      ],
+      "section_number": 2,
+      "record_count": 88
+    },
+    {
+      "title": "उद्धार गरिएका भारतीय व्यक्तिहरुको विवरण (२०८३/०५/११ गते)",
+      "records": [
+        {
+          "sn": 1,
+          "name": "थिरुमा भालन",
+          "age": 62,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 2,
+          "name": "बलानी यापन",
+          "age": 69,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 3,
+          "name": "रत्न कुमार",
+          "age": 65,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 4,
+          "name": "रणनागा सवाई",
+          "age": 68,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 5,
+          "name": "रघु नार्दन",
+          "age": 56,
+          "rescue_location": "टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 6,
+          "name": "सिमारन्जन",
+          "age": 46,
+          "rescue_location": "टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 7,
+          "name": "नभुकविर दोष",
+          "age": 54,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 8,
+          "name": "मारन गोविन्दा स्पनु",
+          "age": 54,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 9,
+          "name": "सत्यार्ड धखम",
+          "age": 47,
+          "rescue_location": "टिमुरे",
+          "sex": "महिला",
+          "remarks": null
+        },
+        {
+          "sn": 10,
+          "name": "विजय बखु",
+          "age": 54,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 11,
+          "name": "पन्गा सावई",
+          "age": 68,
+          "rescue_location": "टिमुरे",
+          "sex": "पुरुष",
+          "remarks": null
+        }
+      ],
+      "source_columns": [
+        "सि.नं.",
+        "उद्धार गरिएको व्यक्तिको नाम",
+        "उमेर",
+        "उद्धार गरिएको स्थान",
+        "लिङ्ग",
+        "कैफियत"
+      ],
+      "section_number": 3,
+      "record_count": 11
+    },
+    {
+      "title": "उद्धार गरिएका अमेरिकी व्यक्तिहरुको विवरण (२०८३/०५/११ गते)",
+      "records": [
+        {
+          "sn": 1,
+          "name": "Anjana Raja",
+          "age": 52,
+          "sex": "Female",
+          "remarks": null
+        },
+        {
+          "sn": 2,
+          "name": "Pattabiraman Venkatesan",
+          "age": 55,
+          "sex": "Male",
+          "remarks": null
+        }
+      ],
+      "source_columns": [
+        "सि.नं.",
+        "उद्धार गरिएको व्यक्तिको नाम",
+        "उमेर",
+        "लिङ्ग",
+        "कैफियत"
+      ],
+      "section_number": 4,
+      "record_count": 2
+    },
+    {
+      "title": "उद्धार गरिएका ईटालियन व्यक्तिहरुको विवरण (२०८३/०५/११ गते)",
+      "records": [
+        {
+          "sn": 1,
+          "name": "LOtumuw Stecano",
+          "age": 39,
+          "sex": "Male",
+          "remarks": null
+        },
+        {
+          "sn": 2,
+          "name": "Valurntina Piccintui",
+          "age": 37,
+          "sex": "Female",
+          "remarks": null
+        }
+      ],
+      "source_columns": [
+        "सि.नं.",
+        "उद्धार गरिएको व्यक्तिको नाम",
+        "उमेर",
+        "लिङ्ग",
+        "कैफियत"
+      ],
+      "section_number": 5,
+      "record_count": 2
+    },
+    {
+      "title": "उद्धार गरिएका कोरियन व्यक्तिहरुको विवरण (२०८३/०५/११ गते)",
+      "records": [
+        {
+          "sn": 1,
+          "name": "Taeyoon Kia",
+          "age": 41,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 2,
+          "name": "Taehoon yum",
+          "age": 57,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 3,
+          "name": "Jongho Lim",
+          "age": 56,
+          "sex": "पुरुष",
+          "remarks": null
+        },
+        {
+          "sn": 4,
+          "name": "Jaepok Yang",
+          "age": 56,
+          "sex": "पुरुष",
+          "remarks": null
+        }
+      ],
+      "source_columns": [
+        "सि.नं.",
+        "उद्धार गरिएको व्यक्तिको नाम",
+        "उमेर",
+        "लिङ्ग",
+        "कैफियत"
+      ],
+      "section_number": 6,
+      "record_count": 4
+    },
+    {
+      "title": "उद्धार गरिएको व्यक्तिहरुको विवरण (२०८३/०५/११ गते)",
+      "records": [
+        {
+          "sn": 1,
+          "name": "Gong Fu",
+          "age": 25,
+          "sex": "Male",
+          "remarks": null
+        },
+        {
+          "sn": 2,
+          "name": "Punganang Fui",
+          "age": 45,
+          "sex": "Female",
+          "remarks": null
+        },
+        {
+          "sn": 3,
+          "name": "Fang Nuotau",
+          "age": 48,
+          "sex": "Male",
+          "remarks": null
+        },
+        {
+          "sn": 4,
+          "name": "Zhang Chuan",
+          "age": 70,
+          "sex": "Male",
+          "remarks": null
+        },
+        {
+          "sn": 5,
+          "name": "Tian Yu",
+          "age": 35,
+          "sex": "Male",
+          "remarks": null
+        },
+        {
+          "sn": 6,
+          "name": "Zinzhi Giang",
+          "age": 52,
+          "sex": "Male",
+          "remarks": null
+        },
+        {
+          "sn": 7,
+          "name": "Zhang Curg",
+          "age": 43,
+          "sex": "Male",
+          "remarks": null
+        },
+        {
+          "sn": 8,
+          "name": "Ziang Gang",
+          "age": 31,
+          "sex": "Male",
+          "remarks": null
+        }
+      ],
+      "source_columns": [
+        "सि.नं.",
+        "उद्धार गरिएको व्यक्तिको नाम",
+        "उमेर",
+        "लिङ्ग",
+        "कैफियत"
+      ],
+      "section_number": 7,
+      "record_count": 8
+    }
+  ]
+}

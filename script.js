@@ -157,10 +157,11 @@ let rows=[], updated='', modalType='safe';
 async function load(){
   $('out').innerHTML=`<div class="state">${esc(T[lang].ld)}</div>`;
   try{
-    const [d,extra,tourists]=await Promise.all([
-      fetchFamilyData(),fetchExtraRecords('extra-records.json'),fetchExtraRecords('tourists-records.json')
+    const [d,extra,tourists,found3]=await Promise.all([
+      fetchFamilyData(),fetchExtraRecords('extra-records.json'),fetchExtraRecords('tourists-records.json'),
+      fetchExtraRecords('found-tracker-3-records.json')
     ]);
-    const built=buildRows(d,[...extra,...tourists]);
+    const built=buildRows(d,[...extra,...tourists,...found3]);
     rows=dedupeRows(built.rows); updated=built.updated;
     chrome(); render();
   }catch(e){
