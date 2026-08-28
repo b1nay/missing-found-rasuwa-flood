@@ -41,7 +41,7 @@
       <input type="file" id="csvFile" accept=".csv,text/csv">
     </label>
     <button type="button" class="modal-submit" id="checkBtn">Check for duplicates</button>
-    <p class="tool-hint">Expected columns: SN, Name, Found Location, Phone Number, Reported Time, Status, People around (At found location), Last known location, Reported by / Contact, Remarks / Additional Info, Date of birth, Age, Passport number, Sex, Nationality. Header spelling is matched loosely, so small variations are fine.</p>
+    <p class="tool-hint">No fixed set of columns is required — any CSV works. These are recognized when present: SN, Name, Found Location, Phone Number, Reported Time, Status, People around (At found location), Last known location, Reported by / Contact, Remarks / Additional Info, Date of birth, Age, Passport number, Sex, Nationality (header spelling is matched loosely, so small variations are fine). Duplicate checks run on whichever of Name, Phone Number, and Passport number your file actually has.</p>
   </section>
 
   <div id="toolState"></div>

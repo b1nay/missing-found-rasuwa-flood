@@ -44,12 +44,19 @@ python3 api/_dedupe.py path/to/found-persons.csv
 python3 api/_dedupe.py path/to/found-persons.csv --json report.json
 ```
 
-## Expected CSV columns
+## CSV columns
+
+No fixed set of columns is required — any CSV works. These are
+recognized when present:
 
 SN, Name, Found Location, Phone Number, Reported Time, Status, People
 around (At found location), Last known location, Reported by /
 Contact, Remarks / Additional Info, Date of birth, Age, Passport
 number, Sex, Nationality.
+
+Duplicate checks run on whichever of Name, Phone Number, and Passport
+number the file actually has — a file missing one of those just skips
+that check rather than failing.
 
 Header spelling/punctuation is matched loosely (case- and
 punctuation-insensitive), so small variations in the source sheet are

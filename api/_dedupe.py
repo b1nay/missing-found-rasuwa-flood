@@ -1,8 +1,10 @@
 """
 Duplicate checker for the found-persons tracking CSV.
 
-Expected columns (header spelling/punctuation is matched loosely, so
-minor variations are fine):
+No fixed set of columns is required — any CSV works. These are
+recognized when present (header spelling/punctuation is matched
+loosely, so minor variations are fine), and any other column is kept
+as-is rather than dropped:
 
     SN, Name, Found Location, Phone Number, Reported Time, Status,
     People around (At found location), Last known location,
@@ -11,7 +13,8 @@ minor variations are fine):
 
 Normalizes each row, then flags rows that share a Name, a Phone Number,
 or a Passport number with another row (blank values are never treated
-as a match). Usable as a CLI script or imported as a library (the
+as a match, and a file missing one of those three columns just skips
+that check rather than failing). Usable as a CLI script or imported as a library (the
 FastAPI app in index.py calls `analyze_csv` directly). Named with a
 leading underscore so Vercel's /api file-based routing treats it as a
 helper module rather than its own function — see index.py.
@@ -200,7 +203,7 @@ def main():
     result = analyze_csv(csv_text)
 
     if result["missing_fields"]:
-        print(f"Warning: couldn't find these expected columns: {', '.join(result['missing_fields'])}")
+        print(f"Note: no {', '.join(result['missing_fields'])} column in this file — skipping that duplicate check.")
 
     print(f"Total rows: {result['total_rows']}")
     _print_group("Duplicate names", result["duplicate_names"])

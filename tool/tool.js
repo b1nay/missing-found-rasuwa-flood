@@ -49,7 +49,9 @@ function renderResult(data){
   renderGroups('dupPhones',data.duplicate_phones);
   renderGroups('dupPassports',data.duplicate_passports);
   if(data.missing_fields&&data.missing_fields.length){
-    $('toolState').innerHTML=`<div class="state"><strong>Some expected columns weren't found</strong>Missing: ${esc(data.missing_fields.join(', '))} — duplicate checks for those fields were skipped.</div>`;
+    const labels={name:'Name',phone:'Phone Number',passport:'Passport number'};
+    const list=data.missing_fields.map(f=>labels[f]||f).join(', ');
+    $('toolState').innerHTML=`<div class="state"><strong>This file has no ${esc(list)} column</strong>That's fine — everything else still ran. There's just nothing to check duplicates against for ${esc(list)}.</div>`;
   }else{
     $('toolState').innerHTML='';
   }
