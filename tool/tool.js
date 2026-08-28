@@ -72,7 +72,10 @@ async function checkDuplicates(){
   fd.append('file',file);
   try{
     const res=await fetch(apiUrl+'/api/check-duplicates',{method:'POST',body:fd});
-    const data=await res.json();
+    const text=await res.text();
+    let data;
+    try{data=JSON.parse(text)}
+    catch(e){throw new Error(`The server didn't return JSON (status ${res.status}) — the /api backend probably isn't deployed/reachable at "${apiUrl||location.origin}" yet.`)}
     if(!res.ok)throw new Error(data.detail||'Request failed');
     $('toolState').innerHTML='';
     renderResult(data);
