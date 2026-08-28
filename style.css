@@ -220,13 +220,17 @@ footer{margin:34px 0 56px;padding-top:18px;border-top:1px solid var(--line);
   padding:24px;margin:24px 0 32px}
 .tool-panel .field{max-width:480px}
 .tool-panel .modal-submit{max-width:280px}
-.tool-hint{margin:16px 0 0;font-size:13.5px;color:var(--muted);line-height:1.6}
 .dup-group{margin-bottom:24px}
 .dup-group:last-child{margin-bottom:0}
 .dup-group-value{font-size:15px;font-weight:700;color:var(--ink);margin-bottom:10px}
 .dup-group-value span{font-weight:500;color:var(--muted);margin-left:8px}
 .dup-group table{font-size:14px}
 .dup-group th,.dup-group td{padding:8px 10px}
+.dup-check{width:1px}
+.dup-check input{width:17px;height:17px;accent-color:var(--blue);cursor:pointer}
+tr.dup-done{opacity:.5}
+tr.dup-done td.dup-name{text-decoration:line-through}
+#exportDupesBtn{margin:0 0 28px}
 
 /* ---------- simple page header (visualization / information) ---------- */
 .page-hd{max-width:1120px;margin:0 auto;padding:22px 20px}
