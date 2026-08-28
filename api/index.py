@@ -1,24 +1,27 @@
 """
-FastAPI backend for the duplicate-checker tool at /tool.
+FastAPI app deployed as a Vercel Function via the file-based /api
+convention (this repo has no root-level Python entrypoint/requirements
+file, so it never triggers Vercel's whole-project Python framework
+preset — it just adds this one API alongside the static site).
 
-Run locally:
-    pip install -r requirements.txt
-    uvicorn main:app --reload --port 8000
+Deploys automatically with the rest of the repo; no separate service or
+vercel.json needed. Routes are declared with their full /api/... path
+because Vercel forwards the actual request path to this app.
 
-Then POST a CSV file to /api/check-duplicates (multipart/form-data,
-field name "file"). See dedupe.py for the actual normalize/dedupe logic.
+Local dev: `vercel dev` serves the static site and this API together
+on one port, matching production. See ../api/README.md.
 """
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-from dedupe import analyze_csv
+from _dedupe import analyze_csv
 
 app = FastAPI(title="Found-persons duplicate checker")
 
-# The frontend is a static site that may be served from a different
-# origin than this API (e.g. during local development), so allow any
-# origin — this endpoint only reads an uploaded file back to its own
-# uploader, it doesn't expose or mutate any shared state.
+# The /tool page calls this same-origin in production, but CORS stays
+# open so it (or anyone testing locally) can also point at this API
+# from a different origin — the endpoint only reads an uploaded file
+# back to its own uploader, it doesn't expose or mutate shared state.
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],

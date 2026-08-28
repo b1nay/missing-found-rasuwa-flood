@@ -1,7 +1,8 @@
 # Python
-backend/.venv/
-backend/__pycache__/
-backend/**/__pycache__/
+api/.venv/
+api/__pycache__/
+api/**/__pycache__/
+.vercel/
 *.pyc
 
 # Node (analytics package)

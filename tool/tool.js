@@ -1,7 +1,8 @@
 /* ============================================================
    Duplicate Checker — uploads a CSV to the FastAPI backend
-   (see /backend) and renders the name/phone/passport duplicate
-   groups it finds.
+   (see /api) and renders the name/phone/passport duplicate
+   groups it finds. Blank API URL = call this same origin,
+   which is how it works once deployed (see api/README.md).
    ============================================================ */
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -55,11 +56,13 @@ function renderResult(data){
 }
 
 async function checkDuplicates(){
-  const apiUrl=$('apiUrl').value.trim().replace(/\/+$/,'');
+  const apiUrl=$('apiUrl').value.trim().replace(/\/+$/,''); // blank = same origin
   const file=$('csvFile').files[0];
-  if(!apiUrl){$('toolState').innerHTML='<div class="state"><strong>Set the backend API URL first</strong></div>';return}
   if(!file){$('toolState').innerHTML='<div class="state"><strong>Choose a CSV file first</strong></div>';return}
-  try{localStorage.setItem(STORAGE_KEY,apiUrl)}catch(e){}
+  try{
+    if(apiUrl)localStorage.setItem(STORAGE_KEY,apiUrl);
+    else localStorage.removeItem(STORAGE_KEY);
+  }catch(e){}
 
   $('toolResults').hidden=true;
   $('toolState').innerHTML='<div class="state">Checking…</div>';

@@ -12,11 +12,13 @@ minor variations are fine):
 Normalizes each row, then flags rows that share a Name, a Phone Number,
 or a Passport number with another row (blank values are never treated
 as a match). Usable as a CLI script or imported as a library (the
-FastAPI app in main.py calls `analyze_csv` directly).
+FastAPI app in index.py calls `analyze_csv` directly). Named with a
+leading underscore so Vercel's /api file-based routing treats it as a
+helper module rather than its own function — see index.py.
 
 CLI usage:
-    python dedupe.py input.csv
-    python dedupe.py input.csv --json report.json
+    python _dedupe.py input.csv
+    python _dedupe.py input.csv --json report.json
 """
 import csv
 import io
@@ -188,7 +190,7 @@ def _print_group(title, groups):
 
 def main():
     if len(sys.argv) < 2:
-        print("usage: python dedupe.py <input.csv> [--json output.json]")
+        print("usage: python _dedupe.py <input.csv> [--json output.json]")
         sys.exit(1)
 
     path = sys.argv[1]
