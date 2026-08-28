@@ -2,21 +2,23 @@
 
 FastAPI service backing the `/tool` page — checks a found-persons
 tracking CSV for rows that share a name, phone number, or passport
-number. Deployed as a Vercel Function using the [file-based `/api`
-convention](https://vercel.com/docs/functions/runtimes/python/api-directory):
-it deploys automatically with the rest of the site, no separate service
-needed. `_dedupe.py` is a plain helper module (the leading underscore
-keeps Vercel from also routing it as its own function); `index.py` is
-the actual endpoint, reachable in production at `/api/check-duplicates`
-and `/api/health` on the site's own domain.
+number.
 
-Under this file-based convention, `api/index.py` only auto-maps to the
-literal path `/api` — sub-paths need a rewrite, which is what the root
-`../vercel.json` does (`/api/(.*)` → `/api`; the function still sees
-the real incoming path, which is what FastAPI's own router needs to
-match `/api/health` etc.). `requirements.txt` lives at the repo root,
-not in here — Vercel's Python builder looks for it there for file-based
-functions.
+**Production**: runs standalone on a VPS at
+`https://api.found.kachhuwa.com` (systemd service
+`rasuwa-flood-api.service` + nginx reverse proxy + Let's Encrypt,
+following the same pattern as the other services on that box). `/tool`
+is pointed at that URL by default.
+
+`vercel.json` and the file-based `/api` routing convention are still
+in place (`api/index.py` is the endpoint; `_dedupe.py` is a plain
+helper module — the leading underscore keeps Vercel from also routing
+it as its own function) but **deploying via Vercel didn't end up
+working**: the function was registered and the routing rewrite got
+requests to it, but it crashed on import (`FUNCTION_INVOCATION_FAILED`)
+without a traceback we could get to in time. Worth revisiting later if
+someone wants to move off the VPS, but the VPS deployment is what's
+actually live.
 
 ## Local development
 
