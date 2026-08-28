@@ -5,6 +5,7 @@ const T={
  ne:{title:"हराएको / भेटिएको",sub:"रसुवा–भोटेकोशी बाढी",ph:"नाम वा फोन नम्बर खोज्नुहोस्",
   missing:"हराएको",found:"भेटिएको",allLoc:"सबै स्थान",strip:"भेटिएकाको ठेगाना",
   intlTourists:"अन्तर्राष्ट्रिय पर्यटक",dAgency:"एजेन्सी",
+  expMissing:"हराएको CSV निकाल्नुहोस्",expFound:"भेटिएको CSV निकाल्नुहोस्",
   nm:"नाम",ag:"उमेर",pl:"ठेगाना / स्थान",wh:"अन्तिम सम्पर्क",ph2:"फोन",dt:"विवरण",
   cnt:n=>`${n} विवरण`,upd:"अद्यावधिक",rl:"पुनः लोड",more:"थप देखाउनुहोस्",ld:"लोड हुँदै…",
   e1:"सूची लोड भएन",e2:"इन्टरनेट जाँचेर फेरि प्रयास गर्नुहोस्।",rt:"फेरि प्रयास",
@@ -25,6 +26,7 @@ const T={
  en:{title:"Missing & found",sub:"Rasuwa–Bhotekoshi flood",ph:"Search a name or phone number",
   missing:"Missing",found:"Found",allLoc:"All locations",strip:"Found · by address",
   intlTourists:"International Tourists",dAgency:"Agency",
+  expMissing:"Export Missing CSV",expFound:"Export Found CSV",
   nm:"Name",ag:"Age",pl:"Address / place",wh:"Last contact",ph2:"Phone",dt:"Details",
   cnt:n=>`${n} records`,upd:"Updated",rl:"Reload",more:"Show more",ld:"Loading…",
   e1:"The list didn't load",e2:"Check your connection and try again.",rt:"Try again",
@@ -45,6 +47,7 @@ const T={
  hi:{title:"लापता / मिले",sub:"रसुवा–भोटेकोशी बाढ़",ph:"नाम या फ़ोन नंबर खोजें",
   missing:"लापता",found:"मिले",allLoc:"सभी स्थान",strip:"मिले · पते के अनुसार",
   intlTourists:"अंतरराष्ट्रीय पर्यटक",dAgency:"एजेंसी",
+  expMissing:"लापता CSV निर्यात करें",expFound:"मिले CSV निर्यात करें",
   nm:"नाम",ag:"उम्र",pl:"पता / जगह",wh:"आख़िरी संपर्क",ph2:"फ़ोन",dt:"विवरण",
   cnt:n=>`${n} प्रविष्टियाँ`,upd:"अपडेट",rl:"फिर लोड करें",more:"और दिखाएँ",ld:"लोड हो रहा है…",
   e1:"सूची लोड नहीं हुई",e2:"इंटरनेट जाँचकर दोबारा कोशिश करें।",rt:"दोबारा कोशिश",
@@ -65,6 +68,7 @@ const T={
  zh:{title:"失踪 / 已找到",sub:"拉苏瓦–波特科西洪灾",ph:"搜索姓名或电话号码",
   missing:"失踪",found:"已找到",allLoc:"所有地点",strip:"已找到 · 按住址",
   intlTourists:"国际游客",dAgency:"旅行社",
+  expMissing:"导出失踪名单 CSV",expFound:"导出已找到名单 CSV",
   nm:"姓名",ag:"年龄",pl:"住址 / 地点",wh:"最后联系",ph2:"电话",dt:"详情",
   cnt:n=>`${n} 条记录`,upd:"更新于",rl:"重新加载",more:"显示更多",ld:"加载中…",
   e1:"名单加载失败",e2:"请检查网络后重试。",rt:"重试",
@@ -85,6 +89,7 @@ const T={
  es:{title:"Desaparecidos / hallados",sub:"Inundación Rasuwa–Bhotekoshi",ph:"Busca un nombre o teléfono",
   missing:"Desaparecidos",found:"Hallados",allLoc:"Todos los lugares",strip:"Hallados · por dirección",
   intlTourists:"Turistas internacionales",dAgency:"Agencia",
+  expMissing:"Exportar CSV de desaparecidos",expFound:"Exportar CSV de hallados",
   nm:"Nombre",ag:"Edad",pl:"Dirección / lugar",wh:"Último contacto",ph2:"Teléfono",dt:"Detalles",
   cnt:n=>`${n} registros`,upd:"Actualizado",rl:"Recargar",more:"Ver más",ld:"Cargando…",
   e1:"La lista no se cargó",e2:"Revisa tu conexión e inténtalo otra vez.",rt:"Reintentar",
@@ -105,6 +110,7 @@ const T={
  fr:{title:"Disparus / retrouvés",sub:"Inondation Rasuwa–Bhotekoshi",ph:"Rechercher un nom ou un téléphone",
   missing:"Disparus",found:"Retrouvés",allLoc:"Tous les lieux",strip:"Retrouvés · par adresse",
   intlTourists:"Touristes internationaux",dAgency:"Agence",
+  expMissing:"Exporter le CSV des disparus",expFound:"Exporter le CSV des retrouvés",
   nm:"Nom",ag:"Âge",pl:"Adresse / lieu",wh:"Dernier contact",ph2:"Téléphone",dt:"Détails",
   cnt:n=>`${n} fiches`,upd:"Mis à jour",rl:"Recharger",more:"Voir plus",ld:"Chargement…",
   e1:"La liste n'a pas pu être chargée",e2:"Vérifiez votre connexion et réessayez.",rt:"Réessayer",
@@ -125,6 +131,7 @@ const T={
  ru:{title:"Пропавшие и найденные",sub:"Наводнение Расува–Бхотекоши",ph:"Поиск по имени или номеру телефона",
   missing:"Пропавшие",found:"Найденные",allLoc:"Все места",strip:"Найденные · по адресу",
   intlTourists:"Иностранные туристы",dAgency:"Агентство",
+  expMissing:"Экспорт CSV пропавших",expFound:"Экспорт CSV найденных",
   nm:"Имя",ag:"Возраст",pl:"Адрес / место",wh:"Последний контакт",ph2:"Телефон",dt:"Подробности",
   cnt:n=>`${n} записей`,upd:"Обновлено",rl:"Обновить",more:"Показать ещё",ld:"Загрузка…",
   e1:"Список не загрузился",e2:"Проверьте соединение и попробуйте снова.",rt:"Повторить",
@@ -309,6 +316,8 @@ function chrome(){
   $('sub').textContent=t.sub;
   $('q').placeholder=t.ph;
   $('refresh').textContent=t.rl;
+  $('exportMissing').textContent=t.expMissing;
+  $('exportFound').textContent=t.expFound;
   $('updated').textContent=updated
     ? t.upd+' '+new Date(updated).toLocaleString(lang==='ne'?'ne-NP':lang,{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}) : '';
   $('safeCtaLbl').textContent=t.mSafeQ;
@@ -380,12 +389,36 @@ function chrome(){
 }
 
 /* ============================================================
+   6c. CSV export
+   ============================================================ */
+function csvCell(v){
+  const s=String(v??'');
+  return /[",\r\n]/.test(s)?'"'+s.replace(/"/g,'""')+'"':s;
+}
+function toCSV(list){
+  const t=T[lang];
+  const header=[t.nm,t.ag,t.pl,t.wh,t.ph2,t.dReportedBy,t.dt];
+  const body=list.map(r=>[r.name,r.age||'',r.place||'',r.when||'',r.phone||'',r.reporter||'',r.note||'']);
+  return [header,...body].map(row=>row.map(csvCell).join(',')).join('\r\n');
+}
+function downloadCSV(filename,csv){
+  const blob=new Blob(['\uFEFF'+csv],{type:'text/csv;charset=utf-8;'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');
+  a.href=url;a.download=filename;
+  document.body.appendChild(a);a.click();a.remove();
+  URL.revokeObjectURL(url);
+}
+
+/* ============================================================
    7. Wiring
    ============================================================ */
 let timer;
 $('q').addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(()=>{shown=60;render()},110)});
 $('clear').onclick=()=>{$('q').value='';shown=60;$('q').focus();render()};
 $('refresh').onclick=load;
+$('exportMissing').onclick=()=>downloadCSV('missing.csv',toCSV(rows.filter(r=>r.status==='missing')));
+$('exportFound').onclick=()=>downloadCSV('found.csv',toCSV(rows.filter(r=>r.status==='found')));
 $('langs').addEventListener('click',e=>{
   const b=e.target.closest('.pin'); if(!b)return;
   lang=b.dataset.lg; chrome(); render();
