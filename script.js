@@ -6,6 +6,9 @@ const T={
   missing:"हराएको",found:"भेटिएको",allLoc:"सबै स्थान",strip:"भेटिएकाको ठेगाना",
   intlTourists:"अन्तर्राष्ट्रिय पर्यटक",dAgency:"एजेन्सी",
   expMissing:"हराएको CSV निकाल्नुहोस्",expFound:"भेटिएको CSV निकाल्नुहोस्",
+  kailashTab:"कैलाश यात्रा",kailashTitle:"हराएको कैलाश यात्रा समूहको फोटो — पहिचानका लागि",
+  kailashIntro:"तलको फोटोमा कसैलाई चिन्नुहुन्छ भने, थाहा भएको कुरा WhatsApp मार्फत पठाउन 'स्थिति रिपोर्ट गर्नुहोस्' थिच्नुहोस्।",
+  kailashReportBtn:"स्थिति रिपोर्ट गर्नुहोस्",kailashNoName:"नाम उल्लेख छैन",
   nm:"नाम",ag:"उमेर",pl:"ठेगाना / स्थान",wh:"अन्तिम सम्पर्क",ph2:"फोन",dt:"विवरण",
   cnt:n=>`${n} विवरण`,upd:"अद्यावधिक",rl:"पुनः लोड",more:"थप देखाउनुहोस्",ld:"लोड हुँदै…",
   e1:"सूची लोड भएन",e2:"इन्टरनेट जाँचेर फेरि प्रयास गर्नुहोस्।",rt:"फेरि प्रयास",
@@ -27,6 +30,9 @@ const T={
   missing:"Missing",found:"Found",allLoc:"All locations",strip:"Found · by address",
   intlTourists:"International Tourists",dAgency:"Agency",
   expMissing:"Export Missing CSV",expFound:"Export Found CSV",
+  kailashTab:"Kailash Yatra",kailashTitle:"Photos of Missing Kailash Yatra Group for Identification Purpose",
+  kailashIntro:"If you recognize someone below, tap Report Status to share what you know via WhatsApp.",
+  kailashReportBtn:"Report Status",kailashNoName:"Name not recorded",
   nm:"Name",ag:"Age",pl:"Address / place",wh:"Last contact",ph2:"Phone",dt:"Details",
   cnt:n=>`${n} records`,upd:"Updated",rl:"Reload",more:"Show more",ld:"Loading…",
   e1:"The list didn't load",e2:"Check your connection and try again.",rt:"Try again",
@@ -48,6 +54,9 @@ const T={
   missing:"लापता",found:"मिले",allLoc:"सभी स्थान",strip:"मिले · पते के अनुसार",
   intlTourists:"अंतरराष्ट्रीय पर्यटक",dAgency:"एजेंसी",
   expMissing:"लापता CSV निर्यात करें",expFound:"मिले CSV निर्यात करें",
+  kailashTab:"कैलाश यात्रा",kailashTitle:"लापता कैलाश यात्रा समूह की तस्वीरें — पहचान हेतु",
+  kailashIntro:"यदि आप नीचे किसी को पहचानते हैं, तो WhatsApp पर जानकारी भेजने के लिए 'स्थिति रिपोर्ट करें' दबाएं।",
+  kailashReportBtn:"स्थिति रिपोर्ट करें",kailashNoName:"नाम दर्ज नहीं",
   nm:"नाम",ag:"उम्र",pl:"पता / जगह",wh:"आख़िरी संपर्क",ph2:"फ़ोन",dt:"विवरण",
   cnt:n=>`${n} प्रविष्टियाँ`,upd:"अपडेट",rl:"फिर लोड करें",more:"और दिखाएँ",ld:"लोड हो रहा है…",
   e1:"सूची लोड नहीं हुई",e2:"इंटरनेट जाँचकर दोबारा कोशिश करें।",rt:"दोबारा कोशिश",
@@ -69,6 +78,9 @@ const T={
   missing:"失踪",found:"已找到",allLoc:"所有地点",strip:"已找到 · 按住址",
   intlTourists:"国际游客",dAgency:"旅行社",
   expMissing:"导出失踪名单 CSV",expFound:"导出已找到名单 CSV",
+  kailashTab:"凯拉萨朝圣团",kailashTitle:"失踪凯拉萨朝圣团照片 — 用于身份识别",
+  kailashIntro:"如果您认出下方的人，请点击「报告状态」，通过 WhatsApp 分享您所知道的信息。",
+  kailashReportBtn:"报告状态",kailashNoName:"姓名未记录",
   nm:"姓名",ag:"年龄",pl:"住址 / 地点",wh:"最后联系",ph2:"电话",dt:"详情",
   cnt:n=>`${n} 条记录`,upd:"更新于",rl:"重新加载",more:"显示更多",ld:"加载中…",
   e1:"名单加载失败",e2:"请检查网络后重试。",rt:"重试",
@@ -90,6 +102,9 @@ const T={
   missing:"Desaparecidos",found:"Hallados",allLoc:"Todos los lugares",strip:"Hallados · por dirección",
   intlTourists:"Turistas internacionales",dAgency:"Agencia",
   expMissing:"Exportar CSV de desaparecidos",expFound:"Exportar CSV de hallados",
+  kailashTab:"Peregrinación Kailash",kailashTitle:"Fotos del grupo desaparecido de la peregrinación Kailash — para identificación",
+  kailashIntro:"Si reconoces a alguien abajo, toca \"Reportar estado\" para compartir lo que sepas por WhatsApp.",
+  kailashReportBtn:"Reportar estado",kailashNoName:"Nombre no registrado",
   nm:"Nombre",ag:"Edad",pl:"Dirección / lugar",wh:"Último contacto",ph2:"Teléfono",dt:"Detalles",
   cnt:n=>`${n} registros`,upd:"Actualizado",rl:"Recargar",more:"Ver más",ld:"Cargando…",
   e1:"La lista no se cargó",e2:"Revisa tu conexión e inténtalo otra vez.",rt:"Reintentar",
@@ -111,6 +126,9 @@ const T={
   missing:"Disparus",found:"Retrouvés",allLoc:"Tous les lieux",strip:"Retrouvés · par adresse",
   intlTourists:"Touristes internationaux",dAgency:"Agence",
   expMissing:"Exporter le CSV des disparus",expFound:"Exporter le CSV des retrouvés",
+  kailashTab:"Pèlerinage Kailash",kailashTitle:"Photos du groupe disparu du pèlerinage Kailash — pour identification",
+  kailashIntro:"Si vous reconnaissez quelqu'un ci-dessous, appuyez sur « Signaler le statut » pour partager ce que vous savez via WhatsApp.",
+  kailashReportBtn:"Signaler le statut",kailashNoName:"Nom non enregistré",
   nm:"Nom",ag:"Âge",pl:"Adresse / lieu",wh:"Dernier contact",ph2:"Téléphone",dt:"Détails",
   cnt:n=>`${n} fiches`,upd:"Mis à jour",rl:"Recharger",more:"Voir plus",ld:"Chargement…",
   e1:"La liste n'a pas pu être chargée",e2:"Vérifiez votre connexion et réessayez.",rt:"Réessayer",
@@ -132,6 +150,9 @@ const T={
   missing:"Пропавшие",found:"Найденные",allLoc:"Все места",strip:"Найденные · по адресу",
   intlTourists:"Иностранные туристы",dAgency:"Агентство",
   expMissing:"Экспорт CSV пропавших",expFound:"Экспорт CSV найденных",
+  kailashTab:"Паломники Кайлас",kailashTitle:"Фото пропавшей группы паломников на Кайлас — для опознания",
+  kailashIntro:"Если вы узнали кого-то ниже, нажмите «Сообщить статус», чтобы отправить информацию через WhatsApp.",
+  kailashReportBtn:"Сообщить статус",kailashNoName:"Имя не указано",
   nm:"Имя",ag:"Возраст",pl:"Адрес / место",wh:"Последний контакт",ph2:"Телефон",dt:"Подробности",
   cnt:n=>`${n} записей`,upd:"Обновлено",rl:"Обновить",more:"Показать ещё",ld:"Загрузка…",
   e1:"Список не загрузился",e2:"Проверьте соединение и попробуйте снова.",rt:"Повторить",
@@ -159,17 +180,17 @@ const T={
 const WA_NUMBER='9779746861925';
 
 let lang='ne', tab='missing', loc='', addr='', shown=60;
-let rows=[], updated='', modalType='safe';
+let rows=[], updated='', modalType='safe', kailashData=[];
 
 async function load(){
   $('out').innerHTML=`<div class="state">${esc(T[lang].ld)}</div>`;
   try{
-    const [d,extra,tourists,found3]=await Promise.all([
+    const [d,extra,tourists,found3,kailash]=await Promise.all([
       fetchFamilyData(),fetchExtraRecords('extra-records.json'),fetchExtraRecords('tourists-records.json'),
-      fetchExtraRecords('found-tracker-3-records.json')
+      fetchExtraRecords('found-tracker-3-records.json'),fetchExtraRecords('kailash-group.json')
     ]);
     const built=buildRows(d,[...extra,...tourists,...found3]);
-    rows=dedupeRows(built.rows); updated=built.updated;
+    rows=dedupeRows(built.rows); updated=built.updated; kailashData=kailash;
     chrome(); render();
   }catch(e){
     const t=T[lang];
@@ -289,7 +310,41 @@ function closeDetailModal(){
   $('detailModalOverlay').classList.remove('open');
 }
 
+/* ============================================================
+   6b2. Kailash Yatra identification tab — the sheet's photos are
+   pasted directly into cells and don't come through any export, so
+   the live sheet is embedded for the photos; the name list (which
+   does export) is rendered ourselves so each row can get a report
+   button.
+   ============================================================ */
+const KAILASH_SHEET_URL='https://docs.google.com/spreadsheets/d/1K5nQq6iGQ7wv24d26kiW1095GSTfKIpG4Vy_SvS4Wi8/preview';
+
+function reportKailashStatus(sn,name){
+  const t=T[lang];
+  const lines=[`📷 ${t.kailashTitle}`,`SN: ${sn}`];
+  if(name)lines.push(`${t.nm}: ${name}`);
+  lines.push(`${t.kailashReportBtn}: `);
+  window.open('https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent(lines.join('\n')),'_blank','noopener');
+}
+
+function renderKailash(){
+  const t=T[lang];
+  const rowsHtml=kailashData.map(k=>`<div class="kailash-row">
+    <span class="kailash-sn">#${esc(k.sn)}</span>
+    <span class="kailash-name">${k.name?esc(k.name):`<em>${esc(t.kailashNoName)}</em>`}</span>
+    <button type="button" class="dt-view kailash-report" data-sn="${esc(k.sn)}" data-name="${esc(k.name||'')}">${esc(t.kailashReportBtn)}</button>
+  </div>`).join('');
+  $('out').innerHTML=`
+    <div class="kailash-hd">
+      <h2>${esc(t.kailashTitle)}</h2>
+      <p>${esc(t.kailashIntro)}</p>
+    </div>
+    <div class="kailash-embed"><iframe src="${KAILASH_SHEET_URL}" loading="lazy" title="${esc(t.kailashTitle)}"></iframe></div>
+    <div class="kailash-list">${rowsHtml}</div>`;
+}
+
 function render(){
+  if(tab==='kailash'){renderKailash();return}
   const t=T[lang], raw=$('q').value.trim(), res=hit();
   $('count').textContent=t.cnt(res.length);
   $('clear').classList.toggle('on',!!raw);
@@ -358,6 +413,11 @@ function chrome(){
   $('afSubmit').textContent=t.mSend;
 
   document.querySelectorAll('.tab').forEach(b=>{
+    if(b.dataset.t==='kailash'){
+      b.textContent=t.kailashTab;
+      b.setAttribute('aria-selected',String(b.dataset.t===tab));
+      return;
+    }
     const n=rows.filter(r=>r.status===b.dataset.t).length;
     b.innerHTML=esc(t[b.dataset.t])+`<b>${n}</b>`;
     b.setAttribute('aria-selected',String(b.dataset.t===tab));
@@ -366,6 +426,13 @@ function chrome(){
   document.querySelectorAll('#langs .pin').forEach(b=>{
     b.setAttribute('aria-pressed',String(b.dataset.lg===lang));
   });
+
+  /* the Kailash tab has its own layout — search/location, the found
+     strip, and the count/export meta bar don't apply to it */
+  const onKailash=tab==='kailash';
+  document.querySelector('.controls').hidden=onKailash;
+  document.querySelector('.meta').hidden=onKailash;
+  if(onKailash)$('strip').hidden=true;
 
   /* location list, built from whatever the current tab actually contains */
   const pool=rows.filter(r=>r.status===tab);
@@ -379,13 +446,15 @@ function chrome(){
   $('loc').value=loc;
 
   /* strip: where the found people are from */
-  const g={};
-  rows.filter(r=>r.status==='found'&&r._g).forEach(r=>{g[r._g]=(g[r._g]||0)+1});
-  const pins=Object.entries(g).sort((a,b)=>b[1]-a[1]);
-  $('strip').hidden=!pins.length;
-  $('strip-lb').textContent=t.strip;
-  $('pins').innerHTML=pins.map(([k,n])=>
-    `<button class="pin" type="button" data-a="${esc(k)}" aria-pressed="${addr===k}">${esc(k)}<b>${n}</b></button>`).join('');
+  if(!onKailash){
+    const g={};
+    rows.filter(r=>r.status==='found'&&r._g).forEach(r=>{g[r._g]=(g[r._g]||0)+1});
+    const pins=Object.entries(g).sort((a,b)=>b[1]-a[1]);
+    $('strip').hidden=!pins.length;
+    $('strip-lb').textContent=t.strip;
+    $('pins').innerHTML=pins.map(([k,n])=>
+      `<button class="pin" type="button" data-a="${esc(k)}" aria-pressed="${addr===k}">${esc(k)}<b>${n}</b></button>`).join('');
+  }
 }
 
 /* ============================================================
@@ -436,6 +505,8 @@ $('pins').addEventListener('click',e=>{
   tab='found'; loc=''; shown=60; chrome(); render();
 });
 $('out').addEventListener('click',e=>{
+  const kb=e.target.closest('.kailash-report');
+  if(kb){reportKailashStatus(kb.dataset.sn,kb.dataset.name);return}
   const b=e.target.closest('.dt-view'); if(!b)return;
   openDetailModal(b.dataset.id);
 });
