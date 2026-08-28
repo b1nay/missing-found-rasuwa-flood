@@ -1,17 +1,21 @@
 /* ============================================================
    Duplicate Checker — uploads a CSV to the FastAPI backend
-   (see /api) and renders the name/phone/passport duplicate
-   groups it finds. Blank API URL = call this same origin,
-   which is how it works once deployed (see api/README.md).
+   (see /api, and api/README.md) and renders the name/phone/
+   passport duplicate groups it finds. Defaults to the standalone
+   backend on the VPS (api.found.kachhuwa.com) since Vercel's
+   file-based Python /api routing didn't pan out for this project;
+   the field is still editable/overridable for local dev.
    ============================================================ */
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
+const DEFAULT_API_URL='https://api.found.kachhuwa.com';
 const STORAGE_KEY='dupcheck-api-url';
 try{
-  const saved=localStorage.getItem(STORAGE_KEY);
-  if(saved)$('apiUrl').value=saved;
-}catch(e){}
+  $('apiUrl').value=localStorage.getItem(STORAGE_KEY)||DEFAULT_API_URL;
+}catch(e){
+  $('apiUrl').value=DEFAULT_API_URL;
+}
 
 function kpiTile(label,value){
   return `<div class="kpi-tile"><div class="kpi-label">${esc(label)}</div><div class="kpi-value">${esc(value)}</div></div>`;
