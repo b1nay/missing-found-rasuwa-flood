@@ -1,0 +1,8 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+
+# Node (analytics package)
+node_modules/
