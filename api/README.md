@@ -5,10 +5,18 @@ tracking CSV for rows that share a name, phone number, or passport
 number. Deployed as a Vercel Function using the [file-based `/api`
 convention](https://vercel.com/docs/functions/runtimes/python/api-directory):
 it deploys automatically with the rest of the site, no separate service
-or `vercel.json` needed. `_dedupe.py` is a plain helper module (the
-leading underscore keeps Vercel from also routing it as its own
-function); `index.py` is the actual endpoint, reachable in production
-at `/api/check-duplicates` and `/api/health` on the site's own domain.
+needed. `_dedupe.py` is a plain helper module (the leading underscore
+keeps Vercel from also routing it as its own function); `index.py` is
+the actual endpoint, reachable in production at `/api/check-duplicates`
+and `/api/health` on the site's own domain.
+
+Under this file-based convention, `api/index.py` only auto-maps to the
+literal path `/api` — sub-paths need a rewrite, which is what the root
+`../vercel.json` does (`/api/(.*)` → `/api`; the function still sees
+the real incoming path, which is what FastAPI's own router needs to
+match `/api/health` etc.). `requirements.txt` lives at the repo root,
+not in here — Vercel's Python builder looks for it there for file-based
+functions.
 
 ## Local development
 
@@ -25,11 +33,10 @@ same origin, exactly like production.
 ### Without the Vercel CLI
 
 ```
-cd api
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt uvicorn
-uvicorn index:app --reload --port 8000
+cd api && uvicorn index:app --reload --port 8000
 ```
 
 Then set the Backend API URL on `/tool` to `http://localhost:8000`.
