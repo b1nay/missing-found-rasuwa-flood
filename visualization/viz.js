@@ -71,8 +71,8 @@ async function loadViz(){
   $('vizState').innerHTML='<div class="state">Loading…</div>';
   try{
     const [d,extra,tourists,found3]=await Promise.all([
-      fetchFamilyData(),fetchExtraRecords('../extra-records.json'),fetchExtraRecords('../tourists-records.json'),
-      fetchExtraRecords('../found-tracker-3-records.json')
+      fetchFamilyData(),fetchExtraRecords('../sources/extra-records.json'),fetchExtraRecords('../sources/tourists-records.json'),
+      fetchExtraRecords('../sources/found-tracker-3-records.json')
     ]);
     const built=buildRows(d,[...extra,...tourists,...found3]);
     render(dedupeRows(built.rows),built.updated);

@@ -110,7 +110,7 @@ function buildRows(d,extra){
       _n:norm(blob),_s:skel(blob),_d:digits(r.phone)+' '+digits(r.reporter),
       _pn:norm(r.place),_ps:skel(r.place),_g:addrGroup(r.place)};
   });
-  /* locally-curated records (see extra-records.json) already carry their
+  /* locally-curated records (see sources/extra-records.json) already carry their
      own status and an optional `extra` object of rich detail fields */
   const buildExtra=(arr)=>(arr||[]).map(r=>{
     const blob=[r.name,r.place,r.note,r.when,r.reporter,r.phone].filter(Boolean).join(' ');

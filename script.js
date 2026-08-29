@@ -186,8 +186,8 @@ async function load(){
   $('out').innerHTML=`<div class="state">${esc(T[lang].ld)}</div>`;
   try{
     const [d,extra,tourists,found3,kailash]=await Promise.all([
-      fetchFamilyData(),fetchExtraRecords('extra-records.json'),fetchExtraRecords('tourists-records.json'),
-      fetchExtraRecords('found-tracker-3-records.json'),fetchExtraRecords('kailash-group.json')
+      fetchFamilyData(),fetchExtraRecords('sources/extra-records.json'),fetchExtraRecords('sources/tourists-records.json'),
+      fetchExtraRecords('sources/found-tracker-3-records.json'),fetchExtraRecords('sources/kailash-group.json')
     ]);
     const built=buildRows(d,[...extra,...tourists,...found3]);
     rows=dedupeRows(built.rows); updated=built.updated; kailashData=kailash;
@@ -262,7 +262,7 @@ function tr(r,i,raw){
 /* ============================================================
    6b. Detail modal — every row's full record, whatever fields
    the source actually has (basic list feed vs. the richer
-   locally-curated extra-records.json)
+   locally-curated sources/extra-records.json)
    ============================================================ */
 function buildDetailFields(r){
   const t=T[lang];
