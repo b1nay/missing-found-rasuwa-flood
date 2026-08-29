@@ -9,6 +9,9 @@ const T={
   kailashTab:"कैलाश यात्रा",kailashTitle:"हराएको कैलाश यात्रा समूहको फोटो — पहिचानका लागि",
   kailashIntro:"तलको फोटोमा कसैलाई चिन्नुहुन्छ भने, थाहा भएको कुरा WhatsApp मार्फत पठाउन 'स्थिति रिपोर्ट गर्नुहोस्' थिच्नुहोस्।",
   kailashReportBtn:"स्थिति रिपोर्ट गर्नुहोस्",kailashNoName:"नाम उल्लेख छैन",
+  latviaTab:"लाट्भियन पर्यटक",latviaTitle:"लाट्भियन पर्यटक समूह — हराएको सूची",
+  latviaIntro:"यो समूहका सदस्यहरू जो अन्य कुनै सूचीमा (हराएको/भेटिएको/कैलाश) पहिले नै देखिएका छैनन्, उनीहरू मात्र यहाँ देखाइएका छन्।",
+  dLivingIn:"बसोबास",
   nm:"नाम",ag:"उमेर",pl:"ठेगाना / स्थान",wh:"अन्तिम सम्पर्क",ph2:"फोन",dt:"विवरण",
   cnt:n=>`${n} विवरण`,upd:"अद्यावधिक",rl:"पुनः लोड",more:"थप देखाउनुहोस्",ld:"लोड हुँदै…",
   e1:"सूची लोड भएन",e2:"इन्टरनेट जाँचेर फेरि प्रयास गर्नुहोस्।",rt:"फेरि प्रयास",
@@ -33,6 +36,9 @@ const T={
   kailashTab:"Kailash Yatra",kailashTitle:"Photos of Missing Kailash Yatra Group for Identification Purpose",
   kailashIntro:"If you recognize someone below, tap Report Status to share what you know via WhatsApp.",
   kailashReportBtn:"Report Status",kailashNoName:"Name not recorded",
+  latviaTab:"Latvian Tourists",latviaTitle:"Latvian Tourist Group — Missing List",
+  latviaIntro:"Only members of this group who are not already listed elsewhere on the site (Missing / Found / Kailash) are shown here.",
+  dLivingIn:"Living in",
   nm:"Name",ag:"Age",pl:"Address / place",wh:"Last contact",ph2:"Phone",dt:"Details",
   cnt:n=>`${n} records`,upd:"Updated",rl:"Reload",more:"Show more",ld:"Loading…",
   e1:"The list didn't load",e2:"Check your connection and try again.",rt:"Try again",
@@ -57,6 +63,9 @@ const T={
   kailashTab:"कैलाश यात्रा",kailashTitle:"लापता कैलाश यात्रा समूह की तस्वीरें — पहचान हेतु",
   kailashIntro:"यदि आप नीचे किसी को पहचानते हैं, तो WhatsApp पर जानकारी भेजने के लिए 'स्थिति रिपोर्ट करें' दबाएं।",
   kailashReportBtn:"स्थिति रिपोर्ट करें",kailashNoName:"नाम दर्ज नहीं",
+  latviaTab:"लातवियाई पर्यटक",latviaTitle:"लातवियाई पर्यटक समूह — लापता सूची",
+  latviaIntro:"इस समूह के केवल वे सदस्य यहाँ दिखाए गए हैं जो साइट पर अन्य कहीं (लापता/मिले/कैलाश) पहले से सूचीबद्ध नहीं हैं।",
+  dLivingIn:"निवास",
   nm:"नाम",ag:"उम्र",pl:"पता / जगह",wh:"आख़िरी संपर्क",ph2:"फ़ोन",dt:"विवरण",
   cnt:n=>`${n} प्रविष्टियाँ`,upd:"अपडेट",rl:"फिर लोड करें",more:"और दिखाएँ",ld:"लोड हो रहा है…",
   e1:"सूची लोड नहीं हुई",e2:"इंटरनेट जाँचकर दोबारा कोशिश करें।",rt:"दोबारा कोशिश",
@@ -81,6 +90,9 @@ const T={
   kailashTab:"凯拉萨朝圣团",kailashTitle:"失踪凯拉萨朝圣团照片 — 用于身份识别",
   kailashIntro:"如果您认出下方的人，请点击「报告状态」，通过 WhatsApp 分享您所知道的信息。",
   kailashReportBtn:"报告状态",kailashNoName:"姓名未记录",
+  latviaTab:"拉脱维亚游客",latviaTitle:"拉脱维亚游客团 — 失踪名单",
+  latviaIntro:"此处仅显示该团中尚未出现在本网站其他名单（失踪/已找到/凯拉萨）中的成员。",
+  dLivingIn:"居住地",
   nm:"姓名",ag:"年龄",pl:"住址 / 地点",wh:"最后联系",ph2:"电话",dt:"详情",
   cnt:n=>`${n} 条记录`,upd:"更新于",rl:"重新加载",more:"显示更多",ld:"加载中…",
   e1:"名单加载失败",e2:"请检查网络后重试。",rt:"重试",
@@ -105,6 +117,9 @@ const T={
   kailashTab:"Peregrinación Kailash",kailashTitle:"Fotos del grupo desaparecido de la peregrinación Kailash — para identificación",
   kailashIntro:"Si reconoces a alguien abajo, toca \"Reportar estado\" para compartir lo que sepas por WhatsApp.",
   kailashReportBtn:"Reportar estado",kailashNoName:"Nombre no registrado",
+  latviaTab:"Turistas letones",latviaTitle:"Grupo de turistas letones — Lista de desaparecidos",
+  latviaIntro:"Aquí solo se muestran los miembros de este grupo que no figuran ya en otra lista del sitio (Desaparecidos / Hallados / Kailash).",
+  dLivingIn:"Reside en",
   nm:"Nombre",ag:"Edad",pl:"Dirección / lugar",wh:"Último contacto",ph2:"Teléfono",dt:"Detalles",
   cnt:n=>`${n} registros`,upd:"Actualizado",rl:"Recargar",more:"Ver más",ld:"Cargando…",
   e1:"La lista no se cargó",e2:"Revisa tu conexión e inténtalo otra vez.",rt:"Reintentar",
@@ -129,6 +144,9 @@ const T={
   kailashTab:"Pèlerinage Kailash",kailashTitle:"Photos du groupe disparu du pèlerinage Kailash — pour identification",
   kailashIntro:"Si vous reconnaissez quelqu'un ci-dessous, appuyez sur « Signaler le statut » pour partager ce que vous savez via WhatsApp.",
   kailashReportBtn:"Signaler le statut",kailashNoName:"Nom non enregistré",
+  latviaTab:"Touristes lettons",latviaTitle:"Groupe de touristes lettons — Liste des disparus",
+  latviaIntro:"Seuls les membres de ce groupe qui n'apparaissent pas déjà ailleurs sur le site (Disparus / Retrouvés / Kailash) sont affichés ici.",
+  dLivingIn:"Résidence",
   nm:"Nom",ag:"Âge",pl:"Adresse / lieu",wh:"Dernier contact",ph2:"Téléphone",dt:"Détails",
   cnt:n=>`${n} fiches`,upd:"Mis à jour",rl:"Recharger",more:"Voir plus",ld:"Chargement…",
   e1:"La liste n'a pas pu être chargée",e2:"Vérifiez votre connexion et réessayez.",rt:"Réessayer",
@@ -153,6 +171,9 @@ const T={
   kailashTab:"Паломники Кайлас",kailashTitle:"Фото пропавшей группы паломников на Кайлас — для опознания",
   kailashIntro:"Если вы узнали кого-то ниже, нажмите «Сообщить статус», чтобы отправить информацию через WhatsApp.",
   kailashReportBtn:"Сообщить статус",kailashNoName:"Имя не указано",
+  latviaTab:"Латвийские туристы",latviaTitle:"Группа латвийских туристов — список пропавших",
+  latviaIntro:"Здесь показаны только те участники группы, которые ещё не указаны в других списках сайта (Пропавшие / Найденные / Кайлас).",
+  dLivingIn:"Проживание",
   nm:"Имя",ag:"Возраст",pl:"Адрес / место",wh:"Последний контакт",ph2:"Телефон",dt:"Подробности",
   cnt:n=>`${n} записей`,upd:"Обновлено",rl:"Обновить",more:"Показать ещё",ld:"Загрузка…",
   e1:"Список не загрузился",e2:"Проверьте соединение и попробуйте снова.",rt:"Повторить",
@@ -180,17 +201,19 @@ const T={
 const WA_NUMBER='9779746861925';
 
 let lang='ne', tab='missing', loc='', addr='', shown=60;
-let rows=[], updated='', modalType='safe', kailashData=[];
+let rows=[], updated='', modalType='safe', kailashData=[], latviaData=[];
 
 async function load(){
   $('out').innerHTML=`<div class="state">${esc(T[lang].ld)}</div>`;
   try{
-    const [d,extra,tourists,found3,kailash]=await Promise.all([
+    const [d,extra,tourists,found3,kailash,latvia]=await Promise.all([
       fetchFamilyData(),fetchExtraRecords('sources/extra-records.json'),fetchExtraRecords('sources/tourists-records.json'),
-      fetchExtraRecords('sources/found-tracker-3-records.json'),fetchExtraRecords('sources/kailash-group.json')
+      fetchExtraRecords('sources/found-tracker-3-records.json'),fetchExtraRecords('sources/kailash-group.json'),
+      fetchExtraRecords('sources/latvia-tourists.json')
     ]);
     const built=buildRows(d,[...extra,...tourists,...found3]);
     rows=dedupeRows(built.rows); updated=built.updated; kailashData=kailash;
+    latviaData=latvia.filter(e=>!isDuplicateElsewhere(e,rows,[kailash]));
     chrome(); render();
   }catch(e){
     const t=T[lang];
@@ -343,8 +366,51 @@ function renderKailash(){
     <div class="kailash-list">${rowsHtml}</div>`;
 }
 
+/* ============================================================
+   6b3. Latvian Tourists tab — a curated group list (sources/latvia-
+   tourists.json) with any member already appearing elsewhere on the
+   site (missing/found/kailash) filtered out at load time by
+   isDuplicateElsewhere(), so nobody is shown twice.
+   ============================================================ */
+function reportLatviaStatus(sn,name){
+  const t=T[lang];
+  const lines=[`🌍 ${t.latviaTitle}`,`SN: ${sn}`];
+  if(name)lines.push(`${t.nm}: ${name}`);
+  lines.push(`${t.kailashReportBtn}: `);
+  window.open('https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent(lines.join('\n')),'_blank','noopener');
+}
+
+function renderLatvia(){
+  const t=T[lang];
+  if(!latviaData.length){
+    $('out').innerHTML=`<div class="kailash-hd"><h2>${esc(t.latviaTitle)}</h2><p>${esc(t.latviaIntro)}</p></div>
+      <div class="state">${esc(t.z1)}</div>`;
+    return;
+  }
+  const detail=(label,val)=>val?`<span><b>${esc(label)}:</b> ${esc(val)}</span>`:'';
+  const rowsHtml=latviaData.map(k=>`<div class="latvia-row">
+    <div class="latvia-main">
+      <span class="kailash-sn">#${esc(k.sn)}</span>
+      <span class="kailash-name">${esc(k.name)}</span>
+      <button type="button" class="dt-view latvia-report" data-sn="${esc(k.sn)}" data-name="${esc(k.name||'')}">${esc(t.kailashReportBtn)}</button>
+    </div>
+    <div class="latvia-detail">
+      ${detail(t.dDob,k.dob)}${detail(t.dPassport,k.passport)}${detail(t.dNationality,k.citizenship)}
+      ${detail(t.dLivingIn,k.livingIn)}${detail(t.rLastLoc,k.lastKnownLocation)}
+      ${detail(t.ph2,k.phone)}${detail(t.rRelContact,k.relativePhone)}
+    </div>
+  </div>`).join('');
+  $('out').innerHTML=`
+    <div class="kailash-hd">
+      <h2>${esc(t.latviaTitle)}</h2>
+      <p>${esc(t.latviaIntro)}</p>
+    </div>
+    <div class="kailash-list latvia-list">${rowsHtml}</div>`;
+}
+
 function render(){
   if(tab==='kailash'){renderKailash();return}
+  if(tab==='latvia'){renderLatvia();return}
   const t=T[lang], raw=$('q').value.trim(), res=hit();
   $('count').textContent=t.cnt(res.length);
   $('clear').classList.toggle('on',!!raw);
@@ -418,6 +484,11 @@ function chrome(){
       b.setAttribute('aria-selected',String(b.dataset.t===tab));
       return;
     }
+    if(b.dataset.t==='latvia'){
+      b.textContent=t.latviaTab;
+      b.setAttribute('aria-selected',String(b.dataset.t===tab));
+      return;
+    }
     const n=rows.filter(r=>r.status===b.dataset.t).length;
     b.innerHTML=esc(t[b.dataset.t])+`<b>${n}</b>`;
     b.setAttribute('aria-selected',String(b.dataset.t===tab));
@@ -427,12 +498,13 @@ function chrome(){
     b.setAttribute('aria-pressed',String(b.dataset.lg===lang));
   });
 
-  /* the Kailash tab has its own layout — search/location, the found
-     strip, and the count/export meta bar don't apply to it */
-  const onKailash=tab==='kailash';
-  document.querySelector('.controls').hidden=onKailash;
-  document.querySelector('.meta').hidden=onKailash;
-  if(onKailash)$('strip').hidden=true;
+  /* the Kailash and Latvian Tourists tabs have their own layout —
+     search/location, the found strip, and the count/export meta bar
+     don't apply to them */
+  const onCustomTab=tab==='kailash'||tab==='latvia';
+  document.querySelector('.controls').hidden=onCustomTab;
+  document.querySelector('.meta').hidden=onCustomTab;
+  if(onCustomTab)$('strip').hidden=true;
 
   /* location list, built from whatever the current tab actually contains */
   const pool=rows.filter(r=>r.status===tab);
@@ -446,7 +518,7 @@ function chrome(){
   $('loc').value=loc;
 
   /* strip: where the found people are from */
-  if(!onKailash){
+  if(!onCustomTab){
     const g={};
     rows.filter(r=>r.status==='found'&&r._g).forEach(r=>{g[r._g]=(g[r._g]||0)+1});
     const pins=Object.entries(g).sort((a,b)=>b[1]-a[1]);
@@ -507,6 +579,8 @@ $('pins').addEventListener('click',e=>{
 $('out').addEventListener('click',e=>{
   const kb=e.target.closest('.kailash-report');
   if(kb){reportKailashStatus(kb.dataset.sn,kb.dataset.name);return}
+  const lb=e.target.closest('.latvia-report');
+  if(lb){reportLatviaStatus(lb.dataset.sn,lb.dataset.name);return}
   const b=e.target.closest('.dt-view'); if(!b)return;
   openDetailModal(b.dataset.id);
 });

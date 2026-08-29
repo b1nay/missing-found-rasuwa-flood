@@ -170,6 +170,18 @@ function dedupeRows(rows){
   return out;
 }
 
+/* ---------- Cross-tab duplicate check: is this record (from a separate
+   curated list, e.g. the Latvian Tourists tab) already present somewhere
+   else on the site? Same person if the name skeleton matches, or if a
+   phone number matches — checked against the main missing/found rows and
+   against any other name-only list (e.g. the Kailash tab). ---------- */
+function isDuplicateElsewhere(entry,rows,otherLists){
+  const nameKey=skel(entry.name), phoneKey=digits(entry.phone), relKey=digits(entry.relativePhone);
+  const phoneMatches=d=>!!d&&(d===phoneKey||d===relKey);
+  if((rows||[]).some(r=>(nameKey&&skel(r.name)===nameKey)||phoneMatches(digits(r.phone))||phoneMatches(digits(r.reporter))))return true;
+  return (otherLists||[]).some(list=>(list||[]).some(x=>nameKey&&skel(x.name||'')===nameKey));
+}
+
 /* ---------- International-tourist filter: exclude anyone whose address
    mentions Rasuwa, Timure, Sindhupalchowk, Ramechhap, Trishuli,
    Kathmandu, Kerung, Mailung, Betrawati, Nuwakot, or has any
