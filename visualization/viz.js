@@ -70,12 +70,17 @@ function render(rows,updated){
 async function loadViz(){
   $('vizState').innerHTML='<div class="state">Loading…</div>';
   try{
-    const [d,extra,tourists,found3]=await Promise.all([
+    const [d,extra,tourists,found3,kailash,latvia,latest]=await Promise.all([
       fetchFamilyData(),fetchExtraRecords('../sources/extra-records.json'),fetchExtraRecords('../sources/tourists-records.json'),
-      fetchExtraRecords('../sources/found-tracker-3-records.json')
+      fetchExtraRecords('../sources/found-tracker-3-records.json'),fetchExtraRecords('../sources/kailash-group.json'),
+      fetchExtraRecords('../sources/latvia-tourists.json'),fetchExtraRecords('../sources/latest-tracker-records.json')
     ]);
     const built=buildRows(d,[...extra,...tourists,...found3]);
-    render(dedupeRows(built.rows),built.updated);
+    const baseRows=dedupeRows(built.rows);
+    const latviaUnique=latvia.filter(e=>!isDuplicateElsewhere(e,baseRows,[kailash]));
+    const latestUnique=latest.filter(e=>!isDuplicateElsewhere(e,baseRows,[kailash,latviaUnique]));
+    const latestBuilt=buildRows({},latestUnique);
+    render(dedupeRows([...baseRows,...latestBuilt.rows]),built.updated);
   }catch(e){
     $('vizState').innerHTML=`<div class="state"><strong>The data didn't load</strong>Check your connection and try again.<br><button id="rt" type="button">Try again</button></div>`;
     $('rt').onclick=loadViz;

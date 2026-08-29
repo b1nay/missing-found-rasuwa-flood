@@ -206,14 +206,21 @@ let rows=[], updated='', modalType='safe', kailashData=[], latviaData=[];
 async function load(){
   $('out').innerHTML=`<div class="state">${esc(T[lang].ld)}</div>`;
   try{
-    const [d,extra,tourists,found3,kailash,latvia]=await Promise.all([
+    const [d,extra,tourists,found3,kailash,latvia,latest]=await Promise.all([
       fetchFamilyData(),fetchExtraRecords('sources/extra-records.json'),fetchExtraRecords('sources/tourists-records.json'),
       fetchExtraRecords('sources/found-tracker-3-records.json'),fetchExtraRecords('sources/kailash-group.json'),
-      fetchExtraRecords('sources/latvia-tourists.json')
+      fetchExtraRecords('sources/latvia-tourists.json'),fetchExtraRecords('sources/latest-tracker-records.json')
     ]);
     const built=buildRows(d,[...extra,...tourists,...found3]);
-    rows=dedupeRows(built.rows); updated=built.updated; kailashData=kailash;
-    latviaData=latvia.filter(e=>!isDuplicateElsewhere(e,rows,[kailash]));
+    const baseRows=dedupeRows(built.rows);
+    updated=built.updated; kailashData=kailash;
+    latviaData=latvia.filter(e=>!isDuplicateElsewhere(e,baseRows,[kailash]));
+    /* latest-tracker-records.json is a recurring export of the same live
+       tracking sheet — anyone already present elsewhere is dropped so a
+       fresh export never duplicates an existing missing/found row. */
+    const latestUnique=latest.filter(e=>!isDuplicateElsewhere(e,baseRows,[kailash,latviaData]));
+    const latestBuilt=buildRows({},latestUnique);
+    rows=dedupeRows([...baseRows,...latestBuilt.rows]);
     chrome(); render();
   }catch(e){
     const t=T[lang];

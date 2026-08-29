@@ -171,15 +171,21 @@ function dedupeRows(rows){
 }
 
 /* ---------- Cross-tab duplicate check: is this record (from a separate
-   curated list, e.g. the Latvian Tourists tab) already present somewhere
-   else on the site? Same person if the name skeleton matches, or if a
-   phone number matches — checked against the main missing/found rows and
-   against any other name-only list (e.g. the Kailash tab). ---------- */
+   curated list, e.g. the Latvian Tourists tab or a fresh CSV export)
+   already present somewhere else on the site? Same person if a phone
+   number matches, or if the *exact* normalized name matches — checked
+   against the main missing/found rows and against any other name-only
+   list (e.g. the Kailash tab). This deliberately uses norm() rather than
+   the fuzzier skel() key: skel() folds away enough (vowels, aspirates)
+   that common Nepali surnames collide across different people (e.g.
+   "Sushan Tamang" vs "Ashen Tamang"), which would wrongly hide real,
+   distinct missing/found records at the scale of a few thousand rows. */
 function isDuplicateElsewhere(entry,rows,otherLists){
-  const nameKey=skel(entry.name), phoneKey=digits(entry.phone), relKey=digits(entry.relativePhone);
-  const phoneMatches=d=>!!d&&(d===phoneKey||d===relKey);
-  if((rows||[]).some(r=>(nameKey&&skel(r.name)===nameKey)||phoneMatches(digits(r.phone))||phoneMatches(digits(r.reporter))))return true;
-  return (otherLists||[]).some(list=>(list||[]).some(x=>nameKey&&skel(x.name||'')===nameKey));
+  const nameKey=norm(entry.name);
+  const entryPhones=[entry.phone,entry.relativePhone,entry.reporter].map(digits).filter(Boolean);
+  const phoneMatches=d=>!!d&&entryPhones.includes(d);
+  if((rows||[]).some(r=>(nameKey&&norm(r.name)===nameKey)||phoneMatches(digits(r.phone))||phoneMatches(digits(r.reporter))))return true;
+  return (otherLists||[]).some(list=>(list||[]).some(x=>nameKey&&norm(x.name||'')===nameKey));
 }
 
 /* ---------- International-tourist filter: exclude anyone whose address
