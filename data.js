@@ -102,11 +102,25 @@ const SOURCES=[
   BASE+'family.json'
 ];
 
+/* Home addresses are occasionally reported in the note field of the
+   upstream family.json feed (which we don't control) and someone later
+   asks for theirs taken down — strip that text out client-side rather
+   than editing a feed we don't own. */
+const NOTE_REDACTIONS={
+  'sheet-20260827-102548-anil-grover':'117 Holst Ave., Markham, Ontario L6C 2L9 Canada'
+};
+function redactNote(r){
+  const cut=NOTE_REDACTIONS[r.id];
+  if(!cut||!r.note)return r.note;
+  return r.note.split(cut).join('').replace(/\s*·\s*·\s*/g,' · ').replace(/^[\s·]+|[\s·]+$/g,'').trim();
+}
+
 function buildRows(d,extra){
   const build=(arr,status)=>(arr||[]).map(r=>{
     const name=[r.name,r.name_en].filter(Boolean).join(' / ');
-    const blob=[name,r.place,r.note,r.when,r.reporter,r.phone].filter(Boolean).join(' ');
-    return {...r,name,status,
+    const note=redactNote(r);
+    const blob=[name,r.place,note,r.when,r.reporter,r.phone].filter(Boolean).join(' ');
+    return {...r,name,status,note,
       _n:norm(blob),_s:skel(blob),_d:digits(r.phone)+' '+digits(r.reporter),
       _pn:norm(r.place),_ps:skel(r.place),_g:addrGroup(r.place)};
   });
