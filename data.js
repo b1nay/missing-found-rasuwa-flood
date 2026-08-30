@@ -107,7 +107,8 @@ const SOURCES=[
    asks for theirs taken down — strip that text out client-side rather
    than editing a feed we don't own. */
 const NOTE_REDACTIONS={
-  'sheet-20260827-102548-anil-grover':'117 Holst Ave., Markham, Ontario L6C 2L9 Canada'
+  'sheet-20260827-102548-anil-grover':'117 Holst Ave., Markham, Ontario L6C 2L9 Canada',
+  'sheet-20260827-102714-samira-grover':'117 Holst Ave., Markham, Ontario L6C 2L9 Canada'
 };
 function redactNote(r){
   const cut=NOTE_REDACTIONS[r.id];
