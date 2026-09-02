@@ -2030,5 +2030,19 @@
    "sex": "M",
    "nationality": "Nepali"
   }
+ },
+ {
+  "id": "x116-jureli-tamangni",
+  "name": "Jureli Tamangni",
+  "place": "Timure",
+  "phone": "9716885958",
+  "when": null,
+  "reporter": null,
+  "note": "Home address: Rasuwa ghumti",
+  "status": "missing",
+  "extra": {
+   "homeAddress": "Rasuwa ghumti",
+   "lastKnownLocation": "Timure"
+  }
  }
 ]
